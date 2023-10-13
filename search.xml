@@ -47,57 +47,6 @@
       </tags>
   </entry>
   <entry>
-    <title>ReGLOSS出道曲心跳瞬间</title>
-    <url>/2023/10/13/ReGLOSS%E5%87%BA%E9%81%93%E6%9B%B2%E5%BF%83%E8%B7%B3%E7%9E%AC%E9%97%B4/</url>
-    <content><![CDATA[<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-    <iframe src="//player.bilibili.com/player.html?aid=575879316&bvid=BV1yz4y1j762&cid=1265083143&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"> </iframe>
-</div>
-
-
-]]></content>
-      <categories>
-        <category>vtuber</category>
-        <category>hololive</category>
-      </categories>
-      <tags>
-        <tag>hololive</tag>
-        <tag>ReGLOSS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2023/10/12/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>HoloMyth vs Ina 1-4集</title>
-    <url>/2023/08/23/holomyth-vs-ina-1-4%E9%9B%86/</url>
-    <content><![CDATA[<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-    <iframe src="//player.bilibili.com/player.html?aid=937236173&bvid=BV1LT4y1U7zd&cid=548560205&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"> </iframe>
-</div>]]></content>
-      <categories>
-        <category>vtuber</category>
-        <category>hololive</category>
-      </categories>
-      <tags>
-        <tag>hololive</tag>
-        <tag>Ina</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hf-bot hugging face部署机器人</title>
     <url>/2023/09/15/hf-bot%20%E6%8A%B1%E8%84%B8%E9%83%A8%E7%BD%B2%E6%9C%BA%E5%99%A8%E4%BA%BA/</url>
     <content><![CDATA[<h2 id="HF-bot"><a href="#HF-bot" class="headerlink" title="HF-bot"></a>HF-bot</h2><p>本插件将会指引你在huggingface部署koishi、qsign、vits等插件，从而实现不需要本地运行并且功能丰富的机器人</p>
@@ -179,6 +128,57 @@
       </tags>
   </entry>
   <entry>
+    <title>ReGLOSS出道曲心跳瞬间</title>
+    <url>/2023/10/13/ReGLOSS%E5%87%BA%E9%81%93%E6%9B%B2%E5%BF%83%E8%B7%B3%E7%9E%AC%E9%97%B4/</url>
+    <content><![CDATA[<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+    <iframe src="//player.bilibili.com/player.html?aid=575879316&bvid=BV1yz4y1j762&cid=1265083143&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"> </iframe>
+</div>
+
+
+]]></content>
+      <categories>
+        <category>vtuber</category>
+        <category>hololive</category>
+      </categories>
+      <tags>
+        <tag>hololive</tag>
+        <tag>ReGLOSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/10/12/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>HoloMyth vs Ina 1-4集</title>
+    <url>/2023/08/23/holomyth-vs-ina-1-4%E9%9B%86/</url>
+    <content><![CDATA[<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+    <iframe src="//player.bilibili.com/player.html?aid=937236173&bvid=BV1LT4y1U7zd&cid=548560205&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"> </iframe>
+</div>]]></content>
+      <categories>
+        <category>vtuber</category>
+        <category>hololive</category>
+      </categories>
+      <tags>
+        <tag>hololive</tag>
+        <tag>Ina</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>HoloMyth vs Ina 结局</title>
     <url>/2023/08/23/holomyth-vs-ina-%E7%BB%93%E5%B1%80/</url>
     <content><![CDATA[<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
@@ -236,19 +236,6 @@
       </tags>
   </entry>
   <entry>
-    <title>【Miyune】L2D模型展示 不能忘记的人</title>
-    <url>/2023/08/24/%E3%80%90miyune%E3%80%91l2d%E6%A8%A1%E5%9E%8B%E5%B1%95%E7%A4%BA-%E4%B8%8D%E8%83%BD%E5%BF%98%E8%AE%B0%E7%9A%84%E4%BA%BA/</url>
-    <content><![CDATA[<iframe src="//player.bilibili.com/player.html?aid=569838325&amp;bvid=BV1qv4y1H7qm&amp;cid=1090255499&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="400"></iframe>
-]]></content>
-      <categories>
-        <category>vtuber</category>
-        <category>twitch</category>
-      </categories>
-      <tags>
-        <tag>miyune</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>【熟·彩虹社】ごるみ老师的彩虹手书合集③</title>
     <url>/2023/08/24/%E3%80%90%E7%86%9F%C2%B7%E5%BD%A9%E8%99%B9%E7%A4%BE%E3%80%91%E3%81%94%E3%82%8B%E3%81%BF%E8%80%81%E5%B8%88%E7%9A%84%E5%BD%A9%E8%99%B9%E6%89%8B%E4%B9%A6%E5%90%88%E9%9B%86%E2%91%A2/</url>
     <content><![CDATA[<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
@@ -263,19 +250,16 @@
       </tags>
   </entry>
   <entry>
-    <title>【熟·彩虹社】ごるみ老师的彩虹手书合集④</title>
-    <url>/2023/08/24/%E3%80%90%E7%86%9F%C2%B7%E5%BD%A9%E8%99%B9%E7%A4%BE%E3%80%91%E3%81%94%E3%82%8B%E3%81%BF%E8%80%81%E5%B8%88%E7%9A%84%E5%BD%A9%E8%99%B9%E6%89%8B%E4%B9%A6%E5%90%88%E9%9B%86%E2%91%A3/</url>
-    <content><![CDATA[<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-    <iframe src="//player.bilibili.com/player.html?aid=223743112&bvid=BV1v8411g7qA&cid=990537226&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"> </iframe>
-</div>
-
+    <title>【Miyune】L2D模型展示 不能忘记的人</title>
+    <url>/2023/08/24/%E3%80%90miyune%E3%80%91l2d%E6%A8%A1%E5%9E%8B%E5%B1%95%E7%A4%BA-%E4%B8%8D%E8%83%BD%E5%BF%98%E8%AE%B0%E7%9A%84%E4%BA%BA/</url>
+    <content><![CDATA[<iframe src="//player.bilibili.com/player.html?aid=569838325&amp;bvid=BV1qv4y1H7qm&amp;cid=1090255499&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="400"></iframe>
 ]]></content>
       <categories>
         <category>vtuber</category>
-        <category>nijisanji</category>
+        <category>twitch</category>
       </categories>
       <tags>
-        <tag>柴卡</tag>
+        <tag>miyune</tag>
       </tags>
   </entry>
   <entry>
@@ -284,22 +268,6 @@
     <content><![CDATA[<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
     <iframe src="//player.bilibili.com/player.html?aid=863879910&bvid=BV1aG4y1U7ka&cid=cid=995529081&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"> </iframe>
 </div>
-]]></content>
-      <categories>
-        <category>vtuber</category>
-        <category>nijisanji</category>
-      </categories>
-      <tags>
-        <tag>柴卡</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>【熟·彩虹社】ごるみ老师的彩虹手书合集⑤</title>
-    <url>/2023/08/24/%E3%81%94%E3%82%8B%E3%81%BF%E8%80%81%E5%B8%88%E7%9A%84%E5%BD%A9%E8%99%B9%E6%89%8B%E4%B9%A6%E5%90%88%E9%9B%86%E2%91%A4/</url>
-    <content><![CDATA[<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-    <iframe src="//player.bilibili.com/player.html?aid=655184246&bvid=BV1Ta4y1P7AJ&cid=1100137670&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"> </iframe>
-</div>
-
 ]]></content>
       <categories>
         <category>vtuber</category>
@@ -341,6 +309,38 @@
       </tags>
   </entry>
   <entry>
+    <title>【熟·彩虹社】ごるみ老师的彩虹手书合集④</title>
+    <url>/2023/08/24/%E3%80%90%E7%86%9F%C2%B7%E5%BD%A9%E8%99%B9%E7%A4%BE%E3%80%91%E3%81%94%E3%82%8B%E3%81%BF%E8%80%81%E5%B8%88%E7%9A%84%E5%BD%A9%E8%99%B9%E6%89%8B%E4%B9%A6%E5%90%88%E9%9B%86%E2%91%A3/</url>
+    <content><![CDATA[<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+    <iframe src="//player.bilibili.com/player.html?aid=223743112&bvid=BV1v8411g7qA&cid=990537226&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"> </iframe>
+</div>
+
+]]></content>
+      <categories>
+        <category>vtuber</category>
+        <category>nijisanji</category>
+      </categories>
+      <tags>
+        <tag>柴卡</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【熟·彩虹社】ごるみ老师的彩虹手书合集⑤</title>
+    <url>/2023/08/24/%E3%81%94%E3%82%8B%E3%81%BF%E8%80%81%E5%B8%88%E7%9A%84%E5%BD%A9%E8%99%B9%E6%89%8B%E4%B9%A6%E5%90%88%E9%9B%86%E2%91%A4/</url>
+    <content><![CDATA[<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+    <iframe src="//player.bilibili.com/player.html?aid=655184246&bvid=BV1Ta4y1P7AJ&cid=1100137670&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"> </iframe>
+</div>
+
+]]></content>
+      <categories>
+        <category>vtuber</category>
+        <category>nijisanji</category>
+      </categories>
+      <tags>
+        <tag>柴卡</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>外部图片api（七）</title>
     <url>/2023/10/13/%E5%A4%96%E9%83%A8%E5%9B%BE%E7%89%87api%EF%BC%88%E4%B8%83%EF%BC%89/</url>
     <content><![CDATA[<h2 id="https-api-r10086-com-樱道随机图片api接口-php-图片系列-物语系列1"><a href="#https-api-r10086-com-樱道随机图片api接口-php-图片系列-物语系列1" class="headerlink" title="https://api.r10086.com/樱道随机图片api接口.php?图片系列=物语系列1"></a><a href="https://api.r10086.com/%E6%A8%B1%E9%81%93%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87api%E6%8E%A5%E5%8F%A3.php?%E5%9B%BE%E7%89%87%E7%B3%BB%E5%88%97=%E7%89%A9%E8%AF%AD%E7%B3%BB%E5%88%971">https://api.r10086.com/樱道随机图片api接口.php?图片系列=物语系列1</a></h2><p><img src="https://api.r10086.com/%E6%A8%B1%E9%81%93%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87api%E6%8E%A5%E5%8F%A3.php?%E5%9B%BE%E7%89%87%E7%B3%BB%E5%88%97=%E7%89%A9%E8%AF%AD%E7%B3%BB%E5%88%971" alt="物语系列"></p>
@@ -366,6 +366,37 @@
       <tags>
         <tag>api</tag>
         <tag>物语系列</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>外部图片api（九）</title>
+    <url>/2023/10/13/%E5%A4%96%E9%83%A8%E5%9B%BE%E7%89%87api%EF%BC%88%E4%B9%9D%EF%BC%89/</url>
+    <content><![CDATA[<h1 id="LoliAPI"><a href="#LoliAPI" class="headerlink" title="LoliAPI"></a><a href="https://www.loliapi.com/">LoliAPI</a></h1><h2 id="https-www-loliapi-com-acg"><a href="#https-www-loliapi-com-acg" class="headerlink" title="https://www.loliapi.com/acg/"></a><a href="https://www.loliapi.com/acg/">https://www.loliapi.com/acg/</a></h2><p><img src="https://www.loliapi.com/acg/" alt="双端自适应二次元图片"></p>
+<br>
+
+<h2 id="https-www-loliapi-com-acg-pc"><a href="#https-www-loliapi-com-acg-pc" class="headerlink" title="https://www.loliapi.com/acg/pc/"></a><a href="https://www.loliapi.com/acg/pc/">https://www.loliapi.com/acg/pc/</a></h2><p><img src="https://www.loliapi.com/acg/pc/" alt="电脑端二次元图片"></p>
+<br>
+
+<h2 id="https-www-loliapi-com-acg-pe"><a href="#https-www-loliapi-com-acg-pe" class="headerlink" title="https://www.loliapi.com/acg/pe/"></a><a href="https://www.loliapi.com/acg/pe/">https://www.loliapi.com/acg/pe/</a></h2><p><img src="https://www.loliapi.com/acg/pe/" alt="移动端二次元图片"></p>
+<br>
+
+
+<h2 id="https-www-loliapi-com-acg-pp"><a href="#https-www-loliapi-com-acg-pp" class="headerlink" title="https://www.loliapi.com/acg/pp/"></a><a href="https://www.loliapi.com/acg/pp/">https://www.loliapi.com/acg/pp/</a></h2><p><img src="https://www.loliapi.com/acg/pp/" alt="随机二次元头像"></p>
+<br>
+
+<h1 id="魅影随机图片API"><a href="#魅影随机图片API" class="headerlink" title="魅影随机图片API"></a><a href="https://tuapi.eees.cc/">魅影随机图片API</a></h1><h2 id="https-tuapi-eees-cc-api-php-category-dongman-type-302"><a href="#https-tuapi-eees-cc-api-php-category-dongman-type-302" class="headerlink" title="https://tuapi.eees.cc/api.php?category=dongman&amp;type=302"></a><a href="https://tuapi.eees.cc/api.php?category=dongman&type=302">https://tuapi.eees.cc/api.php?category=dongman&amp;type=302</a></h2><p><img src="https://tuapi.eees.cc/api.php?category=dongman&type=302" alt="动漫图片"></p>
+<br>
+
+<h2 id="https-tuapi-eees-cc-api-php-category-dongman-type-302-1"><a href="#https-tuapi-eees-cc-api-php-category-dongman-type-302-1" class="headerlink" title="https://tuapi.eees.cc/api.php?category=dongman&amp;type=302"></a><a href="https://tuapi.eees.cc/api.php?category=dongman&type=302">https://tuapi.eees.cc/api.php?category=dongman&amp;type=302</a></h2><p><img src="https://tuapi.eees.cc/api.php?category=fengjing&type=302" alt="风景图片"></p>
+<br>]]></content>
+      <categories>
+        <category>图库</category>
+      </categories>
+      <tags>
+        <tag>api</tag>
+        <tag>二次元</tag>
+        <tag>动漫</tag>
+        <tag>风景</tag>
       </tags>
   </entry>
   <entry>
@@ -448,43 +479,12 @@
       <tags>
         <tag>api</tag>
         <tag>头像</tag>
+        <tag>风景</tag>
         <tag>萌</tag>
         <tag>AI</tag>
         <tag>原神</tag>
-        <tag>风景</tag>
         <tag>七濑胡桃</tag>
         <tag>小狐狸</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>外部图片api（九）</title>
-    <url>/2023/10/13/%E5%A4%96%E9%83%A8%E5%9B%BE%E7%89%87api%EF%BC%88%E4%B9%9D%EF%BC%89/</url>
-    <content><![CDATA[<h1 id="LoliAPI"><a href="#LoliAPI" class="headerlink" title="LoliAPI"></a><a href="https://www.loliapi.com/">LoliAPI</a></h1><h2 id="https-www-loliapi-com-acg"><a href="#https-www-loliapi-com-acg" class="headerlink" title="https://www.loliapi.com/acg/"></a><a href="https://www.loliapi.com/acg/">https://www.loliapi.com/acg/</a></h2><p><img src="https://www.loliapi.com/acg/" alt="双端自适应二次元图片"></p>
-<br>
-
-<h2 id="https-www-loliapi-com-acg-pc"><a href="#https-www-loliapi-com-acg-pc" class="headerlink" title="https://www.loliapi.com/acg/pc/"></a><a href="https://www.loliapi.com/acg/pc/">https://www.loliapi.com/acg/pc/</a></h2><p><img src="https://www.loliapi.com/acg/pc/" alt="电脑端二次元图片"></p>
-<br>
-
-<h2 id="https-www-loliapi-com-acg-pe"><a href="#https-www-loliapi-com-acg-pe" class="headerlink" title="https://www.loliapi.com/acg/pe/"></a><a href="https://www.loliapi.com/acg/pe/">https://www.loliapi.com/acg/pe/</a></h2><p><img src="https://www.loliapi.com/acg/pe/" alt="移动端二次元图片"></p>
-<br>
-
-
-<h2 id="https-www-loliapi-com-acg-pp"><a href="#https-www-loliapi-com-acg-pp" class="headerlink" title="https://www.loliapi.com/acg/pp/"></a><a href="https://www.loliapi.com/acg/pp/">https://www.loliapi.com/acg/pp/</a></h2><p><img src="https://www.loliapi.com/acg/pp/" alt="随机二次元头像"></p>
-<br>
-
-<h1 id="魅影随机图片API"><a href="#魅影随机图片API" class="headerlink" title="魅影随机图片API"></a><a href="https://tuapi.eees.cc/">魅影随机图片API</a></h1><h2 id="https-tuapi-eees-cc-api-php-category-dongman-type-302"><a href="#https-tuapi-eees-cc-api-php-category-dongman-type-302" class="headerlink" title="https://tuapi.eees.cc/api.php?category=dongman&amp;type=302"></a><a href="https://tuapi.eees.cc/api.php?category=dongman&type=302">https://tuapi.eees.cc/api.php?category=dongman&amp;type=302</a></h2><p><img src="https://tuapi.eees.cc/api.php?category=dongman&type=302" alt="动漫图片"></p>
-<br>
-
-<h2 id="https-tuapi-eees-cc-api-php-category-dongman-type-302-1"><a href="#https-tuapi-eees-cc-api-php-category-dongman-type-302-1" class="headerlink" title="https://tuapi.eees.cc/api.php?category=dongman&amp;type=302"></a><a href="https://tuapi.eees.cc/api.php?category=dongman&type=302">https://tuapi.eees.cc/api.php?category=dongman&amp;type=302</a></h2><p><img src="https://tuapi.eees.cc/api.php?category=fengjing&type=302" alt="风景图片"></p>
-<br>]]></content>
-      <categories>
-        <category>图库</category>
-      </categories>
-      <tags>
-        <tag>api</tag>
-        <tag>风景</tag>
-        <tag>二次元</tag>
-        <tag>动漫</tag>
       </tags>
   </entry>
   <entry>
@@ -512,8 +512,8 @@
       </categories>
       <tags>
         <tag>api</tag>
-        <tag>风景</tag>
         <tag>动漫</tag>
+        <tag>风景</tag>
       </tags>
   </entry>
   <entry>
@@ -609,6 +609,34 @@
       </tags>
   </entry>
   <entry>
+    <title>外部图片api（十一）</title>
+    <url>/2023/10/13/%E5%A4%96%E9%83%A8%E5%9B%BE%E7%89%87api%EF%BC%88%E5%8D%81%E4%B8%80%EF%BC%89/</url>
+    <content><![CDATA[<h1 id="小小API"><a href="#小小API" class="headerlink" title="小小API"></a><a href="https://api-m.com/">小小API</a></h1><h2 id="https-v2-api-m-com-api-randomAcgPic-type-pc-return-302"><a href="#https-v2-api-m-com-api-randomAcgPic-type-pc-return-302" class="headerlink" title="https://v2.api-m.com/api/randomAcgPic?type=pc&amp;return=302"></a><a href="https://v2.api-m.com/api/randomAcgPic?type=pc&return=302">https://v2.api-m.com/api/randomAcgPic?type=pc&amp;return=302</a></h2><p><img src="https://v2.api-m.com/api/randomAcgPic?type=pc&return=302" alt="二次元横图"></p>
+<br>
+
+<h2 id="https-v2-api-m-com-api-randomAcgPic-type-wap-return-302"><a href="#https-v2-api-m-com-api-randomAcgPic-type-wap-return-302" class="headerlink" title="https://v2.api-m.com/api/randomAcgPic?type=wap&amp;return=302"></a><a href="https://v2.api-m.com/api/randomAcgPic?type=wap&return=302">https://v2.api-m.com/api/randomAcgPic?type=wap&amp;return=302</a></h2><p><img src="https://v2.api-m.com/api/randomAcgPic?type=wap&return=302" alt="二次元竖图"></p>
+<br>
+
+<h2 id="https-v2-api-m-com-api-meinvpic-return-302"><a href="#https-v2-api-m-com-api-meinvpic-return-302" class="headerlink" title="https://v2.api-m.com/api/meinvpic?return=302"></a><a href="https://v2.api-m.com/api/meinvpic?return=302">https://v2.api-m.com/api/meinvpic?return=302</a></h2><p><img src="https://v2.api-m.com/api/meinvpic?return=302" alt="三次元"></p>
+<br>
+
+<h2 id="https-v2-api-m-com-api-baisi-return-302"><a href="#https-v2-api-m-com-api-baisi-return-302" class="headerlink" title="https://v2.api-m.com/api/baisi?return=302"></a><a href="https://v2.api-m.com/api/baisi?return=302">https://v2.api-m.com/api/baisi?return=302</a></h2><p><img src="https://v2.api-m.com/api/baisi?return=302" alt="三次元白丝"></p>
+<br>
+
+<h2 id="https-v2-api-m-com-api-heisi-return-302"><a href="#https-v2-api-m-com-api-heisi-return-302" class="headerlink" title="https://v2.api-m.com/api/heisi?return=302"></a><a href="https://v2.api-m.com/api/heisi?return=302">https://v2.api-m.com/api/heisi?return=302</a></h2><p><img src="https://v2.api-m.com/api/heisi?return=302" alt="三次元黑丝"></p>
+<br>]]></content>
+      <categories>
+        <category>图库</category>
+      </categories>
+      <tags>
+        <tag>api</tag>
+        <tag>二次元</tag>
+        <tag>白丝</tag>
+        <tag>三次药</tag>
+        <tag>黑丝</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>外部图片api（十二）</title>
     <url>/2023/10/13/%E5%A4%96%E9%83%A8%E5%9B%BE%E7%89%87api%EF%BC%88%E5%8D%81%E4%BA%8C%EF%BC%89/</url>
     <content><![CDATA[<h1 id="素颜API"><a href="#素颜API" class="headerlink" title="素颜API"></a><a href="https://api.suyanw.cn/">素颜API</a></h1><h2 id="https-api-suyanw-cn-api-comic-api-php"><a href="#https-api-suyanw-cn-api-comic-api-php" class="headerlink" title="https://api.suyanw.cn/api/comic/api.php"></a><a href="https://api.suyanw.cn/api/comic/api.php">https://api.suyanw.cn/api/comic/api.php</a></h2><p><img src="https://api.suyanw.cn/api/comic/api.php" alt="二次元随机图"></p>
@@ -684,8 +712,8 @@
       </categories>
       <tags>
         <tag>api</tag>
-        <tag>原神</tag>
         <tag>二次元</tag>
+        <tag>原神</tag>
         <tag>cos</tag>
         <tag>宫崎骏</tag>
       </tags>
@@ -751,34 +779,6 @@
       </categories>
       <tags>
         <tag>杨树</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>外部图片api（十一）</title>
-    <url>/2023/10/13/%E5%A4%96%E9%83%A8%E5%9B%BE%E7%89%87api%EF%BC%88%E5%8D%81%E4%B8%80%EF%BC%89/</url>
-    <content><![CDATA[<h1 id="小小API"><a href="#小小API" class="headerlink" title="小小API"></a><a href="https://api-m.com/">小小API</a></h1><h2 id="https-v2-api-m-com-api-randomAcgPic-type-pc-return-302"><a href="#https-v2-api-m-com-api-randomAcgPic-type-pc-return-302" class="headerlink" title="https://v2.api-m.com/api/randomAcgPic?type=pc&amp;return=302"></a><a href="https://v2.api-m.com/api/randomAcgPic?type=pc&return=302">https://v2.api-m.com/api/randomAcgPic?type=pc&amp;return=302</a></h2><p><img src="https://v2.api-m.com/api/randomAcgPic?type=pc&return=302" alt="二次元横图"></p>
-<br>
-
-<h2 id="https-v2-api-m-com-api-randomAcgPic-type-wap-return-302"><a href="#https-v2-api-m-com-api-randomAcgPic-type-wap-return-302" class="headerlink" title="https://v2.api-m.com/api/randomAcgPic?type=wap&amp;return=302"></a><a href="https://v2.api-m.com/api/randomAcgPic?type=wap&return=302">https://v2.api-m.com/api/randomAcgPic?type=wap&amp;return=302</a></h2><p><img src="https://v2.api-m.com/api/randomAcgPic?type=wap&return=302" alt="二次元竖图"></p>
-<br>
-
-<h2 id="https-v2-api-m-com-api-meinvpic-return-302"><a href="#https-v2-api-m-com-api-meinvpic-return-302" class="headerlink" title="https://v2.api-m.com/api/meinvpic?return=302"></a><a href="https://v2.api-m.com/api/meinvpic?return=302">https://v2.api-m.com/api/meinvpic?return=302</a></h2><p><img src="https://v2.api-m.com/api/meinvpic?return=302" alt="三次元"></p>
-<br>
-
-<h2 id="https-v2-api-m-com-api-baisi-return-302"><a href="#https-v2-api-m-com-api-baisi-return-302" class="headerlink" title="https://v2.api-m.com/api/baisi?return=302"></a><a href="https://v2.api-m.com/api/baisi?return=302">https://v2.api-m.com/api/baisi?return=302</a></h2><p><img src="https://v2.api-m.com/api/baisi?return=302" alt="三次元白丝"></p>
-<br>
-
-<h2 id="https-v2-api-m-com-api-heisi-return-302"><a href="#https-v2-api-m-com-api-heisi-return-302" class="headerlink" title="https://v2.api-m.com/api/heisi?return=302"></a><a href="https://v2.api-m.com/api/heisi?return=302">https://v2.api-m.com/api/heisi?return=302</a></h2><p><img src="https://v2.api-m.com/api/heisi?return=302" alt="三次元黑丝"></p>
-<br>]]></content>
-      <categories>
-        <category>图库</category>
-      </categories>
-      <tags>
-        <tag>api</tag>
-        <tag>二次元</tag>
-        <tag>白丝</tag>
-        <tag>三次药</tag>
-        <tag>黑丝</tag>
       </tags>
   </entry>
   <entry>
@@ -1014,25 +1014,6 @@
       </tags>
   </entry>
   <entry>
-    <title>第一章 白发魔女</title>
-    <url>/2023/08/01/%E7%AC%AC%E4%B8%80%E7%AB%A0-%E7%99%BD%E5%8F%91%E9%AD%94%E5%A5%B3/</url>
-    <content><![CDATA[<p>「空袭——！空袭——！」<br>副班长急急忙忙拉响防空警报，凄厉的响声立刻充斥在整个阵地的上空。<br>防空警报的刺耳声真的是无论听多少次都难以习惯，不过它本来就是如此设计的，要是有人对这种高分贝噪音熟视无睹反而让人比较头疼。<br>几个被防空警报吵醒的新兵立马慌慌张张地去找自己的配枪，刚上战场没多久的人就是这样，只有摸着枪心里才会感到安定，我倒是比较想知道对于马上要从我们头顶落下的五十公斤航空炸弹甚至有可能是五百公斤航空炸弹，这把小小的步枪能起到什么作用？<br>这就是我们这些填线炮灰步兵的命运，被航空炸弹炸、被榴弹炮炸、被装甲部队蹂躏，我们唯一能做的就是尽量蜷缩自己的身体，减少着弹面积，同时心里不断祈祷友军的支援马上赶到。<br>我顺手拉起一个还在急急忙忙打开自己配枪保险的新兵，他因为身体被我拉起来，手上的枪掉在了地上，看到枪掉在地上，他竟然挣脱我的束缚并且马上扑在地上想把自己的枪捡起来，我又重新把他拉了起来，并且一脚把他的枪踢到远处。<br>我也没跟他废话，强硬地把他往防空洞拖去。一路上几个还在不知所措的新兵也被我一并拖进了防空洞。<br>「真是的，这帮人没有看过《作战条例》吗？连怎么应对空袭都不知道。」<br>《作战条例》是会发给每个人的一份手册，手册上事无巨细地讲解在战场上遇到什么情况时要怎么应对，不只是战术应对，就连如何包扎甚至简易截肢手术的操作方法都写在上面。估计是担心会有人和部队脱节，这手册把一些荒野求生的知识也收录了<br>这本手册成为我们每天枯燥地蹲在战壕里面的消遣品，是排在家书和黄色画报之后第三受欢迎的东西。<br>新兵会把这本手册当成战场的圣经，恨不得背下其中的每一个字，不过我们这帮老兵油子是把它当小说来看，这本书最大的失误就是太详细了，战争已经打了五年了，我们这些人都老了五岁了，但这本书好像还停留在五年前。<br>举一个简单的例子，手册上面还写着面对坦克但没有反坦克武器的时候，可以包抄绕到坦克的侧后方使用步枪攻击坦克比较薄弱的后方装甲。刚开战时的那种薄皮饺子坦克或许用这招还有用，现在的坦克大量装备厚重的倾斜装甲，就连常规反坦克武器都必须要要垂直命中坦克装甲才能造成伤害，我们手上这只准心照门都有缺口的步枪又能做什么？<br>我们在防空洞中等待了一会，周围却没有响起爆炸声，我立刻透过防空洞内的观察孔观察天空，敌机已经越过我们头顶了，但是轰炸却没有来，那么就说明敌机应该还没投弹，或者说投弹了但是炸的不是我们。<br>水平轰炸机投出航空炸弹后，炸弹的速度是和飞机一致的，虽然还有空气阻力的影响，但是一般情况下当敌机掠过你正头顶时，就是航空炸弹落到你头上的时候。敌机不是炸我们，那么就是有更加值得他们轰炸的目标出现了，这意味着这一次不是往常那种不痛不痒的常规空袭，而是一次谋划已久的进攻。<br>「小伙子们，现在有一个好消息和一个坏消息。」我笑着对周围说道，」好消息是我们今天不用吃航空炸弹了——！」我故意顿了顿，观察着每个人脸上的表情，果然他们每个人脸上都露出了安心的神情，然后我的脸上露出坏笑，「不过坏消息是我们今天要吃三板斧了！」<br>三板斧即「要你命3000」，这是陆军进攻最常见的战术：首先用炮火准备把敌人的阵地」清洗「一遍，然后装甲部队突击，最后跟着步兵冲锋。自两百百年前这套战术的雏形开始出现后就从来没有变过，只不过是炮火从小磅数的土炮变成了大口径的榴弹炮，甚至是列车炮，而突击的骑兵变成被装甲包裹的车辆，冲锋的步兵手里拿着的枪从落伍的前装填燧发枪变成了堑壕枪、喷火器或者是冲锋枪。<br>随着战争的进行，我们共和国和帝国的战争进入僵持阶段，双方谁都奈何不了谁，我们把这称为「眼神战争」，即双方不是用枪炮打仗而是用眼神来打仗。<br>双方谁都不敢轻举妄动，一旦你出动飞机轰炸敌人阵地，那么敌人的飞机就会起飞和你缠斗，飞机飞到敌方阵地上方战斗是一件很亏本的事情，因为油箱限制，你的飞机可以战斗的时间远远短于以逸待劳的敌军飞机，而且战斗完还要计算返航所需的燃油，所以一般轻易不会主动发起空袭。<br>火炮就更不必说了，当你发动炮火准备后如果不马上转移炮兵阵地，等待你的就是敌方炮兵的报复炮击，此时你在明敌在暗，唯一能做的就是被动挨打。<br>正因为如此，我们在前线过了好几个月舒服日子，也难怪现在的新兵都懈怠了。过去我们称呼自己为老兵的标准不是时间，只要活过一场战斗，就可以称呼自己老兵了，因为你的战友大概率都已经死了。<br>「高兴点，你们现在有一个摆脱被人看不起的新兵身份的机会了。反而我比较麻烦了，不知道今天要写多少份死亡报告了。副班，说不定还要你来代替我写了。」<br>新兵们很明显有点不知所措，听着我说三板斧，他们都露出了困惑的表情。不过虽然他们听不懂这句黑话的意思，但是从我的语气中他们都知道这个词所代表的含义——死亡！<br>敌人长时间没有主动发起过进攻，这一次的进攻必定是积蓄力量的一拳，我们匆匆忙忙没有准备，这是战场上最糟糕的情况。<br>果不其然，炮弹的尖啸声马上就出现了，然后是爆炸声，尘土飞扬，构筑的防御工事被摧毁，而我们什么都做不了。<br>炮火渐渐停息，我立刻从掩护工事中爬了出来，马上开始检查伤亡情况并组织反击。<br>最好的步炮协同就是炮弹前脚刚炸出一个弹坑，后脚协同的步兵就把脚踏进这个弹坑。衡量一只部队的战斗力，很大程度上取决于步兵能否在不被友方炮兵误伤的情况下，尽可能快地发起进攻。<br>这一次敌人的进攻必定是用最精锐的部队，我们没有多少时间准备了，还有两个失踪者没有找到，但是前方的视线已经出现敌人的坦克，那两个倒霉蛋大概率是直接被炮弹击中了，这样说不定反而始终比较痛快的死法。<br>情况很不妙，我下令撤出第一道防线 转入第二道防线。<br>这一招是长期在三板斧的蹂躏下总结出的智慧，我们会现在第一道防线布防，敌人炮兵轰击后就转入第二道防线，这时第二道防线的工事没有被炮火洗礼，仍然可以组织起有效的防御，同时我们会把第一道防线的壕沟挖的很宽，让敌军坦克不能轻易通过，这样第二道防线就只用面对敌人柔弱的步兵。若是敌人搭建简易桥梁使坦克通过，我们撤退时留在第一道防线的炸药就会成为一个惊喜礼物。<br>我们通过两道防线相连的通道进行转移，并在转移后炸毁通道，防止敌人也依靠这条通道进攻。<br>转移成功后，我马上拿起望远镜观察敌人的动向，果不其然，敌人的坦克停留在第一道防线以外，现在变成一个不能移动的铁盒子，只能提供一点炮弹支援了。敌人的步兵已经进入第一道防线了，刚刚撤退的很匆忙，留在第一道防线的炸药很少，为了达到效果最大化，我决定现在先不引爆。<br>我稍微安了安心，现在至少局势还在我的把握中，按现在的情况，守下阵地应该不成问题。我刚准备下达布防命令，情况就突然开始产生了变化，敌人并没有马上在第一道防线构筑工事并安排工兵搭建坦克通过的桥梁，反而是马上发起了冲锋。<br>这是无谋的自杀冲锋，我脑海中马上浮现出这个念头，看来他们的长官是因为长时间的不作为被指责了，现在竟然迫切想要一点微不足道的战功就不顾及手下士兵的命。<br>我有点庆幸我现在是站在他们的对立面。但还是不能大意，我看着旁边的新兵，他们正因为敌人不断地接近而害怕的发抖，我有点担心他们待会能否组织有效的防御，这种死神不断接近自己的感觉确实不太好受。<br>我举起自己的爱枪「安洁」准备先打掉对面带头冲锋的人。士兵也是人，一旦领头的人倒下，士气或多或少都会受到影响，而且如果身边的人被接二连三「点名」倒下，人就会开始害怕下一个就是自己。<br>「砰。」子弹打了出去，枪托因为后坐力顶了一下我的肩膀，枪口冒着丝丝白烟，空气中弥漫出一股火药没有充分燃烧的臭味，种种的一切都告诉我刚才开了一枪，可是我瞄准的那个人却没有应声倒下。<br>「安洁」确实有点老了，我虽然一直很好地保养她，但是长时间的射击都已经让她的膛线有点磨损了，这使得她有效射程有所降低，可能是这个原因导致刚才那一枪没中吧。<br>我退出弹壳、上膛并再次瞄准刚才那个人，「砰~」，又是一枪，但那个人依然安然无恙。<br>这不可能！就在我这次装填的时间，那个人又拉近了不少距离，这个距离我和「安洁」从来没失误过。<br>我再次装填，准备打出第三发，不过这次我打算打其他人了。可我突然看到，那个两次好运躲开我狙击的人速度突然加快，他脱离了他所带领的冲锋小队，用极其不可思议的速度拉近着我们之间的距离。<br>来不及上弹，这是哪个非洲部落的赛跑冠军应征入伍了嘛，我急忙从背后掏出军用刺刀，准备装在枪上，我低着头刚把刺刀装好，眼角的余光就瞄到一个人影，<br>「这帮新兵怎么能把人放到这么近！」我心里暗骂了一句，身体已经条件反射的向那个人影刺出一刀，我的手上还没传来熟悉的手感，一声枪响在我耳边响起，同时我的肩膀一个吃痛，剧痛使我短暂地失神了，虽然我很快回过神来，但此时」安洁「已经掉在地上了。<br>没受伤的手反射性地想去捡起」安洁「，但是一个黑洞洞的枪口已经伸到了我的面前，求生本能告诉我绝对不能让他开出第二枪，我不管身上的剧痛和掉在地上的枪，用尽全力撞向那个人。<br>那个人的体重很轻，而且显然没什么近身格斗术的受身经验，我这出乎意料的一撞让他身体失去平衡跌倒在地上，我立刻骑在那个人身上，双腿紧紧地卡住他的腰，限制他的活动范围。现在手头上没有武器，配手枪是高级军官的象征，我可没那东西，刺刀也还在「安洁」上装着，现在返回去拿」安洁「无疑是找死，我决定照着这个人的面门先来一下，让他吃痛丧失抵抗能力。<br>我的手刚抬起来就愣住了，让我惊讶的原因在于我现在压制住的这个人是个女的。女性倒是其次，她真正吸引我的是她的容貌。<br>因为刚才的扭斗，她的头盔被我撞飞了，一头白发散落出来，剧烈的运动让她胸脯上下剧烈起伏，汗水使得几缕头发粘在脸上，同时一双红色的眸子死死地盯着我，仿佛要将我吸进去一样。</p>
-<p><img src="/images/211866.png"><img src="/images/211866-683x1024.png"></p>
-<p>就这么楞了一下神的功夫，她一个直拳打在我的腹部，我因为吃痛压制她的力度减弱，接着她就迅速从我的压制中挣脱出来。<br>「不妙！」我心中暗暗叫苦，怎么能在战场上犯这种致命失误，我再次扑了上去，祈祷故技重施可以起效，这时候不能让她拉开距离，我现在唯一能依靠的就是体格优势压制她了。<br>出乎我意料的是，挣脱我的束缚后，她没有选择拉开距离，反而从背后掏出一把刺刀向我扑来。<br>「完了！」我现在保持着前扑的姿势，整个身体重心前倾，完全刹不住车，无论如何是躲不开这一刀了，我拼命扭动身体，现在我已经不奢望不被刺中，只希望尽可能不要刺中要害。<br>「砰！」一颗子弹划空而来打在她的身上。<br>我扭头看向枪响的方向，副队长正举着枪，枪口还飘着烟。<br>「我是不是白训练你了，这种距离不能开枪，打到你爷爷我怎么办？」<br>我向副班吼到，可他却好像没听到似的，用手死死地指着我的方向，脸上露出一副仿佛看见鬼的神情。<br>我就吼他一句也不至于这样吧，可紧接着我立马意识到他指的不是我，是那个女人，我转回头来，这时刚才我那两枪没命中的谜团解开了。<br>那个本该被枪击中的女人，不是死也该残但绝对不应该还站着的女人，此时仍然稳稳地站着。她的身上没有任何弹孔，也没有任何血迹，刚才的那一枪仿佛没发生过一样，但是她的周边的空间不断地产生波动，这诡异的一幕告诉我那一枪绝不是没发生过。她现在就像包裹在一个蓝色的水球里面，那一枪就好像是扔进湖里的石头，在包裹着她的水球表面不断地泛起波纹，可是她却安然无恙。<br>真是活见鬼了，我马上想跑去拿我的刺刀。虽然子弹打不中这个怪物，可是我可以撞倒她，刺刀应该也能杀了她，我现在唯一的希望就是她不是刀枪不入了。可我刚转过身去，背后就响起了枪响，我疼的跌倒在地上。<br>这下完蛋了，我的眼前已经开始回放着人生过去的一幕幕，仿佛还看到河的那边有人在对我招手。可我正沉湎在对过去的回忆中时，就感到身体被人拖动着，我一抬头就发现自己被队友拖了出了第二道防线。再回头一看，此时副班正在和那个白发魔女肉搏，就是他牵制住白发魔女，才争取到队友营救我的时间。<br>我心中暗暗发誓，等这次战斗结束一定要请他喝一杯。可这心里暗暗许下的约定看来是完成不了了。副班战斗逐渐处在下风，然后被白发魔女抓住一个空隙一刀狠狠地扎在他的腹部，他没有放弃，反而是死死地抱着白发魔女，同时拉开了腰封前侧的手雷，然后……</p>
-]]></content>
-      <categories>
-        <category>小说</category>
-        <category>无名战记</category>
-      </categories>
-      <tags>
-        <tag>小说</tag>
-        <tag>恋爱</tag>
-        <tag>战争</tag>
-        <tag>无名战记</tag>
-        <tag>魔女</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>第一篇博客</title>
     <url>/2023/10/12/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<p>作者: Jerry<br>連結: <a href="https://butterfly.js.org/posts/dc584b87/#Post-Front-matter">https://butterfly.js.org/posts/dc584b87/#Post-Front-matter</a><br>來源: Butterfly<br>著作權歸作者所有。商業轉載請聯繫作者獲得授權，非商業轉載請註明出處。</p>
@@ -1201,6 +1182,25 @@ w:Rock-y did-nt like that</div>
 <p>「现在先分组吧，我们今天需要训练的东西很多。控制魔盒的随时开关，非启动状态携带魔盒运动，持久力、耐力训练，保证今天把你们都累趴下。<br>这如果是以前，她们听到我这句话应该是哀嚎一片，不过经过了这几天，已经让她们成功凝聚起来，现在所有人都显得很兴奋，应该是获得魔盒这种强大装备带来的。<br>恶幼女这次带来的魔盒相较于原来应该是有了改进，所有人的激活时间都有提升，现在战斗状态大概能持续三十五分钟，这是个好消息，如果以后继续提升会不会可以全天激活呢？</p>
 <p>虽然这一次的魔盒性能提升了，但是可靠性却下降了，到了下午的训练时，已经有两台启动不了。一开始给超出人数的装备的意图原来在这。如果在战场上失效那可是要人命的，本来以为自己是刀枪不入的时候突然被一枪打中，想来应该是很戏剧的一幕了。<br>在前线也是这样的，军备部只会考虑自己生产的武器能否在性能上超越敌人，却完全不管能否大规模配备或是装备的可靠性。以前曾经发过更先进的步枪，甚至有的可以连发，但是卡壳，炸膛问题频发，我还是更喜欢「安洁」这种老式步枪。<br>相反，之前送来的两台旧式魔盒基本停人不停机运转了两天，却一点坏的迹象也没。装备最重要还是可靠性啊，要是坏了，就算再先进也没有意义。<br>我稍微拆解了一下坏的两台机器，但是里面的零件完全让我摸不着头脑，枪的内部零件其实到现在我都有点搞不懂，跟别提这种精密复杂的机器了，我问了一下女巫部队，她们也都是摇头，我还以为夜莺她会，不过期望还是落空。<br>看来下次要叫恶幼女给我个制作人员来培训一下怎么维修和保养啊。</p>
 <p>当晚，我在自己的房间捣鼓继续捣鼓坏掉的魔盒，不知道为什么，这个东西好像天生对我有吸引力，还是说这是所有男人的通病？<br>这时，敲门声又响起了。<br>我的注意力完全被魔盒吸引，头都没抬起来，「请进！」<br>我听到门传来吱吱呀呀的声音，就接着说了：「随便坐吧，我现在有点忙，你自己倒水吧。」<br>我把我认为可能是魔盒的的能量供应拆了出来，她们只要身体接触到魔盒外壳就能提供能量，那如果不是隔着衣服传输，或者是接触的面积更大，传输的魔力会不会更多。或许这个魔盒能做成衣服的样式？又或者把魔盒的体积增大，变成坦克一样的移动炮塔？<br>正当我沉浸在幻想中时，我意识到已经很久房间里面没传来另一个人的声音了。<br>我把目光从魔盒上移开，就看到一片山谷占据了我的视野，因为冲击过于巨大，我直接往后倒着从椅子上掉了下去。<br>「哈哈哈哈！你终于肯回头了，我叫了你好几次，你都不理人家。」<br>站在那里的不是朔月，而是鸢尾花。<br>「朔月呢？我还以为来的是她。」我摸着自己摔得有点疼的后脑勺，扶着椅子站了起来。<br>「今天的惩罚游戏是我输了，不过教官你放心，明天输的会是朔月。」<br>「我完全不知道我该放心什么，我更希望你们停止这个游戏。不过为什么你知道明天输的是朔月？」<br>「我们今天玩了两轮，已经决定了明天的输者了。这么有趣的游戏可不能放弃呢。」<br>「还好，我还以为你们在欺负朔月呢，她是个很内向的人，就算心里不舒服可能也不会说出来，我担心你们玩的太过火了。」<br>「蛤！她是个内向的人？如果她也是内向，那全世界都是自闭症了。」<br>我总感觉我们的对话不在一个频道，一个人给不同人的印象可以有这么大的差距吗？<br>「算了，不管这些了。你的惩罚游戏也结束了，你要走了吗？」<br>「怎么我才刚来就赶我走？我还没待够呢。而且今天的惩罚游戏是公主抱，就像你那天送朔月回去那样的抱姿。」<br>不知道为什么她的话语充满了醋意，怎么？我是出轨被抓现行了吗？<br>「你不用遵守这种莫名其妙的惩罚，你回去就行，如果有人问我我会说惩罚游戏已经做了。」<br>「那可不行，教官你要是不抱我，我就只能在这住下了。」<br>我想不到她还是这么守信用的人，如果是我连来都不会来。<br>我无奈地把双手展开，鸢尾花马上就靠上我的一只手，我顺手就把另一只手绕过她的膝盖抱了起来。<br>「行，可以了吧。」我把她抱起来掂了两下就准备把她放下。<br>她的双手环绕我的脖子，轻轻在我耳边说道：「还不行哦！现在停下，我就回宿舍散布谣言，说教官是只要请求就会对人公主抱的渣男。』<br>虽然完全不是谣言就是了，但我还是希望她别到处说，我仿佛已经看到夜莺的眼神了。<br>「好，可以了。今天都到这了，教官你可要做好准备，下次就没这么简单了。」<br>抱了一会，鸢尾花就从我怀中跳了下去，一溜烟跑出了房间。<br>我怎么有种上当的感觉，这惩罚游戏我又没玩，怎么把我也惩罚了？</p>
+]]></content>
+      <categories>
+        <category>小说</category>
+        <category>无名战记</category>
+      </categories>
+      <tags>
+        <tag>小说</tag>
+        <tag>恋爱</tag>
+        <tag>战争</tag>
+        <tag>无名战记</tag>
+        <tag>魔女</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第一章 白发魔女</title>
+    <url>/2023/08/01/%E7%AC%AC%E4%B8%80%E7%AB%A0-%E7%99%BD%E5%8F%91%E9%AD%94%E5%A5%B3/</url>
+    <content><![CDATA[<p>「空袭——！空袭——！」<br>副班长急急忙忙拉响防空警报，凄厉的响声立刻充斥在整个阵地的上空。<br>防空警报的刺耳声真的是无论听多少次都难以习惯，不过它本来就是如此设计的，要是有人对这种高分贝噪音熟视无睹反而让人比较头疼。<br>几个被防空警报吵醒的新兵立马慌慌张张地去找自己的配枪，刚上战场没多久的人就是这样，只有摸着枪心里才会感到安定，我倒是比较想知道对于马上要从我们头顶落下的五十公斤航空炸弹甚至有可能是五百公斤航空炸弹，这把小小的步枪能起到什么作用？<br>这就是我们这些填线炮灰步兵的命运，被航空炸弹炸、被榴弹炮炸、被装甲部队蹂躏，我们唯一能做的就是尽量蜷缩自己的身体，减少着弹面积，同时心里不断祈祷友军的支援马上赶到。<br>我顺手拉起一个还在急急忙忙打开自己配枪保险的新兵，他因为身体被我拉起来，手上的枪掉在了地上，看到枪掉在地上，他竟然挣脱我的束缚并且马上扑在地上想把自己的枪捡起来，我又重新把他拉了起来，并且一脚把他的枪踢到远处。<br>我也没跟他废话，强硬地把他往防空洞拖去。一路上几个还在不知所措的新兵也被我一并拖进了防空洞。<br>「真是的，这帮人没有看过《作战条例》吗？连怎么应对空袭都不知道。」<br>《作战条例》是会发给每个人的一份手册，手册上事无巨细地讲解在战场上遇到什么情况时要怎么应对，不只是战术应对，就连如何包扎甚至简易截肢手术的操作方法都写在上面。估计是担心会有人和部队脱节，这手册把一些荒野求生的知识也收录了<br>这本手册成为我们每天枯燥地蹲在战壕里面的消遣品，是排在家书和黄色画报之后第三受欢迎的东西。<br>新兵会把这本手册当成战场的圣经，恨不得背下其中的每一个字，不过我们这帮老兵油子是把它当小说来看，这本书最大的失误就是太详细了，战争已经打了五年了，我们这些人都老了五岁了，但这本书好像还停留在五年前。<br>举一个简单的例子，手册上面还写着面对坦克但没有反坦克武器的时候，可以包抄绕到坦克的侧后方使用步枪攻击坦克比较薄弱的后方装甲。刚开战时的那种薄皮饺子坦克或许用这招还有用，现在的坦克大量装备厚重的倾斜装甲，就连常规反坦克武器都必须要要垂直命中坦克装甲才能造成伤害，我们手上这只准心照门都有缺口的步枪又能做什么？<br>我们在防空洞中等待了一会，周围却没有响起爆炸声，我立刻透过防空洞内的观察孔观察天空，敌机已经越过我们头顶了，但是轰炸却没有来，那么就说明敌机应该还没投弹，或者说投弹了但是炸的不是我们。<br>水平轰炸机投出航空炸弹后，炸弹的速度是和飞机一致的，虽然还有空气阻力的影响，但是一般情况下当敌机掠过你正头顶时，就是航空炸弹落到你头上的时候。敌机不是炸我们，那么就是有更加值得他们轰炸的目标出现了，这意味着这一次不是往常那种不痛不痒的常规空袭，而是一次谋划已久的进攻。<br>「小伙子们，现在有一个好消息和一个坏消息。」我笑着对周围说道，」好消息是我们今天不用吃航空炸弹了——！」我故意顿了顿，观察着每个人脸上的表情，果然他们每个人脸上都露出了安心的神情，然后我的脸上露出坏笑，「不过坏消息是我们今天要吃三板斧了！」<br>三板斧即「要你命3000」，这是陆军进攻最常见的战术：首先用炮火准备把敌人的阵地」清洗「一遍，然后装甲部队突击，最后跟着步兵冲锋。自两百百年前这套战术的雏形开始出现后就从来没有变过，只不过是炮火从小磅数的土炮变成了大口径的榴弹炮，甚至是列车炮，而突击的骑兵变成被装甲包裹的车辆，冲锋的步兵手里拿着的枪从落伍的前装填燧发枪变成了堑壕枪、喷火器或者是冲锋枪。<br>随着战争的进行，我们共和国和帝国的战争进入僵持阶段，双方谁都奈何不了谁，我们把这称为「眼神战争」，即双方不是用枪炮打仗而是用眼神来打仗。<br>双方谁都不敢轻举妄动，一旦你出动飞机轰炸敌人阵地，那么敌人的飞机就会起飞和你缠斗，飞机飞到敌方阵地上方战斗是一件很亏本的事情，因为油箱限制，你的飞机可以战斗的时间远远短于以逸待劳的敌军飞机，而且战斗完还要计算返航所需的燃油，所以一般轻易不会主动发起空袭。<br>火炮就更不必说了，当你发动炮火准备后如果不马上转移炮兵阵地，等待你的就是敌方炮兵的报复炮击，此时你在明敌在暗，唯一能做的就是被动挨打。<br>正因为如此，我们在前线过了好几个月舒服日子，也难怪现在的新兵都懈怠了。过去我们称呼自己为老兵的标准不是时间，只要活过一场战斗，就可以称呼自己老兵了，因为你的战友大概率都已经死了。<br>「高兴点，你们现在有一个摆脱被人看不起的新兵身份的机会了。反而我比较麻烦了，不知道今天要写多少份死亡报告了。副班，说不定还要你来代替我写了。」<br>新兵们很明显有点不知所措，听着我说三板斧，他们都露出了困惑的表情。不过虽然他们听不懂这句黑话的意思，但是从我的语气中他们都知道这个词所代表的含义——死亡！<br>敌人长时间没有主动发起过进攻，这一次的进攻必定是积蓄力量的一拳，我们匆匆忙忙没有准备，这是战场上最糟糕的情况。<br>果不其然，炮弹的尖啸声马上就出现了，然后是爆炸声，尘土飞扬，构筑的防御工事被摧毁，而我们什么都做不了。<br>炮火渐渐停息，我立刻从掩护工事中爬了出来，马上开始检查伤亡情况并组织反击。<br>最好的步炮协同就是炮弹前脚刚炸出一个弹坑，后脚协同的步兵就把脚踏进这个弹坑。衡量一只部队的战斗力，很大程度上取决于步兵能否在不被友方炮兵误伤的情况下，尽可能快地发起进攻。<br>这一次敌人的进攻必定是用最精锐的部队，我们没有多少时间准备了，还有两个失踪者没有找到，但是前方的视线已经出现敌人的坦克，那两个倒霉蛋大概率是直接被炮弹击中了，这样说不定反而始终比较痛快的死法。<br>情况很不妙，我下令撤出第一道防线 转入第二道防线。<br>这一招是长期在三板斧的蹂躏下总结出的智慧，我们会现在第一道防线布防，敌人炮兵轰击后就转入第二道防线，这时第二道防线的工事没有被炮火洗礼，仍然可以组织起有效的防御，同时我们会把第一道防线的壕沟挖的很宽，让敌军坦克不能轻易通过，这样第二道防线就只用面对敌人柔弱的步兵。若是敌人搭建简易桥梁使坦克通过，我们撤退时留在第一道防线的炸药就会成为一个惊喜礼物。<br>我们通过两道防线相连的通道进行转移，并在转移后炸毁通道，防止敌人也依靠这条通道进攻。<br>转移成功后，我马上拿起望远镜观察敌人的动向，果不其然，敌人的坦克停留在第一道防线以外，现在变成一个不能移动的铁盒子，只能提供一点炮弹支援了。敌人的步兵已经进入第一道防线了，刚刚撤退的很匆忙，留在第一道防线的炸药很少，为了达到效果最大化，我决定现在先不引爆。<br>我稍微安了安心，现在至少局势还在我的把握中，按现在的情况，守下阵地应该不成问题。我刚准备下达布防命令，情况就突然开始产生了变化，敌人并没有马上在第一道防线构筑工事并安排工兵搭建坦克通过的桥梁，反而是马上发起了冲锋。<br>这是无谋的自杀冲锋，我脑海中马上浮现出这个念头，看来他们的长官是因为长时间的不作为被指责了，现在竟然迫切想要一点微不足道的战功就不顾及手下士兵的命。<br>我有点庆幸我现在是站在他们的对立面。但还是不能大意，我看着旁边的新兵，他们正因为敌人不断地接近而害怕的发抖，我有点担心他们待会能否组织有效的防御，这种死神不断接近自己的感觉确实不太好受。<br>我举起自己的爱枪「安洁」准备先打掉对面带头冲锋的人。士兵也是人，一旦领头的人倒下，士气或多或少都会受到影响，而且如果身边的人被接二连三「点名」倒下，人就会开始害怕下一个就是自己。<br>「砰。」子弹打了出去，枪托因为后坐力顶了一下我的肩膀，枪口冒着丝丝白烟，空气中弥漫出一股火药没有充分燃烧的臭味，种种的一切都告诉我刚才开了一枪，可是我瞄准的那个人却没有应声倒下。<br>「安洁」确实有点老了，我虽然一直很好地保养她，但是长时间的射击都已经让她的膛线有点磨损了，这使得她有效射程有所降低，可能是这个原因导致刚才那一枪没中吧。<br>我退出弹壳、上膛并再次瞄准刚才那个人，「砰~」，又是一枪，但那个人依然安然无恙。<br>这不可能！就在我这次装填的时间，那个人又拉近了不少距离，这个距离我和「安洁」从来没失误过。<br>我再次装填，准备打出第三发，不过这次我打算打其他人了。可我突然看到，那个两次好运躲开我狙击的人速度突然加快，他脱离了他所带领的冲锋小队，用极其不可思议的速度拉近着我们之间的距离。<br>来不及上弹，这是哪个非洲部落的赛跑冠军应征入伍了嘛，我急忙从背后掏出军用刺刀，准备装在枪上，我低着头刚把刺刀装好，眼角的余光就瞄到一个人影，<br>「这帮新兵怎么能把人放到这么近！」我心里暗骂了一句，身体已经条件反射的向那个人影刺出一刀，我的手上还没传来熟悉的手感，一声枪响在我耳边响起，同时我的肩膀一个吃痛，剧痛使我短暂地失神了，虽然我很快回过神来，但此时」安洁「已经掉在地上了。<br>没受伤的手反射性地想去捡起」安洁「，但是一个黑洞洞的枪口已经伸到了我的面前，求生本能告诉我绝对不能让他开出第二枪，我不管身上的剧痛和掉在地上的枪，用尽全力撞向那个人。<br>那个人的体重很轻，而且显然没什么近身格斗术的受身经验，我这出乎意料的一撞让他身体失去平衡跌倒在地上，我立刻骑在那个人身上，双腿紧紧地卡住他的腰，限制他的活动范围。现在手头上没有武器，配手枪是高级军官的象征，我可没那东西，刺刀也还在「安洁」上装着，现在返回去拿」安洁「无疑是找死，我决定照着这个人的面门先来一下，让他吃痛丧失抵抗能力。<br>我的手刚抬起来就愣住了，让我惊讶的原因在于我现在压制住的这个人是个女的。女性倒是其次，她真正吸引我的是她的容貌。<br>因为刚才的扭斗，她的头盔被我撞飞了，一头白发散落出来，剧烈的运动让她胸脯上下剧烈起伏，汗水使得几缕头发粘在脸上，同时一双红色的眸子死死地盯着我，仿佛要将我吸进去一样。</p>
+<p><img src="/images/211866.png"><img src="/images/211866-683x1024.png"></p>
+<p>就这么楞了一下神的功夫，她一个直拳打在我的腹部，我因为吃痛压制她的力度减弱，接着她就迅速从我的压制中挣脱出来。<br>「不妙！」我心中暗暗叫苦，怎么能在战场上犯这种致命失误，我再次扑了上去，祈祷故技重施可以起效，这时候不能让她拉开距离，我现在唯一能依靠的就是体格优势压制她了。<br>出乎我意料的是，挣脱我的束缚后，她没有选择拉开距离，反而从背后掏出一把刺刀向我扑来。<br>「完了！」我现在保持着前扑的姿势，整个身体重心前倾，完全刹不住车，无论如何是躲不开这一刀了，我拼命扭动身体，现在我已经不奢望不被刺中，只希望尽可能不要刺中要害。<br>「砰！」一颗子弹划空而来打在她的身上。<br>我扭头看向枪响的方向，副队长正举着枪，枪口还飘着烟。<br>「我是不是白训练你了，这种距离不能开枪，打到你爷爷我怎么办？」<br>我向副班吼到，可他却好像没听到似的，用手死死地指着我的方向，脸上露出一副仿佛看见鬼的神情。<br>我就吼他一句也不至于这样吧，可紧接着我立马意识到他指的不是我，是那个女人，我转回头来，这时刚才我那两枪没命中的谜团解开了。<br>那个本该被枪击中的女人，不是死也该残但绝对不应该还站着的女人，此时仍然稳稳地站着。她的身上没有任何弹孔，也没有任何血迹，刚才的那一枪仿佛没发生过一样，但是她的周边的空间不断地产生波动，这诡异的一幕告诉我那一枪绝不是没发生过。她现在就像包裹在一个蓝色的水球里面，那一枪就好像是扔进湖里的石头，在包裹着她的水球表面不断地泛起波纹，可是她却安然无恙。<br>真是活见鬼了，我马上想跑去拿我的刺刀。虽然子弹打不中这个怪物，可是我可以撞倒她，刺刀应该也能杀了她，我现在唯一的希望就是她不是刀枪不入了。可我刚转过身去，背后就响起了枪响，我疼的跌倒在地上。<br>这下完蛋了，我的眼前已经开始回放着人生过去的一幕幕，仿佛还看到河的那边有人在对我招手。可我正沉湎在对过去的回忆中时，就感到身体被人拖动着，我一抬头就发现自己被队友拖了出了第二道防线。再回头一看，此时副班正在和那个白发魔女肉搏，就是他牵制住白发魔女，才争取到队友营救我的时间。<br>我心中暗暗发誓，等这次战斗结束一定要请他喝一杯。可这心里暗暗许下的约定看来是完成不了了。副班战斗逐渐处在下风，然后被白发魔女抓住一个空隙一刀狠狠地扎在他的腹部，他没有放弃，反而是死死地抱着白发魔女，同时拉开了腰封前侧的手雷，然后……</p>
 ]]></content>
       <categories>
         <category>小说</category>
@@ -1438,6 +1438,30 @@ w:Rock-y did-nt like that</div>
       </tags>
   </entry>
   <entry>
+    <title>第八章 演习</title>
+    <url>/2023/08/08/%E7%AC%AC%E5%85%AB%E7%AB%A0-%E6%BC%94%E4%B9%A0/</url>
+    <content><![CDATA[<p>后面的几天训练也一如往常，逐步走向正轨。除了第一天坏了两台魔盒，后面又坏了两台，现在已经不匹配人数，我们只能把旧型号的那两台也拿出来用。之前一直怕见到恶幼女的时候她天天来，现在盼着她来的时候她又不来了，她就是天生想和我作对。<br>一天，<br>我走在走廊上，想着要怎么应对之后可能出现的魔盒不足。<br>「教官，来！」一只手在走廊尽头对我招着，虽然我这个角度看不到脸，但是那蓝色的头发已经出卖的这只手的主人了。<br>「怎么了，现在是自由活动时间，你不用特地来陪我这个糟老头子。」随着我走近，就看到鸢尾花正坐在一张桌子旁。<br>「才不是，我们刚刚在讨论你呢，就看到你路过。」鸢尾花轻笑着，又朝我招了招手，」你过来一下。」<br>我走到她附近，看到她身旁还有个女孩子，是波波。<br>波波让了位置给我，我坐在了她们中间。<br>「怎么？有什么事？我首先声明，我可谈不来恋爱话题。」<br>「如果有谁找教练你谈恋爱话题，那还不如去找冷面佛。」波波拍打着我的背捧腹大笑。<br>虽然我从来没听过冷面佛这个外号，但我已经隐隐约约猜到是谁了，虽然我绝对不会讲出我的猜测。<br>「哼，你们别看我这样，我可是有女朋友的，我们已经谈了五年恋爱了。」<br>「什么——！」」什么——！「不仅是波波和鸢尾花，就连几个旁边的的女孩子也惊呼了出来，看来她们刚才在偷听我们对话。<br>波波刚才还在笑，这时表情却严肃的可怕。我有一次被军事法庭审问的时候，那个法官的脸就和她现在一样黑。波波平时一直很开朗，笑容仿佛天生带在她的脸上，我还从来没见过她的表情冷若寒冰到这种地步。<br>我扭头去看鸢尾花，她刚刚也还在轻笑，可是现在也是两眼无光。旁边几个偷听的女孩现在也站了起来，围在我旁边，给我一股无言的压力。<br>我到底做错了什么？女人心也太难了，刚刚还有说有笑，现在仿佛要把我掐死。<br>我被这个气氛逼迫的受不了了，小心翼翼地把被油布包裹的「安洁」放在了桌子上，指了指，」就她啊，你们不会不知道吧。「<br>周围的氛围突然就变了，如果要我形容的话就是变成了鲜花的海洋，女孩子们又开始有说有笑，仿佛刚才的一切没发生一样。<br>「我就说教练怎么可能有女朋友，你一脸单身一辈子的面相。」<br>「是啊，是啊，现在天天能见到我们已经用光了教练一辈子的桃花运了。」<br>喂喂喂，这些人是不是越说越过分了。<br>「所以呢，叫我过来什么事？」<br>我实在受不了这个不断贬低我的话题走向了，主动岔开了话题。<br>「我们想知道教官是个什么样的人。」<br>「我不就是我，现在站在你们面前的我是什么样我就是什么样。我可没有背地里偷偷说你们坏话。」<br>「波波问的不好，我们想知道您参军之前是什么样的人，还有您之后还要详细解释解释说坏话的那部分。」<br>「我也想听。」<br>又有几个人凑了进来起哄。<br>我挥了挥手，想起了一个人，不知道她现在还过的好吗？<br>「没什么好说的，我给你们讲点我在前线的故事吧。」<br>「咦——！」看来我的观众很不满意，纷纷发出遗憾的声音。</p>
+<p>一小时后<br>「所以我当时就左手托着他下巴，右手压着他的头顶，然后『咔擦』一声」<br>我边说边比划，用同样的姿势托着波波的头，她甚至用头轻轻地摩擦着我的手。<br>「然后你们猜怎么着？他的头就倒了，他当时就托着自己头到处乱跑，边跑还边喊：『我头呢，我头呢？』」<br>看来我绘声绘色的表演深入人心，有几个女孩甚至下意识地去扶自己的头。<br>虽然一开始大家都不满意，可听着听着就入神了，现在我周围围了里三层外三层，就连夜莺也在。<br>「教官你肯定骗人的，怎么可能头掉了还能跑。」<br>「好，休息时间结束了，现在是训练时间，今天你们听我讲了故事，所以训练量还要加。还有你，竟敢质疑教官，你今天训练量再加。」<br>「欸——！怎么这样——！」</p>
+<p>这几天的晚上不知道为什么一直保持着鸢尾花和朔月的轮换，她们不会是一起被欺负了吧？不过鸢尾花那种性格，要想不被她欺负才比较难吧。<br>上次虽然鸢尾花说惩罚内容会升级，不过之后就连公主抱都取消了，就只是单纯到我房间坐着，呆的时间倒是越来越长了，朔月甚至会带本书来看。</p>
+<p>又过了几天，我盼星星盼月亮等的那辆吉普车终于到了营区。<br>可惜我没有等来我想要的装备反而是演习安排。<br>「中午十二点开始，你们要在后山进行一场演习，你可以指挥的是所有女巫，你面对的是两个营的……」<br>还没等恶幼女说完，我就打断了她的话，「不用告诉我对面的部署，战场上敌人可不会告诉别人自己的信息。<br>「哦？你这么有信心？不过盲目自信可会害了你自己。」</p>
+<p>后山，中午<br>「再确认一下无线电是否通信顺畅.」我举起手上体积庞大的无线电，讲了几句。<br>夜莺手上的那台无线电马上就传来我的声音，不过杂音很大。<br>就算在这么近的距离也有这么强的干扰吗？<br>无线电不像高功率电报，通讯距离很短，而且很容易受到干扰。<br>我们女巫部队只有连级编制，按照军队配置，所以只给了我们一对无线电。这完全是错误的，我们人数虽然很少，但在战术上我认为完全有一个装甲连级编制，最少应该给我配九台无线电。<br>显然上级对我们女巫部队的理解和我有很大差距，不过这种观念也只能靠姑娘们精彩的表现逐渐扭转了。<br>「我刚才已经把计划都说清楚了吧，我们现在没法即时通讯，只能尽量把计划布置的完善了。」<br>没有人说话，看得出来大家都很紧张，就连夜莺也没回答我。她们现在就像是被鹰妈妈往悬崖下面推的小鹰，这就是个演习，至于这么夸张吗？<br>我拍了拍手，把所有人的注意力吸引到我身上，「少将看我们平时幸苦，特意安排我们和友方部队进行一场后山的春游。」<br>她们现在看着我，仿佛在看一个蹩脚的喜剧演员。我实在是不会搞这种战前动员，我以前的连队长鼓动人真的有一手的，我当时就该和他学两手。<br>似乎是为了给我打圆场，波波突然轻轻地哼起歌。音乐就是有一种莫名其妙的魅力，一旦一滴水滴落，马上就会形成一片湖泊，紧跟着又有其他几个人唱了起来，最后变成了大合唱。<br>一曲完毕，所有人都显得很兴奋。<br>「之前不是说叫我唱歌吗，这一次要是赢了，我就开个演唱会，让你们听个够。」<br>「教官，你也太高看自己了，那天只是恭维你的，谁愿意听你唱歌。」鸢尾花马上就拆我台了。<br>「你今天要是不亲手毙一个，你也得和我上台一起唱。」必须得压压她的嚣张气焰，我总觉得她越来越喜欢整蛊我了。<br>抬手看了一样表，指针刚刚好指向十二点。<br>「狩猎时间到了，可怕的女巫们该出去抓馋嘴的小孩了。」</p>
+<p>看着她们陆续离开，我只能心里默默为她们祈祷了，现在我能做的就是尽力隐藏好自己了，我身上带着无线电，要是被缴获了那就是个大麻烦了。<br>过了一会，无线电就传来夜莺的声音：「报告教官，A区没发现敌军炮兵阵地。」<br>「收到，二班还没发送信号，你继续前往C区查看。」</p>
+<p>虽然我表面上对着恶幼女说不需要敌军资料，其实都是骗人的，我怕她会在这上面使花招，所以是自己数的。因为演习地点就在后山这么近，我早就安排人去数上山的部队了，他们为了及早详细了解和后山的地形，所以早早地上山了，殊不知把自己的人数暴露无疑。<br>根据侦察回来的情报，敌人只有一个步兵营和一个炮兵连，但是从其他方向上山的部队我们就不知道了，那个炮兵连是这次战斗的关键，所以必须早点确定位置。<br>虽然在一片山中找一只炮兵连无疑是大海捞针，但是还有两个办法，一个是诱导炮击，主动暴露自己的位置，让他们开炮，这样就知道他们的位置了。但是这有两个坏处，一个是诱饵部队很可能损失惨重，一个是炮兵可能在射击后转移阵地，那就白费了。<br>所以我选择另外一个方法，从上山时间推测 ，他们最多只有两个小时准备。炮兵阵地可不是说把炮拉过去就搞定了，山地崎岖，他们的运力有限，能部署的位置已经筛掉一大片了，同时他们还要选一个兼顾隐蔽性和火力覆盖的地方，所以我从地图上找了几个可疑的地点，让她们分散去找。<br>你问我为什么会有地图？从恶幼女车上「顺」来的，她安排这里训练，那么一定要准备地图，不然她怎么观察演习呢？不过她现在应该急得满地找了。<br>不一会，无线电又传来声音，夜莺在C区也没找到，我让她B区和二班汇合了。<br>怎么回事啊，就标了三个地点，难道三个都错了吗，夜莺都已经检查两个地点了，二班还一点消息都没，该不会是出什么事了吧？<br>越思考就越担忧，我心中的不安在急剧放大。<br>这时，远处传来一颗信号弹划空的声音，是红色信号弹。<br>如果不是敌军也恰好用了和我们一样的信号弹，那么就是二班已经压制敌军炮兵阵地了。<br>因为只有两台无线电，我们又分为四组行动，没有无线电的部队只能用信号弹交流了，这样容易暴露发信号弹部队的位置，其实我是尽量不想用的。<br>那可是一个炮兵连，她们真的可以压制？我原本的设想是四处侦察，发现位置后合而击之。<br>不会是和敌人的用混了吧？<br>二班的指挥是鸢尾花，如果是她的话说不定有什么办法。<br>虽然心中的疑问很多，我还是向信号弹地点移动。<br>走了一段距离后，无线电传来夜莺的声音。<br>「二班已经压制住敌军炮兵阵地，我们已经汇合。」<br>「收到，就地布防。」<br>「我们还缴获了敌人炮兵部队的无线电。」<br>啊？我现在心中千言万语，只汇聚成一个「啊？」字。<br>战场上是很难缴获敌人电台的，一来是这个东西很容易被摧毁，它体积庞大，一颗流弹就能让它报废，同时因为这个东西实在是太关键了，所以一旦有被缴获的可能性，指挥官就会下令摧毁电台，毁掉密码本。<br>现在来不及问具体详情了，既然拿到电台，那就好好利用吧。<br>「用缴获的无线电汇报，就说你们受到敌军小规模袭击，但已经击退敌人，考虑到阵地暴露，你们转移到A区了。」<br>「可我们都是女的，这样子不会被听出来吗？」<br>「找个装的最不像的，就是要他们听出来。」<br>「收到…………刚刚已经播报完毕，之后怎么办？」<br>「之后有两种可能，一班现在清扫敌人可能来的侦察兵，二班现在进行炮击准备。不对，你们有人会炮击吗？」<br>无线电现在一阵沉默。<br>「那算了，二班现在原地部署炸药，我马上过去。」<br>说是炸药，但是因为是演习，填充物都是大量的染料，今天不知道谁要吃这个大礼物了。</p>
+<p>赶到炮兵阵地的时候，我就只看到一片狼藉，有两门炮上面都沾了染料。没看到敌方「尸体」，看来全部都已经运回去了。<br>没时间问事情经过，我马上拿起无线电。<br>「一班，汇报情况。」<br>「未侦察到敌方侦察部队，但可能有疑似的敌方大规模部队前来，现在位置在xxx，xxx。」<br>这个位置应该是看我临时copy给她们的地图猜的，但是位置可能不是太准确。<br>「接下来十分钟后我会对你们进行二十分钟的炮火准备，到时候你们要激活魔盒，并且实时给我提供炮火校准。如果有必要可以在炮火准备时和敌人开战，但一定要在炮火准备结束后脱离战斗。」<br>平时拿个弹弓射树上的鸟都很难打中，更别提用大炮打几公里外的目标了，那些海军的舰炮隔几十公里射击更是摸奖中的摸奖，所以炮火校准是一项很关键的工作，一般在平地上炮兵阵地自己就可以完成校准，但是现在在森林里面，这种情况下一般是高空校准，会有飞行员高空观察实时校准，不过我们现在有可以零距离校准的好用观察员，还是好好利用吧。可以直接校准落到自己头上的炮弹，这可真的是一件神奇的事情。<br>阵地上一共有六门炮，但是已经有两门染上了染料，根据规定不能用了，就只剩四门炮可以用了，这个火力真的单薄，不过对手也没多厉害，凑合一下吧。<br>我马上开始了炮术瞄准速成班，其实就是如何利用炮上的瞄准镜进行简单的瞄准，同时教了一下如何调整炮位，这些东西说实话都是很基础的东西，原理就像枪一样，只不过是曲射的角度大了一点。下坠严重了一点。<br>单发，拉大栓，这就是狙！炮和枪的区别只是口径大小罢了。<br>她们学的很快，真不愧是年轻人，几分钟已经可以像模像样地操作了。<br>我已经把一门炮瞄准好了，时间刚好够，我就发射了一炮。<br>「教官，完全打歪了，再右移两百米左右。」<br>夜莺的话有点伤害到我的自尊了。两百米！一个正规炮兵就算喝醉了瞄准都打不到这么偏，虽然我不是炮兵出身，但这也太伤人了。<br>我进行了校准，再次发射，这次还是有一点误差，但已经没关系了，根据夜莺的回报，应该是打中人了。<br>我马上去观察其他三门炮的瞄准，稍作调整就开始齐射了。<br>虽然我们的精度不行，但是我发现我们还有一个优势——射速。炮兵一般都是要选臂力大的人，因为炮弹是要人手一颗一颗抬进炮膛，这对于炮兵是一件很艰苦的事情，长时间炮击很容易就导致射速下降，有些时候要进行长时间炮击，比如要炮击准备三天，这就需要炮兵三班倒地装填，真的是折磨人。<br>就这帮小姑娘要她们抬炮弹真的是辛苦人了，我让她们激活魔盒，在身体素质提升后，我们的射速可能能和精锐炮兵部队的射速相比。那些人的小臂比我的大腿都粗，很难想象现在这些姑娘们纤细的手臂也有那种爆发力。<br>射速稍微弥补了我们糟糕的炮术，自从完成校准后无线电就没有声音了，估计已经交战了。<br>二十分钟的炮术准备结束后，我想继续进行炮击扩大战果，但是无论怎么呼叫无线电夜莺都没有回复，我担心会有误伤，也不敢继续了。<br>现在情况不明，但是我们的位置肯定暴露了，现在必须马上撤离，我再次确认了一下埋在脚下的炸药的引线，然后潜伏起来。<br>过了十几分钟，有一小股侦察部队进入炮兵阵地。人太少了，现在炸有点不划算，我让二班进入激活状态，前去直接解决了他们，最好的情况是不要让这支侦察部队开出枪。但是她们的潜伏能力确实差了点，侦察班一般都是一支部队里面最精锐的，他们要执行的任务都是很危险的，二班在他们面前确实有点关公面前耍大刀了。敌人马上就发现了我们，并且首先开火，还好魔盒激活的够快，凭借我的冷枪和二班已经形成的半包围网总算是把他们全歼了。<br>他们为了活动轻便没有携带电台，我从一个人身上摸出几种信号弹，现在也只能猜猜看了，我拉响了绿色信号弹，并且重新回到隐藏位置。<br>我承认我有赌的成分，但是我赌对了。没过多久就有一支大部队前来查看情况了，看情况应该是主力部队，我们一次吃不完，所以我没有犹豫马上就开火了。<br>冷枪打到了一个看起来像是班长的人，他们对于这种死亡狙击完全没有抵抗力，没有想着马上架设机枪阵地反击，而是四散躲藏起来。<br>炮兵阵地虽然经过了很多次战斗，但是至少是那帮臂力惊人的炮兵构筑了两个小时的阵地，上面还是有很多牢固掩体的，很多人都选择炮兵阵地作为掩体。<br>正合我意，我的手放在起爆器上面正准备按下去，结果敌方部队的后方也传来了枪声，紧接着就是好几个慌乱的士兵进入了炮兵阵地。<br>不一会感觉敌人的大部队都进入了炮兵阵地，这一次我没有犹豫马上按下了起爆器。<br>阵地上顿时烟尘四起，人都拼命地从炮兵阵地跑出来，无一例外身上都沾满了染料。<br>我正准备在外围狙杀漏网之鱼，远处就发出了标志着演习结束的信号弹，同时我的无线电也接受到恶幼女的声音，「演习结束了，少尉回营地。」</p>
+]]></content>
+      <categories>
+        <category>小说</category>
+        <category>无名战记</category>
+      </categories>
+      <tags>
+        <tag>小说</tag>
+        <tag>恋爱</tag>
+        <tag>战争</tag>
+        <tag>无名战记</tag>
+        <tag>魔女</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>第五章 惩罚游戏</title>
     <url>/2023/08/05/%E7%AC%AC%E4%BA%94%E7%AB%A0-%E6%83%A9%E7%BD%9A%E6%B8%B8%E6%88%8F/</url>
     <content><![CDATA[<p>当晚，我回到自己的房间开始准备之后的训练计划。<br>这个营区只有一个集体宿舍，理所当然的，那里已经被女生占领了，我就在一个会议室里面搬了一张行军床当作是我的宿舍了，这个房间虽然不如宿舍好，但是比以前躺在战壕沟的泥泞里面睡觉好很多了。唯一的麻烦就是没有淋浴间，我每天都要去隔壁营区借用公共卫浴。<br>这时，门外响起了敲门声，「教官，你睡了吗？」<br>「没睡，进来吧。」<br>走进来的是「朔月」，就是那个金发的腼腆女孩。<br>我有点好奇她这么晚来找我有什么事，便搬了张椅子，示意她坐下。<br>结果她没有坐到我为她搬得那张椅子，反而是坐到了我旁边，我坐在行军床上，她一坐下来，就让床布往下陷了，我整个人也跟着陷下去，同时我们的肩膀就碰在了一起。<br>她好像触电一样蹦了起来，我对她招了招手：「你想坐这就坐这吧。」我站起来，坐到刚刚搬过来的椅子上。<br>她坐到了行军床上，可是看起来有点闹别扭，脸上全是不满。<br>她估计是没见过行军床想坐坐看，不过行军床这东西真的很硬，坐起来不舒服，也难怪她这个表情了。<br>「那么，有什么事？」她自从坐到了床上就一直默默地盯着我，散发出一股无言的压力，我实在受不了了，就主动开口问道。<br>「我……我……」她支支吾吾起来，说了半天就直说了一个我字。<br>「你冷静点，不用急，慢慢说。」我把我的水杯递了过去，我这里也没想过会招待客人，根本没准备多余的水杯，就凑合用用吧。<br>谁知道她接过水杯后，却没有喝，反而是头深深地低下去，估计下巴都磕到锁骨了，我看不见她的表情，只能看到她发丝间空隙露出的耳朵通红通红的。<br>「是水太烫了吗？我可不是想玩惩罚游戏。我给你加点凉水。」我记得我水放着已经有好一会了，晚上天气又这么冷，水应该已经凉了。<br>她突然像是被提醒了什么一样，把头抬了起来，两眼闪闪发光。<br>「对！惩罚游戏！是我们宿舍的女生玩惩罚游戏，我输了，被要求来教官的房间。」<br>「你们这帮人啊，来我宿舍就是惩罚游戏？把名字都报给我，看我怎么收拾她们。」<br>「我……我不知道，不是，我是说我不能说，这也是惩罚游戏的一环，不能说出她们的名字。」<br>我问同伙有谁的时候她看起来很慌张，看来是真的不能说，那我也就不打算深究了。<br>「行，那惩罚游戏还有什么内容吗，需要我提供什么证明吗？」<br>「没，不需要证明，我就坐坐而已，我现在就走！」<br>她说完就头也没回地匆匆走了出去，我把她送出门外然后看了看走廊外。<br>以我对那帮小妮子的了解，这种游戏她们肯定会在外面偷听的，可是走廊外一个人也没有。<br>她不会是被霸凌了吧，我心里怀着这样淡淡的疑问进入了梦乡。</p>
@@ -1469,30 +1493,6 @@ w:Rock-y did-nt like that</div>
 <p>因为天色也暗了，我就解散了队伍，她们使用这个魔盒所造成的疲惫感很明显，今天就先到这了，我认为无论什么训练都要讲究一个循序渐进，一天猛练就会导致第二天的效率下降。</p>
 <p>晚上，我正在整理今天收集的资料，门外又响起了敲门声。<br>「请进！」<br>走进来的是朔月，她应该是刚洗完澡，头发还是湿漉漉的。<br>「教官，我今天的惩罚游戏又输了，她们让我继续来。」<br>她说话的时候没有看着我的眼睛，头一直低着。<br>「没事，人总是有运气不好的时候。」朔月给我的感觉是那种安静腼腆的孩子，我也没怎么怀疑，从自己的床上站了起来，搬了一张椅子坐下，并示意她坐到床上。<br>她没有坐到床上，而是另外搬了一张椅子坐在我旁边。<br>我差点忘了，她上次就嫌行军床硬了，我也真是的，她当时虽然没明说，我也应该意识到。<br>我用纸杯倒了点水给她。上次没有准备客人用的杯子，所以这次我特地弄了点纸杯。<br>「我……我用……教官的……杯子……就可以了」她就第一个」我「字说的很大声，后面音量越来越小，最后几个字和蚊鸣差不多了。<br>「哦，好。」虽然不知道她在想什么，不过她替我省个纸杯。<br>「待到惩罚游戏时间的结束就行了是吧，你想做什么就做什么。」我重新拿起今天整理的资料。</p>
 <p>过了好一阵子，终于把资料整理好了，我揉了揉眼睛，转头就看到朔月靠在墙上睡着了，她的胸脯伴随着呼吸均匀地上下摆动。<br>我轻轻把她抱起，打算送她回宿舍。<br>毕竟今天的训练很辛苦，我倒是更好奇都这么累了，她们寝室竟然还有心情玩惩罚游戏。<br>我抱着她走到宿舍区门口就后悔了，我不知道她住哪，大晚上抱着一个女孩子走在女生宿舍区域，飞向我的应该不止是枕头乐。<br>「哎呀，教官，我知道你平时别的很辛苦，但也不能对女学员下手吧，你下次要是真的忍不住就来找我吧。」<br>我转头看去，是之前篝火晚会上偷偷往我杯子里面倒酒的那个女孩，我记得她的代号是「鸢尾花」，她的蓝色头发在晚风的吹拂下微微晃动，和这个代号真的很符合。<br>「哼！就你们这个年纪，再大十岁我也提不起兴趣，你来的正好，我不知道她宿舍在哪，你帮我把她搬回去吧。」<br>我把怀里公主抱的朔月交给鸢尾花。<br>「教官表面上是这么说的，其实心里早就蠢蠢欲动了吧，今天要不是我刚好赶到，朔月不知道要遭受怎么样的对待了。」<br>她的话说的我有点心烦意乱，我挥了挥手就离开了女生宿舍了。</p>
-]]></content>
-      <categories>
-        <category>小说</category>
-        <category>无名战记</category>
-      </categories>
-      <tags>
-        <tag>小说</tag>
-        <tag>恋爱</tag>
-        <tag>战争</tag>
-        <tag>无名战记</tag>
-        <tag>魔女</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>第八章 演习</title>
-    <url>/2023/08/08/%E7%AC%AC%E5%85%AB%E7%AB%A0-%E6%BC%94%E4%B9%A0/</url>
-    <content><![CDATA[<p>后面的几天训练也一如往常，逐步走向正轨。除了第一天坏了两台魔盒，后面又坏了两台，现在已经不匹配人数，我们只能把旧型号的那两台也拿出来用。之前一直怕见到恶幼女的时候她天天来，现在盼着她来的时候她又不来了，她就是天生想和我作对。<br>一天，<br>我走在走廊上，想着要怎么应对之后可能出现的魔盒不足。<br>「教官，来！」一只手在走廊尽头对我招着，虽然我这个角度看不到脸，但是那蓝色的头发已经出卖的这只手的主人了。<br>「怎么了，现在是自由活动时间，你不用特地来陪我这个糟老头子。」随着我走近，就看到鸢尾花正坐在一张桌子旁。<br>「才不是，我们刚刚在讨论你呢，就看到你路过。」鸢尾花轻笑着，又朝我招了招手，」你过来一下。」<br>我走到她附近，看到她身旁还有个女孩子，是波波。<br>波波让了位置给我，我坐在了她们中间。<br>「怎么？有什么事？我首先声明，我可谈不来恋爱话题。」<br>「如果有谁找教练你谈恋爱话题，那还不如去找冷面佛。」波波拍打着我的背捧腹大笑。<br>虽然我从来没听过冷面佛这个外号，但我已经隐隐约约猜到是谁了，虽然我绝对不会讲出我的猜测。<br>「哼，你们别看我这样，我可是有女朋友的，我们已经谈了五年恋爱了。」<br>「什么——！」」什么——！「不仅是波波和鸢尾花，就连几个旁边的的女孩子也惊呼了出来，看来她们刚才在偷听我们对话。<br>波波刚才还在笑，这时表情却严肃的可怕。我有一次被军事法庭审问的时候，那个法官的脸就和她现在一样黑。波波平时一直很开朗，笑容仿佛天生带在她的脸上，我还从来没见过她的表情冷若寒冰到这种地步。<br>我扭头去看鸢尾花，她刚刚也还在轻笑，可是现在也是两眼无光。旁边几个偷听的女孩现在也站了起来，围在我旁边，给我一股无言的压力。<br>我到底做错了什么？女人心也太难了，刚刚还有说有笑，现在仿佛要把我掐死。<br>我被这个气氛逼迫的受不了了，小心翼翼地把被油布包裹的「安洁」放在了桌子上，指了指，」就她啊，你们不会不知道吧。「<br>周围的氛围突然就变了，如果要我形容的话就是变成了鲜花的海洋，女孩子们又开始有说有笑，仿佛刚才的一切没发生一样。<br>「我就说教练怎么可能有女朋友，你一脸单身一辈子的面相。」<br>「是啊，是啊，现在天天能见到我们已经用光了教练一辈子的桃花运了。」<br>喂喂喂，这些人是不是越说越过分了。<br>「所以呢，叫我过来什么事？」<br>我实在受不了这个不断贬低我的话题走向了，主动岔开了话题。<br>「我们想知道教官是个什么样的人。」<br>「我不就是我，现在站在你们面前的我是什么样我就是什么样。我可没有背地里偷偷说你们坏话。」<br>「波波问的不好，我们想知道您参军之前是什么样的人，还有您之后还要详细解释解释说坏话的那部分。」<br>「我也想听。」<br>又有几个人凑了进来起哄。<br>我挥了挥手，想起了一个人，不知道她现在还过的好吗？<br>「没什么好说的，我给你们讲点我在前线的故事吧。」<br>「咦——！」看来我的观众很不满意，纷纷发出遗憾的声音。</p>
-<p>一小时后<br>「所以我当时就左手托着他下巴，右手压着他的头顶，然后『咔擦』一声」<br>我边说边比划，用同样的姿势托着波波的头，她甚至用头轻轻地摩擦着我的手。<br>「然后你们猜怎么着？他的头就倒了，他当时就托着自己头到处乱跑，边跑还边喊：『我头呢，我头呢？』」<br>看来我绘声绘色的表演深入人心，有几个女孩甚至下意识地去扶自己的头。<br>虽然一开始大家都不满意，可听着听着就入神了，现在我周围围了里三层外三层，就连夜莺也在。<br>「教官你肯定骗人的，怎么可能头掉了还能跑。」<br>「好，休息时间结束了，现在是训练时间，今天你们听我讲了故事，所以训练量还要加。还有你，竟敢质疑教官，你今天训练量再加。」<br>「欸——！怎么这样——！」</p>
-<p>这几天的晚上不知道为什么一直保持着鸢尾花和朔月的轮换，她们不会是一起被欺负了吧？不过鸢尾花那种性格，要想不被她欺负才比较难吧。<br>上次虽然鸢尾花说惩罚内容会升级，不过之后就连公主抱都取消了，就只是单纯到我房间坐着，呆的时间倒是越来越长了，朔月甚至会带本书来看。</p>
-<p>又过了几天，我盼星星盼月亮等的那辆吉普车终于到了营区。<br>可惜我没有等来我想要的装备反而是演习安排。<br>「中午十二点开始，你们要在后山进行一场演习，你可以指挥的是所有女巫，你面对的是两个营的……」<br>还没等恶幼女说完，我就打断了她的话，「不用告诉我对面的部署，战场上敌人可不会告诉别人自己的信息。<br>「哦？你这么有信心？不过盲目自信可会害了你自己。」</p>
-<p>后山，中午<br>「再确认一下无线电是否通信顺畅.」我举起手上体积庞大的无线电，讲了几句。<br>夜莺手上的那台无线电马上就传来我的声音，不过杂音很大。<br>就算在这么近的距离也有这么强的干扰吗？<br>无线电不像高功率电报，通讯距离很短，而且很容易受到干扰。<br>我们女巫部队只有连级编制，按照军队配置，所以只给了我们一对无线电。这完全是错误的，我们人数虽然很少，但在战术上我认为完全有一个装甲连级编制，最少应该给我配九台无线电。<br>显然上级对我们女巫部队的理解和我有很大差距，不过这种观念也只能靠姑娘们精彩的表现逐渐扭转了。<br>「我刚才已经把计划都说清楚了吧，我们现在没法即时通讯，只能尽量把计划布置的完善了。」<br>没有人说话，看得出来大家都很紧张，就连夜莺也没回答我。她们现在就像是被鹰妈妈往悬崖下面推的小鹰，这就是个演习，至于这么夸张吗？<br>我拍了拍手，把所有人的注意力吸引到我身上，「少将看我们平时幸苦，特意安排我们和友方部队进行一场后山的春游。」<br>她们现在看着我，仿佛在看一个蹩脚的喜剧演员。我实在是不会搞这种战前动员，我以前的连队长鼓动人真的有一手的，我当时就该和他学两手。<br>似乎是为了给我打圆场，波波突然轻轻地哼起歌。音乐就是有一种莫名其妙的魅力，一旦一滴水滴落，马上就会形成一片湖泊，紧跟着又有其他几个人唱了起来，最后变成了大合唱。<br>一曲完毕，所有人都显得很兴奋。<br>「之前不是说叫我唱歌吗，这一次要是赢了，我就开个演唱会，让你们听个够。」<br>「教官，你也太高看自己了，那天只是恭维你的，谁愿意听你唱歌。」鸢尾花马上就拆我台了。<br>「你今天要是不亲手毙一个，你也得和我上台一起唱。」必须得压压她的嚣张气焰，我总觉得她越来越喜欢整蛊我了。<br>抬手看了一样表，指针刚刚好指向十二点。<br>「狩猎时间到了，可怕的女巫们该出去抓馋嘴的小孩了。」</p>
-<p>看着她们陆续离开，我只能心里默默为她们祈祷了，现在我能做的就是尽力隐藏好自己了，我身上带着无线电，要是被缴获了那就是个大麻烦了。<br>过了一会，无线电就传来夜莺的声音：「报告教官，A区没发现敌军炮兵阵地。」<br>「收到，二班还没发送信号，你继续前往C区查看。」</p>
-<p>虽然我表面上对着恶幼女说不需要敌军资料，其实都是骗人的，我怕她会在这上面使花招，所以是自己数的。因为演习地点就在后山这么近，我早就安排人去数上山的部队了，他们为了及早详细了解和后山的地形，所以早早地上山了，殊不知把自己的人数暴露无疑。<br>根据侦察回来的情报，敌人只有一个步兵营和一个炮兵连，但是从其他方向上山的部队我们就不知道了，那个炮兵连是这次战斗的关键，所以必须早点确定位置。<br>虽然在一片山中找一只炮兵连无疑是大海捞针，但是还有两个办法，一个是诱导炮击，主动暴露自己的位置，让他们开炮，这样就知道他们的位置了。但是这有两个坏处，一个是诱饵部队很可能损失惨重，一个是炮兵可能在射击后转移阵地，那就白费了。<br>所以我选择另外一个方法，从上山时间推测 ，他们最多只有两个小时准备。炮兵阵地可不是说把炮拉过去就搞定了，山地崎岖，他们的运力有限，能部署的位置已经筛掉一大片了，同时他们还要选一个兼顾隐蔽性和火力覆盖的地方，所以我从地图上找了几个可疑的地点，让她们分散去找。<br>你问我为什么会有地图？从恶幼女车上「顺」来的，她安排这里训练，那么一定要准备地图，不然她怎么观察演习呢？不过她现在应该急得满地找了。<br>不一会，无线电又传来声音，夜莺在C区也没找到，我让她B区和二班汇合了。<br>怎么回事啊，就标了三个地点，难道三个都错了吗，夜莺都已经检查两个地点了，二班还一点消息都没，该不会是出什么事了吧？<br>越思考就越担忧，我心中的不安在急剧放大。<br>这时，远处传来一颗信号弹划空的声音，是红色信号弹。<br>如果不是敌军也恰好用了和我们一样的信号弹，那么就是二班已经压制敌军炮兵阵地了。<br>因为只有两台无线电，我们又分为四组行动，没有无线电的部队只能用信号弹交流了，这样容易暴露发信号弹部队的位置，其实我是尽量不想用的。<br>那可是一个炮兵连，她们真的可以压制？我原本的设想是四处侦察，发现位置后合而击之。<br>不会是和敌人的用混了吧？<br>二班的指挥是鸢尾花，如果是她的话说不定有什么办法。<br>虽然心中的疑问很多，我还是向信号弹地点移动。<br>走了一段距离后，无线电传来夜莺的声音。<br>「二班已经压制住敌军炮兵阵地，我们已经汇合。」<br>「收到，就地布防。」<br>「我们还缴获了敌人炮兵部队的无线电。」<br>啊？我现在心中千言万语，只汇聚成一个「啊？」字。<br>战场上是很难缴获敌人电台的，一来是这个东西很容易被摧毁，它体积庞大，一颗流弹就能让它报废，同时因为这个东西实在是太关键了，所以一旦有被缴获的可能性，指挥官就会下令摧毁电台，毁掉密码本。<br>现在来不及问具体详情了，既然拿到电台，那就好好利用吧。<br>「用缴获的无线电汇报，就说你们受到敌军小规模袭击，但已经击退敌人，考虑到阵地暴露，你们转移到A区了。」<br>「可我们都是女的，这样子不会被听出来吗？」<br>「找个装的最不像的，就是要他们听出来。」<br>「收到…………刚刚已经播报完毕，之后怎么办？」<br>「之后有两种可能，一班现在清扫敌人可能来的侦察兵，二班现在进行炮击准备。不对，你们有人会炮击吗？」<br>无线电现在一阵沉默。<br>「那算了，二班现在原地部署炸药，我马上过去。」<br>说是炸药，但是因为是演习，填充物都是大量的染料，今天不知道谁要吃这个大礼物了。</p>
-<p>赶到炮兵阵地的时候，我就只看到一片狼藉，有两门炮上面都沾了染料。没看到敌方「尸体」，看来全部都已经运回去了。<br>没时间问事情经过，我马上拿起无线电。<br>「一班，汇报情况。」<br>「未侦察到敌方侦察部队，但可能有疑似的敌方大规模部队前来，现在位置在xxx，xxx。」<br>这个位置应该是看我临时copy给她们的地图猜的，但是位置可能不是太准确。<br>「接下来十分钟后我会对你们进行二十分钟的炮火准备，到时候你们要激活魔盒，并且实时给我提供炮火校准。如果有必要可以在炮火准备时和敌人开战，但一定要在炮火准备结束后脱离战斗。」<br>平时拿个弹弓射树上的鸟都很难打中，更别提用大炮打几公里外的目标了，那些海军的舰炮隔几十公里射击更是摸奖中的摸奖，所以炮火校准是一项很关键的工作，一般在平地上炮兵阵地自己就可以完成校准，但是现在在森林里面，这种情况下一般是高空校准，会有飞行员高空观察实时校准，不过我们现在有可以零距离校准的好用观察员，还是好好利用吧。可以直接校准落到自己头上的炮弹，这可真的是一件神奇的事情。<br>阵地上一共有六门炮，但是已经有两门染上了染料，根据规定不能用了，就只剩四门炮可以用了，这个火力真的单薄，不过对手也没多厉害，凑合一下吧。<br>我马上开始了炮术瞄准速成班，其实就是如何利用炮上的瞄准镜进行简单的瞄准，同时教了一下如何调整炮位，这些东西说实话都是很基础的东西，原理就像枪一样，只不过是曲射的角度大了一点。下坠严重了一点。<br>单发，拉大栓，这就是狙！炮和枪的区别只是口径大小罢了。<br>她们学的很快，真不愧是年轻人，几分钟已经可以像模像样地操作了。<br>我已经把一门炮瞄准好了，时间刚好够，我就发射了一炮。<br>「教官，完全打歪了，再右移两百米左右。」<br>夜莺的话有点伤害到我的自尊了。两百米！一个正规炮兵就算喝醉了瞄准都打不到这么偏，虽然我不是炮兵出身，但这也太伤人了。<br>我进行了校准，再次发射，这次还是有一点误差，但已经没关系了，根据夜莺的回报，应该是打中人了。<br>我马上去观察其他三门炮的瞄准，稍作调整就开始齐射了。<br>虽然我们的精度不行，但是我发现我们还有一个优势——射速。炮兵一般都是要选臂力大的人，因为炮弹是要人手一颗一颗抬进炮膛，这对于炮兵是一件很艰苦的事情，长时间炮击很容易就导致射速下降，有些时候要进行长时间炮击，比如要炮击准备三天，这就需要炮兵三班倒地装填，真的是折磨人。<br>就这帮小姑娘要她们抬炮弹真的是辛苦人了，我让她们激活魔盒，在身体素质提升后，我们的射速可能能和精锐炮兵部队的射速相比。那些人的小臂比我的大腿都粗，很难想象现在这些姑娘们纤细的手臂也有那种爆发力。<br>射速稍微弥补了我们糟糕的炮术，自从完成校准后无线电就没有声音了，估计已经交战了。<br>二十分钟的炮术准备结束后，我想继续进行炮击扩大战果，但是无论怎么呼叫无线电夜莺都没有回复，我担心会有误伤，也不敢继续了。<br>现在情况不明，但是我们的位置肯定暴露了，现在必须马上撤离，我再次确认了一下埋在脚下的炸药的引线，然后潜伏起来。<br>过了十几分钟，有一小股侦察部队进入炮兵阵地。人太少了，现在炸有点不划算，我让二班进入激活状态，前去直接解决了他们，最好的情况是不要让这支侦察部队开出枪。但是她们的潜伏能力确实差了点，侦察班一般都是一支部队里面最精锐的，他们要执行的任务都是很危险的，二班在他们面前确实有点关公面前耍大刀了。敌人马上就发现了我们，并且首先开火，还好魔盒激活的够快，凭借我的冷枪和二班已经形成的半包围网总算是把他们全歼了。<br>他们为了活动轻便没有携带电台，我从一个人身上摸出几种信号弹，现在也只能猜猜看了，我拉响了绿色信号弹，并且重新回到隐藏位置。<br>我承认我有赌的成分，但是我赌对了。没过多久就有一支大部队前来查看情况了，看情况应该是主力部队，我们一次吃不完，所以我没有犹豫马上就开火了。<br>冷枪打到了一个看起来像是班长的人，他们对于这种死亡狙击完全没有抵抗力，没有想着马上架设机枪阵地反击，而是四散躲藏起来。<br>炮兵阵地虽然经过了很多次战斗，但是至少是那帮臂力惊人的炮兵构筑了两个小时的阵地，上面还是有很多牢固掩体的，很多人都选择炮兵阵地作为掩体。<br>正合我意，我的手放在起爆器上面正准备按下去，结果敌方部队的后方也传来了枪声，紧接着就是好几个慌乱的士兵进入了炮兵阵地。<br>不一会感觉敌人的大部队都进入了炮兵阵地，这一次我没有犹豫马上按下了起爆器。<br>阵地上顿时烟尘四起，人都拼命地从炮兵阵地跑出来，无一例外身上都沾满了染料。<br>我正准备在外围狙杀漏网之鱼，远处就发出了标志着演习结束的信号弹，同时我的无线电也接受到恶幼女的声音，「演习结束了，少尉回营地。」</p>
 ]]></content>
       <categories>
         <category>小说</category>
@@ -1557,33 +1557,6 @@ w:Rock-y did-nt like that</div>
 <p>我看了看手表，时间还有一点，我就找了个病床坐了下去，『我听夜莺汇报是重伤，可我从没听过重伤的人当天还能给别人讲故事的。』<br>『其实过来这里的记忆我都记不太清了，护士们说是红莲小姐来帮助我们脱离生命危险的。』<br>『红莲吗，好像最近都没见到她了，不知道干什么去了。』<br>『我们现在是一点事都没有了，但是护士们就是不让我们走，无聊的要死我就给休息时间的护士们讲故事。』<br>这套说辞我好像在哪里听过，哦对了，是我自己。<br>『那现在这里也有个听众，讲一讲你们当时的情况吧。』</p>
 <p>鸢尾花非要装模做样地咳嗽一下，然后才开始讲。<br>『我们一开始就很简单的进去了，路上有一队暗哨盘查，我们本来是想假装那两个被我们抓的俘虏来，朔月捏嗓子讲话假的要命，一下子就被发现了。』<br>『才没有，不是我的原因。』朔月马上泪眼汪汪地扑到了鸢尾花身上。<br>她们打闹了一会，我当然没有看的入迷，而是马上制止她们。<br>我轻轻地咳了一声，『后来呢，你们怎么处理的。』<br>鸢尾花现在白色的宽松病号服已经有点散开了，我隐隐约约看到一点青色，她原来喜欢这种颜色。<br>『我说我们是赶来支援的魔女，他们就半信半疑的放我们过了。后面都没什么好讲的了，弹药库门口就一个人在看守，我们很简单就解决掉他了，然后设置了延时引信。』<br>伪装不是这么容易的，鸢尾花应该还用了其他的什么手段。<br>朔月这时打断了鸢尾花的话，『引信是我设置的，时间没设置好，提早爆炸了。』<br>我们用的引信不是工兵爆破用的引信，是从延时爆炸炮弹上拆下来的，这种东西很难控制，就连专业的工兵也很难精准控制。</p>
 <p>我伸手摸了摸朔月的头来安慰她，她顿时舒服的眯上了眼。<br>『啊，不公平。』鸢尾花也把我的手抓到她的头上。<br>这到底是什么胜负欲？<br>『好了，后面我也大概猜到了，今天就到这吧。』我抬手看了看表，时间已经不早了，今天就到这吧。</p>
-]]></content>
-      <categories>
-        <category>小说</category>
-        <category>无名战记</category>
-      </categories>
-      <tags>
-        <tag>小说</tag>
-        <tag>恋爱</tag>
-        <tag>战争</tag>
-        <tag>无名战记</tag>
-        <tag>魔女</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>第十三章 红莲小姐？</title>
-    <url>/2023/08/13/%E7%AC%AC%E5%8D%81%E4%B8%89%E7%AB%A0-%E7%BA%A2%E8%8E%B2%E5%B0%8F%E5%A7%90%EF%BC%9F/</url>
-    <content><![CDATA[<p>『师傅，请指导我！』<br>次日清晨，我一打开房门就看到波波跪坐在我房间外。一看到我走出房门，她就马上三指伏地，头贴在地板上。<br>『有什么事情先进来说吧。』我招呼着她先进房间。<br>现在这个样子被别人看到可能以为我在霸凌女学员呢。<br>等等，我现在让她进房间是不是会更加被人误会？<br>『师傅如果不肯指导我，我就一直呆在这。』波波直接帮我把请进房间这个选项派出了，真是太好了。<br>『我猜你是昨天被朔月打的找不着北了，所以想让我特训你去复仇？』<br>波波先是点了点头，然后马上抬起头泪眼汪汪地看着我『才没有找不着北，北应该是……是……』波波站起来转了一圈，然后很肯定地指了一个方向。『这里！』<br>『真聪明！』虽然完全不是那里，但还是别伤波波的自尊心了。<br>『所以你希望我教你一点比昨天朔月还厉害的招式？』<br>『嗯嗯嗯（疯狂点头）。』</p>
-<p>这倒有点把我难住了，朔月昨天摆的架势不是我教的，应该是她入伍前自己学的，甚至可能不是本国主流的格斗术。 本来格斗术这种东西就没有高低之分，更何况我自己其实都不会几招。<br>军队里面教的格斗术都是动作最简单利索的杀招。而且考虑到现在冲锋枪、手枪的普及，近身格斗其实是很少出现的情况，同时军队的格斗术必须要保证队伍中水平最差的那个新兵也能有最低限度的使用，所以教的也不会太难。<br>我之前交给她们的就是我会的全部了，要是教枪法心得我倒是还能说出点不少我和“安洁“的甜蜜往事。</p>
-<p>『可我确实没什么可以教你们的了，或许你应该去请教朔月？』<br>『我昨晚就去找了她了，她一直在说着感觉、直觉什么的，我完全听不懂她在说什么。』<br>朔月看来是那种意识流的，要她来教，而且是教波波那确实有点难为她了。<br>『师傅，果然我是笨小孩吗？』波波现在抬头仰望我，眼睛还有泪光闪动，楚楚动人。<br>她应该是以为我不肯教她。说实话，她们基础不牢，我指点是可以的，但这部分最好靠实战来解决。<br>她们如果不激活魔盒，我和她们的实战一点意义都没有，但如果她们激活魔盒，我们之间的立场又对调了，我真的不知道我可以怎么样教导她们实战经验。<br>也许可以和红莲小姐说一下，给魔盒装一个输出限制装置。<br>『嗯~这样吧，今晚结束训练后，我们去后山训练。』<br>想来想去，现在我和她们相比最大的优势就是对野外战场的熟悉，如果我利用复杂地形和她们打，也许还有胜利的希望，如果这次训练效果好，应该就推广到全队。<br>因为保密的原因，之前我一直不敢把魔盒带出营地使用，但是上次演习就是在后山，我带魔盒去后山应该不算泄密吧。<br>『好！』波波气势十足地点了点头。<br>她刚才不会是在装可怜骗我吧？</p>
-<p>我和波波顺路一起去训练场。<br>刚一推开门，朔月就跑了上来。<br>『教练，昨天真的对不起。』这一幕怎么感觉和刚才波波在我门口一样。<br>而且朔月有什么需要对我道歉的事？朔月小天使昨天还帮我解围了，她能有什么对不起我的事？就算有，那我也一定会原谅的。<br>『你先等等，昨天发生什么事情值得你道歉？』<br>『就……就是……那个，那个……训练结束后……的那个。』<br>虽然她说话断断续续、支离破碎，而且声音越说越小，但我还是明白她想说什么了。<br>应该是她昨天训练结束后筋疲力尽时候的爆料。说实话，昨天虽然被全场女生的冰冷眼神注视着，但我觉得罪魁祸首应该是在旁边煽风点火的鸢尾花，朔月小天使能有什么错呢？</p>
-<p>『阿嚏——！』不远处的鸢尾花打了个大大的喷嚏。<br>『没事的，没事的，你不用在意，你要是不说我其实都快忘了。』我试着安慰朔月，可是她还是一个劲的道歉个不停。<br>这样下去就没完没了了，我打算转移话题了。<br>『今天怎么样，继续打擂台？』<br>可能是昨天朔月轻松打赢了波波，大家意识到波波也没多了不起，多练一练也是可以战胜的，现在大家都在很刻苦的训练。我想着成热打铁，不如今天再来一场吧。<br>『好，那我要第一个挑战！』波波马上就举起了手。<br>『行，你们两个去准备吧，我来做裁判。』</p>
-<p>今天的波波跟昨天显然不一样了，她没有马上就急着进攻，反而采取了很保守防守策略。<br>不过这一招对朔月也没什么用，朔月先是试探性地进攻了一下，发现波波采取完全防守的策略后，就转为大开大合的招式卖破绽，波波果然没忍住诱惑。<br>就在朔月一击右勾拳导致左防空虚的时候，波波拼着硬吃这一记右勾拳想给朔月关键一击决定比赛，谁知道朔月那一击只是佯攻，她将波波伸出来的直拳往外一挡，同时脚在波波的右膝盖上一勾。<br>波波为了躲避朔月刚才的右勾拳，整个身体重心已经向右偏移了，同时她为了打出右直拳反击，右脚前踏一大步，现在整个人的重心已经往右前方偏移，朔月那一挡已经让波波身体失衡了，之后更是轻轻地在波波往前伸的膝盖一勾就让波波整个人倒地了。<br>虽然这一招真的很精妙，但是有很明显的点到为止的武术家风格。刚才如果我是朔月，我会直接在波波的膝盖上狠踹一脚，膝盖是很脆弱的部位，一踹绝对能让对方暂时失去一只脚。刚才波波仅仅只是摔倒，如果她转入地面技，那么完好无损的膝盖就会是一个很大的威胁。地面技完全就是身体素质的对抗，这对于女巫来说是很不利的。<br>不过这也只是个训练，没必要那么认真，不管波波打不打算转入地面，我都觉得没必要继续战斗了，就吹响了象征比赛结束的哨声。<br>我哨声刚结束，第二位挑战者已经上台了，我只能马上把波波拖了出来。</p>
-<p>进行了十几场战斗，擂台终于结束了。<br>虽然今天还是以擂主朔月成功守擂结束，但是朔月的战斗明显比昨天辛苦一点了，大家也或多或少掌握了一点技巧，这真是好事。<br>看着朔月在魔盒失活后瘫倒在擂台上，我决定去扶她起来。<br>当我刚走近时，我心中的警铃就开始响了起来，现在的朔月两眼迷离，脸上布满红晕，就和昨天是一样的。<br>『波波，来帮忙搬一下朔月。』总之，还是先派出诱饵试探一下情况把。<br>波波完全不明所以，傻乎乎地走过去，她刚蹲下想把朔月的手搭在她肩膀上时，朔月突然一把搂住波波的腰，同时脸不断地深入山谷的裂隙中。<br>也就只有波波可以容纳整个人的头了，这还真是让人羡慕，不，伤风败俗啊。<br>现在这种情况，我觉得还是及早避难比较好。<br>『波波，朔月就交给你了，记得把她送去医务室。』说完我就头也不回地走了，虽然好像听到了波波的悲鸣，但那一定是我的错觉吧。</p>
-<p>黄昏，我正在房间看今天的报纸。<br>波波一脸怨恨地走了进来，她完全没有敲门，似乎是在表达对我的不满。<br>『朔月怎么样？你有把她送去医务室吗？』<br>『托教官的福，费了好大的劲才把她拖去。』<br>那一句托我的福，她说的咬牙切齿，但我决定无视。<br>『所以是什么情况？医生有查出什么吗？』<br>『军医说没什么异常，只是有一点疲劳，已经打了葡萄糖了，也抽了血，但是化验结果要明天才能出。』<br>我心里总是隐隐约约觉得朔月的这个情况有哪里不对劲，但又说不上来，既然专业的军医也说没问题，那应该是我想多了。<br>我看着波波拉到地上的脸，决定还是别继续逗她了。<br>『走吧，我们去后山训练，你带了魔盒吧。』<br>『带了，我们快点走吧。』她刚刚明明还一脸地愤懑，现在就像马上去春游的小朋友了。<br>小孩子还真是好哄，啊不，年轻人心情转变真是快啊。</p>
-<p>我们趁着昏暗的天色上了山，等爬到山顶的时候天已经完全黑了，天上的乌云很重，是个不适合空袭的好日子。<br>正走着呢，我听到草丛中传来悉悉索索的声音，草丛中虫叫鸟鸣之类的杂音很多，但是这个声音我却格外熟悉，是发报声！<br>我做了一个嘘声的手势，示意波波别出声，同时我蹑手蹑脚地走了过去。</p>
-<p>『红莲小姐？』我本来想尽可能不出声的，但是看到眼前的人还是不由得惊呼出来。<br>红莲小姐现在正坐在地上，她面前是一台小型发报机，这种发报机的功率很低，所以一般都会挑选夜晚的山上使用，山上可以更好的发出电报，而夜晚电报交流频率会下降，不容易受到别人干扰。<br>我实在不理解她在干什么，营区就有电话，她如果要联系谁的话直接打电话就行了，就算电话打不到，她直接在房间里发报不也行？干嘛跑到这荒山野岭的。<br>出乎我的意料，红莲小姐见到我却没有太多惊讶。<br>『果然是逃不出你的掌握，我认栽了。』红莲小姐一边说着，一边收拾起自己的发报机，同时很潇洒地走向下山的小道。<br>我的掌握？认栽？我完全不明白她在说什么，我之前是觉得红莲小姐这种天才工程师有点古怪的脾气很正常，可是这有点太古怪了。我是不是该考虑换个技术员了？<br>『师傅，开始训练吧！』<br>波波完全没理会红莲小姐的异常，完全在期待着接下来的训练。今天已经答应她了，还是先顾着她这边吧。<br>『那现在你在这待一分钟，一分钟之后你激活魔盒战斗开始，你要防备着我从各个方向袭来。』<br>『收到。』<br>波波马上捂上眼睛开始计数，我怎么感觉我像是一个拐卖小女孩来野外玩捉迷藏的变态。</p>
-<p>波波很老实地数到六十才睁眼，并且马上激活了魔盒，魔盒控制面板上面泛出幽幽绿光。<br>这在夜晚的战斗中就是靶标指示器，下次要想办法遮住这个光啊。<br>波波现在一旦有风吹草动就马上转过头去，如果是平时的我，就会先耗上三个小时，先把她的魔盒能量耗光，不过今天还是别玩这种战术了。<br>在刚才波波读秒的时候我就已经给安洁上了膛，同时关掉了保险，这不是为了妄图用狙击对抗女巫的魔罩。<br>我用石头扔向安洁，虽然天色昏暗，但是距离很近，石头准确命中安洁的扳机，瞬时黑夜中就响起一声枪响和火光。<br>波波就像等候飞盘的猎犬，一个箭步就飞奔冲向火光处，可是在哪里等待她的只有一把步枪，人呢？人在树上。<br>看准时机，我就从树上跳下，既然冲击力不够，就用重力来补。<br>我刚落下，波波就已经察觉了，她急忙一躲，但是这种从z轴的进攻还是打乱了她的节奏，我还是成功扑到了她。拖入地面扭斗，这下就已经成功一大半了。<br>我死死摁住波波的腰部，这样她无法腰部发力，就不能使用下半身了。可我刚觉得胜利的把握巨大的时候，波波就把我甩了出去。<br>我自觉刚才的力道，就算是体重比我重40斤的人也应该难以摆脱，可是魔盒加持的波波这么简单就把我甩了出去。<br>还好只是落在草地上，柔软的泥土吸收了不少冲击力，但背还是生疼。<br>正常情况下，这时该马上拉开距离，但我不觉得我的赛跑成绩会比波波好，那就只能继续近身肉搏了。<br>我从地上爬起来，姿态还没保持稳定，波波已经到我脸上了，我一头撞上去，想给她出其不意来个头槌，但是我的腹部先一步吃了一拳。<br>『投降，我输了！』要是再不快点结束，我估计就要被狂风暴雨的拳头撕成碎片了。<br>波波想收回马上要打出的一招，但很明显已经来不及了，她和我撞在一起，倒在地上了。<br>我的老背哟，刚吃了一下，现在又来一下。<br>我现在终于体会到其它女巫之前面对波波时的那种无力感了，朔月到底是什么怪物，竟然能把这样的波波轻松解决。<br>不过这一次还是有很多收获的，我觉得对于之后制定女巫部队的战术还是有一点参考意义的。<br>『师傅，没事吧？』<br>昏暗中我看不清波波的脸，只有她的吐息不断吹到我的胸膛上。<br>『没事，先起来吧，我完全打不过你啊。』<br>『才没有那回事，师傅真的很厉害。』<br>我明明输的一塌涂地，但是她还这么安慰我，虽然这让我更难受了。<br>『回去吧，扶我一把，我背有点疼。』</p>
 ]]></content>
       <categories>
         <category>小说</category>
@@ -1769,6 +1742,33 @@ w:Rock-y did-nt like that</div>
       </tags>
   </entry>
   <entry>
+    <title>第十三章 红莲小姐？</title>
+    <url>/2023/08/13/%E7%AC%AC%E5%8D%81%E4%B8%89%E7%AB%A0-%E7%BA%A2%E8%8E%B2%E5%B0%8F%E5%A7%90%EF%BC%9F/</url>
+    <content><![CDATA[<p>『师傅，请指导我！』<br>次日清晨，我一打开房门就看到波波跪坐在我房间外。一看到我走出房门，她就马上三指伏地，头贴在地板上。<br>『有什么事情先进来说吧。』我招呼着她先进房间。<br>现在这个样子被别人看到可能以为我在霸凌女学员呢。<br>等等，我现在让她进房间是不是会更加被人误会？<br>『师傅如果不肯指导我，我就一直呆在这。』波波直接帮我把请进房间这个选项派出了，真是太好了。<br>『我猜你是昨天被朔月打的找不着北了，所以想让我特训你去复仇？』<br>波波先是点了点头，然后马上抬起头泪眼汪汪地看着我『才没有找不着北，北应该是……是……』波波站起来转了一圈，然后很肯定地指了一个方向。『这里！』<br>『真聪明！』虽然完全不是那里，但还是别伤波波的自尊心了。<br>『所以你希望我教你一点比昨天朔月还厉害的招式？』<br>『嗯嗯嗯（疯狂点头）。』</p>
+<p>这倒有点把我难住了，朔月昨天摆的架势不是我教的，应该是她入伍前自己学的，甚至可能不是本国主流的格斗术。 本来格斗术这种东西就没有高低之分，更何况我自己其实都不会几招。<br>军队里面教的格斗术都是动作最简单利索的杀招。而且考虑到现在冲锋枪、手枪的普及，近身格斗其实是很少出现的情况，同时军队的格斗术必须要保证队伍中水平最差的那个新兵也能有最低限度的使用，所以教的也不会太难。<br>我之前交给她们的就是我会的全部了，要是教枪法心得我倒是还能说出点不少我和“安洁“的甜蜜往事。</p>
+<p>『可我确实没什么可以教你们的了，或许你应该去请教朔月？』<br>『我昨晚就去找了她了，她一直在说着感觉、直觉什么的，我完全听不懂她在说什么。』<br>朔月看来是那种意识流的，要她来教，而且是教波波那确实有点难为她了。<br>『师傅，果然我是笨小孩吗？』波波现在抬头仰望我，眼睛还有泪光闪动，楚楚动人。<br>她应该是以为我不肯教她。说实话，她们基础不牢，我指点是可以的，但这部分最好靠实战来解决。<br>她们如果不激活魔盒，我和她们的实战一点意义都没有，但如果她们激活魔盒，我们之间的立场又对调了，我真的不知道我可以怎么样教导她们实战经验。<br>也许可以和红莲小姐说一下，给魔盒装一个输出限制装置。<br>『嗯~这样吧，今晚结束训练后，我们去后山训练。』<br>想来想去，现在我和她们相比最大的优势就是对野外战场的熟悉，如果我利用复杂地形和她们打，也许还有胜利的希望，如果这次训练效果好，应该就推广到全队。<br>因为保密的原因，之前我一直不敢把魔盒带出营地使用，但是上次演习就是在后山，我带魔盒去后山应该不算泄密吧。<br>『好！』波波气势十足地点了点头。<br>她刚才不会是在装可怜骗我吧？</p>
+<p>我和波波顺路一起去训练场。<br>刚一推开门，朔月就跑了上来。<br>『教练，昨天真的对不起。』这一幕怎么感觉和刚才波波在我门口一样。<br>而且朔月有什么需要对我道歉的事？朔月小天使昨天还帮我解围了，她能有什么对不起我的事？就算有，那我也一定会原谅的。<br>『你先等等，昨天发生什么事情值得你道歉？』<br>『就……就是……那个，那个……训练结束后……的那个。』<br>虽然她说话断断续续、支离破碎，而且声音越说越小，但我还是明白她想说什么了。<br>应该是她昨天训练结束后筋疲力尽时候的爆料。说实话，昨天虽然被全场女生的冰冷眼神注视着，但我觉得罪魁祸首应该是在旁边煽风点火的鸢尾花，朔月小天使能有什么错呢？</p>
+<p>『阿嚏——！』不远处的鸢尾花打了个大大的喷嚏。<br>『没事的，没事的，你不用在意，你要是不说我其实都快忘了。』我试着安慰朔月，可是她还是一个劲的道歉个不停。<br>这样下去就没完没了了，我打算转移话题了。<br>『今天怎么样，继续打擂台？』<br>可能是昨天朔月轻松打赢了波波，大家意识到波波也没多了不起，多练一练也是可以战胜的，现在大家都在很刻苦的训练。我想着成热打铁，不如今天再来一场吧。<br>『好，那我要第一个挑战！』波波马上就举起了手。<br>『行，你们两个去准备吧，我来做裁判。』</p>
+<p>今天的波波跟昨天显然不一样了，她没有马上就急着进攻，反而采取了很保守防守策略。<br>不过这一招对朔月也没什么用，朔月先是试探性地进攻了一下，发现波波采取完全防守的策略后，就转为大开大合的招式卖破绽，波波果然没忍住诱惑。<br>就在朔月一击右勾拳导致左防空虚的时候，波波拼着硬吃这一记右勾拳想给朔月关键一击决定比赛，谁知道朔月那一击只是佯攻，她将波波伸出来的直拳往外一挡，同时脚在波波的右膝盖上一勾。<br>波波为了躲避朔月刚才的右勾拳，整个身体重心已经向右偏移了，同时她为了打出右直拳反击，右脚前踏一大步，现在整个人的重心已经往右前方偏移，朔月那一挡已经让波波身体失衡了，之后更是轻轻地在波波往前伸的膝盖一勾就让波波整个人倒地了。<br>虽然这一招真的很精妙，但是有很明显的点到为止的武术家风格。刚才如果我是朔月，我会直接在波波的膝盖上狠踹一脚，膝盖是很脆弱的部位，一踹绝对能让对方暂时失去一只脚。刚才波波仅仅只是摔倒，如果她转入地面技，那么完好无损的膝盖就会是一个很大的威胁。地面技完全就是身体素质的对抗，这对于女巫来说是很不利的。<br>不过这也只是个训练，没必要那么认真，不管波波打不打算转入地面，我都觉得没必要继续战斗了，就吹响了象征比赛结束的哨声。<br>我哨声刚结束，第二位挑战者已经上台了，我只能马上把波波拖了出来。</p>
+<p>进行了十几场战斗，擂台终于结束了。<br>虽然今天还是以擂主朔月成功守擂结束，但是朔月的战斗明显比昨天辛苦一点了，大家也或多或少掌握了一点技巧，这真是好事。<br>看着朔月在魔盒失活后瘫倒在擂台上，我决定去扶她起来。<br>当我刚走近时，我心中的警铃就开始响了起来，现在的朔月两眼迷离，脸上布满红晕，就和昨天是一样的。<br>『波波，来帮忙搬一下朔月。』总之，还是先派出诱饵试探一下情况把。<br>波波完全不明所以，傻乎乎地走过去，她刚蹲下想把朔月的手搭在她肩膀上时，朔月突然一把搂住波波的腰，同时脸不断地深入山谷的裂隙中。<br>也就只有波波可以容纳整个人的头了，这还真是让人羡慕，不，伤风败俗啊。<br>现在这种情况，我觉得还是及早避难比较好。<br>『波波，朔月就交给你了，记得把她送去医务室。』说完我就头也不回地走了，虽然好像听到了波波的悲鸣，但那一定是我的错觉吧。</p>
+<p>黄昏，我正在房间看今天的报纸。<br>波波一脸怨恨地走了进来，她完全没有敲门，似乎是在表达对我的不满。<br>『朔月怎么样？你有把她送去医务室吗？』<br>『托教官的福，费了好大的劲才把她拖去。』<br>那一句托我的福，她说的咬牙切齿，但我决定无视。<br>『所以是什么情况？医生有查出什么吗？』<br>『军医说没什么异常，只是有一点疲劳，已经打了葡萄糖了，也抽了血，但是化验结果要明天才能出。』<br>我心里总是隐隐约约觉得朔月的这个情况有哪里不对劲，但又说不上来，既然专业的军医也说没问题，那应该是我想多了。<br>我看着波波拉到地上的脸，决定还是别继续逗她了。<br>『走吧，我们去后山训练，你带了魔盒吧。』<br>『带了，我们快点走吧。』她刚刚明明还一脸地愤懑，现在就像马上去春游的小朋友了。<br>小孩子还真是好哄，啊不，年轻人心情转变真是快啊。</p>
+<p>我们趁着昏暗的天色上了山，等爬到山顶的时候天已经完全黑了，天上的乌云很重，是个不适合空袭的好日子。<br>正走着呢，我听到草丛中传来悉悉索索的声音，草丛中虫叫鸟鸣之类的杂音很多，但是这个声音我却格外熟悉，是发报声！<br>我做了一个嘘声的手势，示意波波别出声，同时我蹑手蹑脚地走了过去。</p>
+<p>『红莲小姐？』我本来想尽可能不出声的，但是看到眼前的人还是不由得惊呼出来。<br>红莲小姐现在正坐在地上，她面前是一台小型发报机，这种发报机的功率很低，所以一般都会挑选夜晚的山上使用，山上可以更好的发出电报，而夜晚电报交流频率会下降，不容易受到别人干扰。<br>我实在不理解她在干什么，营区就有电话，她如果要联系谁的话直接打电话就行了，就算电话打不到，她直接在房间里发报不也行？干嘛跑到这荒山野岭的。<br>出乎我的意料，红莲小姐见到我却没有太多惊讶。<br>『果然是逃不出你的掌握，我认栽了。』红莲小姐一边说着，一边收拾起自己的发报机，同时很潇洒地走向下山的小道。<br>我的掌握？认栽？我完全不明白她在说什么，我之前是觉得红莲小姐这种天才工程师有点古怪的脾气很正常，可是这有点太古怪了。我是不是该考虑换个技术员了？<br>『师傅，开始训练吧！』<br>波波完全没理会红莲小姐的异常，完全在期待着接下来的训练。今天已经答应她了，还是先顾着她这边吧。<br>『那现在你在这待一分钟，一分钟之后你激活魔盒战斗开始，你要防备着我从各个方向袭来。』<br>『收到。』<br>波波马上捂上眼睛开始计数，我怎么感觉我像是一个拐卖小女孩来野外玩捉迷藏的变态。</p>
+<p>波波很老实地数到六十才睁眼，并且马上激活了魔盒，魔盒控制面板上面泛出幽幽绿光。<br>这在夜晚的战斗中就是靶标指示器，下次要想办法遮住这个光啊。<br>波波现在一旦有风吹草动就马上转过头去，如果是平时的我，就会先耗上三个小时，先把她的魔盒能量耗光，不过今天还是别玩这种战术了。<br>在刚才波波读秒的时候我就已经给安洁上了膛，同时关掉了保险，这不是为了妄图用狙击对抗女巫的魔罩。<br>我用石头扔向安洁，虽然天色昏暗，但是距离很近，石头准确命中安洁的扳机，瞬时黑夜中就响起一声枪响和火光。<br>波波就像等候飞盘的猎犬，一个箭步就飞奔冲向火光处，可是在哪里等待她的只有一把步枪，人呢？人在树上。<br>看准时机，我就从树上跳下，既然冲击力不够，就用重力来补。<br>我刚落下，波波就已经察觉了，她急忙一躲，但是这种从z轴的进攻还是打乱了她的节奏，我还是成功扑到了她。拖入地面扭斗，这下就已经成功一大半了。<br>我死死摁住波波的腰部，这样她无法腰部发力，就不能使用下半身了。可我刚觉得胜利的把握巨大的时候，波波就把我甩了出去。<br>我自觉刚才的力道，就算是体重比我重40斤的人也应该难以摆脱，可是魔盒加持的波波这么简单就把我甩了出去。<br>还好只是落在草地上，柔软的泥土吸收了不少冲击力，但背还是生疼。<br>正常情况下，这时该马上拉开距离，但我不觉得我的赛跑成绩会比波波好，那就只能继续近身肉搏了。<br>我从地上爬起来，姿态还没保持稳定，波波已经到我脸上了，我一头撞上去，想给她出其不意来个头槌，但是我的腹部先一步吃了一拳。<br>『投降，我输了！』要是再不快点结束，我估计就要被狂风暴雨的拳头撕成碎片了。<br>波波想收回马上要打出的一招，但很明显已经来不及了，她和我撞在一起，倒在地上了。<br>我的老背哟，刚吃了一下，现在又来一下。<br>我现在终于体会到其它女巫之前面对波波时的那种无力感了，朔月到底是什么怪物，竟然能把这样的波波轻松解决。<br>不过这一次还是有很多收获的，我觉得对于之后制定女巫部队的战术还是有一点参考意义的。<br>『师傅，没事吧？』<br>昏暗中我看不清波波的脸，只有她的吐息不断吹到我的胸膛上。<br>『没事，先起来吧，我完全打不过你啊。』<br>『才没有那回事，师傅真的很厉害。』<br>我明明输的一塌涂地，但是她还这么安慰我，虽然这让我更难受了。<br>『回去吧，扶我一把，我背有点疼。』</p>
+]]></content>
+      <categories>
+        <category>小说</category>
+        <category>无名战记</category>
+      </categories>
+      <tags>
+        <tag>小说</tag>
+        <tag>恋爱</tag>
+        <tag>战争</tag>
+        <tag>无名战记</tag>
+        <tag>魔女</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>第十六章 大捷</title>
     <url>/2023/08/16/%E7%AC%AC%E5%8D%81%E5%85%AD%E7%AB%A0-%E5%A4%A7%E6%8D%B7/</url>
     <content><![CDATA[<p>『教官，敌人还没发起进攻。』<br>夜莺的报告使我送了一口气，总算避免了最糟糕的情况，但我们的时间也不多了。<br>『按照原定计划执行，夜莺汇报一下地形。』<br>其实地图上已经有很详细的地形资料了，但我还是买个保险吧。<br>『附近有一片树林，但已经被砍伐光了，不会影响视野。』<br>『有地形比较崎岖险峻的地方吗？』<br>『没有，基本都被清理了，但我们侧翼有一条河流，这算吗？』<br>那看来也只能是哪里。<br>『就是那了，三队四队不用布防了，即可前往那里。』<br>『河流宽度如何，水流如何？』<br>『现在是雨季，水流很急，河流也很宽，我认为敌人很难进行武装渡河。』<br>『不要被常识束缚，在滩头架设阵地。』<br>…………<br>…………<br>『有情况，有敌人从河底登岸？』<br>夜莺这句话说的含糊不清，她自己估计也在怀疑自己话的真实性。<br>『不用怀疑，开火。』<br>无线电里立刻传来嘈杂声。<br>『疑似击毙敌人两人，马上要接近要进入接近战了。』<br>『不用接近战，马上后撤，保持距离。』<br>『收到。』<br>放弃一个优势巨大的滩头阵地选择后撤是一件很愚蠢的事情，但我们现在的战争已经不能用常识来思考了。<br>我们可爱的女巫们现在实战经验太少了，敌方魔女已经在前线作战三个月了，这时候就应该采取保守战术，尽量避免伤亡的同时学习敌人的经验。<br>『已经撤退了，敌人没有选择继续追击。』<br>『她们要撤退，回堵她们，一旦发现她们的泅渡装备马上摧毁。』<br>……<br>『没有办法摧毁敌人的泅渡装备，那个似乎也是魔盒组成的。』<br>要追击吗，击其半渡是个很好的战术。<br>『不要追击了，你们刚才报告的疑似击倒的两个人，把她们的尸体抢过来。』<br>……<br>『尸体已经不见了，也可能是我们没有击倒，她们可能在最后一点时间激活了屏障。』<br>『别管尸体了，稳固阵地，敌人主攻随时可能发动进攻。』<br>结束了，虽然还要收拾残局，但我认为已经赢了。<br>我把无线电的对讲部分取下，转身去观察指挥室的情况，所有人还在忙碌地做着自己的事，甚至有的人开始打包物品方便随时撤退了。<br>恶幼女站在上校旁边，她也是一个劲地盯着沙盘，一言不发。<br>我走了过去，对着恶幼女说道，『少将，可以组建搜查队搜寻一下这条河的下游吗？』我指着地图上被我标识出来的河流。<br>『你在干什么，我可没闲心找你不小心掉到河里的手表，而且现在是雨期，搜寻难度很大，你就重新买一块吧。』<br>『不是手表这种廉价的东西，我的女巫部队可能击毙了两个魔女，她们的尸体可能顺着河漂流下去了。』<br>恶幼女马上跳了起来，抓着我的双手，『把详细情况告诉我。』<br>我简单地讲了一下情况，恶幼女就跳起来去抓起电话机，同时不断地布置着什么。</p>
@@ -1794,6 +1794,30 @@ w:Rock-y did-nt like that</div>
 <p>我感觉今晚敌人也很可能不会发起进攻了，所以突然有了一个大胆的想法。<br>『姑娘们，我觉得我们现在还必须守在这该死的地方完全是因为我们的侧翼还有一只敌人部队。』<br>『天这么晚了还呆在我们家后院，主人要睡了，客人也应该走了。』鸢尾花马上接上了我的话，她一下子就明白了我的意思。<br>『客人千辛万苦来到我们这，不用烟花庆祝一下也不符合我国的待客之道。』我也接着鸢尾花说道。<br>波波和朔月都是一脸茫然地看着我们两个一来一回，她们完全没理解我们在演什么戏剧。<br>夜莺马上打开了无线电，『我马上联系指挥所获得申请。』</p>
 <p>侧翼暴露从来都是相对的，我们的侧翼暴露，相应的敌人的侧翼也暴露了，这是一个很好的机会，他们立足未稳，现在狠狠给他一拳，必定可以让他们疼的倒在地上。</p>
 <p>没过一会指挥所就传回无线电。<br>夜莺转告我们指挥所的情况『指挥所说不能给我们提供新的兵员。只有炮火掩护。』<br>『足够了，太多人去送别也会显得我们逼格很低。出发吧，夜晚的女巫要去抓小孩来吃了。』</p>
+]]></content>
+      <categories>
+        <category>小说</category>
+        <category>无名战记</category>
+      </categories>
+      <tags>
+        <tag>小说</tag>
+        <tag>恋爱</tag>
+        <tag>战争</tag>
+        <tag>无名战记</tag>
+        <tag>魔女</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>第十章 是等了很久的知性美人</title>
+    <url>/2023/08/10/%E7%AC%AC%E5%8D%81%E7%AB%A0-%E6%98%AF%E7%AD%89%E4%BA%86%E5%BE%88%E4%B9%85%E7%9A%84%E7%9F%A5%E6%80%A7%E7%BE%8E%E4%BA%BA/</url>
+    <content><![CDATA[<p>第二天早上，我正在写夜莺的推荐信。其实我也没把握她到底会不会留下来，如果换作是我的话，那大概率会走的，唯一的问题就是少将会不会放人，所以我尽可能地遣词造句，希望能够说服少将，能够少一个人上战场总归是一件好事。<br>正想着呢，敲门声就想起了。<br>「请进！」<br>进来的果然是夜莺，她现在一脸神清气爽，是遇到什么好事了吗？<br>「先等一下，我正在写你的推荐信，还没写完，你先坐一会。」<br>我招呼着她坐下，谁知道她径直走了过来，一把抓住我正在写着的信，然后把它撕了，揉成一团然后随意地一抛。<br>「乱扔垃圾可不好，你这样是想说想留下来吗?我费尽心思写的，就算你不用，还可以留着以后给其他人用呢。」<br>「以后也不会用上，我们女巫小队不会有落伍者。」<br>她虽然说的很霸气，但落伍者还是会有的吧，我觉得到时候真上了战场，等她们这些女孩子看见因为腐臭的尸体吸引来的苍蝇群就会走的七七八八。<br>接着，夜莺从她身后掏出一个医疗箱放在桌子上，然后就把我正在写字的手拉了过去，拆开我缠的乱七八糟的绷带，重新上了一遍药，然后绑上绷带。<br>她的手法很娴熟，绷带缠的既不会太紧让血液循环不畅，又不会太松让病菌侵入。<br>「你家里有弟弟妹妹吗？我感觉你很会照顾人。」<br>「我一点都不会照顾人。「她说这话的时候脸色很平静，要按照她的性格很难讲出这种示弱的话。我又想起她之前说自己不会开罐头时那满脸的不甘。人可以有这么大的转变吗？<br>她不会是昨晚被魔鬼附身了吧？做法事的牧师可以进军营吗？<br>今天开始的训练内容进行了大规模的改良，我给她们增加了一些例如炮术瞄准、无线电如何使用的课程。<br>相比于过去，经过一次演习后她们更加深切地体会到学这些东西的实际意义，效果比过去好很多了。</p>
+<p>我最近觉得应该安排她们一点跳伞和泅渡训练，但是我自己提供不了。我能搞来子弹，但是运输机和运输船可就爱莫能助。<br>说起子弹我又来气，那个邪恶幼女根本没安排实弹训练就让她们拿枪去演习，她到底在想什么？<br>这天晚上，我写着希望增加训练内容的申请，敲门声响了起来。<br>「请进！」我有点想以后直接就不关门了。<br>进来的是朔月。<br>我熟练的地给她倒了一杯水，同时打开床头的小灯方便她看书。<br>我总感觉我最近有点习惯她们过来了，要是她们不来反而会感觉别扭。<br>时间不断流失，我们就这么静静地各自做着手头上的工作。<br>门突然又被敲响了。<br>是鸢尾花吗？我用眼神示意朔月，可她也是一脸茫然。<br>「请进。」<br>「我来帮您换药。」<br>进来的不是鸢尾花，而是夜莺。她还背着早上见过的那个小医药箱。<br>她话还没说完就停下来，然后死死地盯着朔月。<br>「朔月？」<br>「哦，朔月她是输了……」这次换我话说一半了，朔月突然死死地捂着我的嘴，就算手上沾满了我的口水也不在意。<br>「宿舍太吵了，我就来教官这里看会书。「朔月一边说着还不断用眼神暗示我沉默。<br>夜莺用怀疑的眼神打量了一下我们两，但也没说什么。<br>朔月好像是承受不住压力，她匆匆地合上书，然后急急忙忙走出去了，同时还不断给我使眼色。<br>我突然有点摸不透朔月了，她平时很安静内敛，有时候又会突然很激动，上次支持我代号是教官的时候也是这样。搞不懂基准是什么。<br>朔月走后，夜莺也没说什么，还是想早上一样换药，最后系了一个完美的结。<br>「你其实不用每天都来帮我，这点小事我自己还是搞得定。《作战条例》第一页就是写的怎么处理伤口。」<br>「这是我造成的，我会保证照顾你直到伤好为止。「<br>夜莺麻利地将用剩的消毒水和绷带收回那个医疗箱，同时找了个椅子坐了下来。<br>「还有什么事吗？「我见她没走，想着应该是还有什么要谈的吧。<br>「没事。「<br>这个空间又再度被沉默所占据。<br>这个气氛让我有点难受，我打算继续写申请书来转移注意力。<br>「您是想申请伞降和泅渡训练吗？就上次的演习来说确实是可能需要用到的。」<br>不知何时，夜莺已经站在我背后了，她沐浴露的香气不断飘进我的鼻子。<br>「我来帮您写吧。「<br>也不等我拒绝，她就强行接过我的笔。<br>她的字很好看，这也能加点印象分吧。<br>就算写的不好我再重写就是了，也不是什么大事，看了一会觉得我就开始觉得无聊了，虽然想睡觉但还有人在这里。<br>正当我想着该用什么借口赶人的时候。「我写好了。」<br>我接过她递来的文件，虽然公式化用语不是很熟练，但是基本把想表达的要点都写上，已经是可以交出去的水准了，而且写的很快，她很适合做秘书一类的工作啊。<br>我不知为什把手伸到她的头上摸了一下，意识到做了什么的我飞速把手抽了回来，但手却在半空中被她抓住了。<br>这下完蛋了，我做好手指被折断的准备。上次手指侥幸逃过一劫，这次人赃俱获看来是没得跑了。<br>谁知道她只是把我的手又重新放回她的头顶。她抓着我的手在她的头上胡乱地摸了几下，把她漆黑的头发又给摸乱了。<br>她的头发应该是刚洗过，很柔顺，手感很好。但我还是有点不敢久摸，她该不会是喝醉了吧，是明天她想起这件事来找我算账可就不好了。<br>我稍微挣扎了一下，就把手抽了出来。<br>她脸微微有点泛红，说了一句「我走了。」就离开了。</p>
+<p>第二天的训练也是一如往常，午饭时间我看到朔月和鸢尾花偷偷聚在一起说着什么。<br>想着和她们打个招呼我就凑了上去。<br>「夜莺也来就麻烦了，她可能才是最大的威胁。「走进以后就听到她们在小声说些什么。<br>「什么威胁？「你们训练也努努力啊，这几天夜莺训练节奏就控制的很好，进步也很大。」<br>我突然的出声显然把她们吓了一跳，她们两个都从椅子上跳了起来。<br>「教官？你怎么走路没声音的。」<br>说完鸢尾花就开始推着我往外走。<br>「走走走，女孩子讲悄悄话，教官不能听。」<br>被推到外面后，我还是不放心回头说了一句：「别担心被超过，你们的潜力也很好的。」<br>鸢尾花的脸突然就黑了起来。<br>「教官你根本就不懂。略<del>略</del>略~」<br>她对着我做了一个鬼脸，虽然很可爱，但我更想知道她说的我到底不懂什么。<br>我转身还想追问，接过门砰地一声就关上了。</p>
+<p>这一天晚上，朔月和鸢尾花以及夜莺是一起来我房间的。<br>我有点诧异这个组合。她们解释说是路上碰到就一起来了。<br>夜莺帮我换药的时候还要找借口搪塞朔月和鸢尾花，虽然用的蹩脚借口，虽然她们两个还有所怀疑，但是至少搪塞过去了。<br>之后她们三个就都赖在我的房间不走了，而且气氛沉默的可怕。我就算开口想问点什么，但都被冰冷的眼神打退回去了。就连朔月也是这样，我的小天使朔月怎么也会有那种眼神。</p>
+<p>又过了几天，那辆熟悉的吉普车又停在了营区。后面还跟了一辆卡车。<br>「快来搬东西，你指望我们两个弱女子来搬吗？」<br>这一次邪恶幼女不止是一个人来的，还有一个女性也更在后面。<br>那位女性年龄应该和我差不多，她有一头红色的长发，身上穿着一件白大褂。她的身材很曼妙，好吧，我说实话，她那真的是一对凶器，完全不是女巫部队里面那帮小女孩可以比的。估计也就波波可以勉强和她一战。</p>
+<p><img src="/images/211871.jpg"><img src="/images/211871-768x1024.jpg"></p>
+<p>「你好。」我反射性地伸出了手。<br>她也回以微笑，并且轻轻握了一下我的手。<br>「你们的演习报告我看过了，很感谢你把我设计的装备发挥出这种威力。「见我对她说的话有点茫然，她接着补充道：」就是MKⅢ型，哦对，你们应该是管它叫魔盒。」<br>她的声音很好听，我都没听进她说的是什么，而且还握着人家的手。<br>我意识到自己可能因为紧张，手心出了不少汗，急忙就把手松开了，偷偷藏在背后用衣服擦了擦。<br>「哪里，是您设计的优秀以及那帮小姑娘出色的运用。「看来她应该就是魔盒的设计者，虽然前一段时间我还在咒骂魔盒的设计者不考虑可靠性，但是我现在已经把那些都忘了。人就是不断往前的生物，如果不断沉湎于过去，就会停止成长的。<br>「你小子眼睛都看直了，快点叫女巫们出来搬东西吧。「邪恶幼女踢了我一脚并催促道。<br>我看的有那么明显吗？为了不给人家留下坏印象我尽量是自己摆出衣服扑克脸，同时眼睛也只用余光瞄她。</p>
+<p>我叫上还在训练的女巫们出来卸货，这一次卡车的运输用的是军用的卡车运输箱，不再是上次用木箱运输了。<br>运输用的箱子在平时可能只要随便拿个箱子装就行了，但是战时就不是这么简单了，卡车很容易成为敌军空袭的目标，所以军用卡车运输箱一般都会要求一定的防爆防冲击能力，同时对于规格大小也有一定的限制，必须保证完美填充不同型号卡车的内部空间。车厢内如果剩余空间很多，在急刹车或者急加速的时候货物就会松动，并且有可能直接刺穿车厢冲进驾驶室，有不少倒霉蛋司机就因为这个送命了。<br>从这一次的运输规格来看，是动真格的了。<br>我打开其中一个运输箱，缓冲填充物用的不是稻草而是泡沫，里面的魔盒还有一层外壳保护。<br>取出魔盒，最直观的感觉就是重量轻了，体积小了。就连螺丝都拧的很好。这几天我一直在研究那几台之前坏掉的魔盒，所以我对这种小细节深有感触，螺丝拧的松紧其实都是品质的一种反映。<br>「这一次可是我的得意之作。之前给你们的是我们仿制帝国的制作出来的，因为生产线、工艺和科技的问题，模仿的很不充分，可靠性也不高，这一款可以算是我们自己设计并制造的，现在生产线也已经搭建起来了。你要求的通话功能，我们在每一台MKⅣ型里面都加装了无线电，每个人都可以独立通讯。」<br>她的话语充满了自信，显然是对这部作品很得意。<br>看来是之前的演习起到了效果，如此将资源倾斜过来实在是有点出乎我的意料，估计少将也帮了不少忙。<br>「我当然相信您的装备，您之前送来的两款都是很可靠的，我们一直都是赞不绝口的。」<br>不知道为什么，女巫部队里面传来一阵鄙夷声。你们这帮人，这可是在别人面前呢！<br>「我的任务也做完了。少尉，你给我的申请我已经看了，因为要协调其他部队，可能没这么快搞定，你再等等就行。那你们帮忙给她安排个住处，我就先走了。」<br>「欸？要住在这吗？「我还以为她只是来查看情况的。<br>「是的，之后她就是您们的随军技术员了。她会指导你们维护和保养，你们有什么关于魔盒的问题只管问她就行了。」<br>说完，少将就走了出去。<br>「那么，以后就请多多指教了。」<br>那当然得多多指教了！</p>
 ]]></content>
       <categories>
         <category>小说</category>
@@ -1842,30 +1866,6 @@ w:Rock-y did-nt like that</div>
 <p>转身想走的时候想起口袋里的化验单了。<br>『红莲小姐，我有个问题啊。』<br>我简单地把这两天朔月的情况讲了一下。<br>『哦。这是里面的限制器起作用，你安排一下，让她们轮换训练，把MKⅣ拿过来，我把限制器拆了。』<br>『呃……为什么要装这种东西？』<br>红莲小姐用一种看着白痴一样的眼神看着我。<br>我又不是专业人士，我怎么知道这有什么意义，而且如果这个真有意义，为什么随便就可以拆？<br>『总是要留一手的，这个东西很隐秘，不会轻易让你们察觉出来，就算发作了也很难联想到是MKⅣ的原因，不然你指望就这么容易就把这技术给出来吗？』<br>给出来？给女巫部队吗？这东西原来是这么高的机密吗，给作战人员都要这样？</p>
 <p>这东西无论怎么想都只有副作用，难道说这也是为了抓间谍才装上去的吗？<br>间谍在女巫部队里面？</p>
 <p>我越想脑子越炸，还是算了，和红莲小姐交流一定不要思考她每句话的意思，这样只会折寿，她是专业人士，一定有她的办法。</p>
-]]></content>
-      <categories>
-        <category>小说</category>
-        <category>无名战记</category>
-      </categories>
-      <tags>
-        <tag>小说</tag>
-        <tag>恋爱</tag>
-        <tag>战争</tag>
-        <tag>无名战记</tag>
-        <tag>魔女</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>第十章 是等了很久的知性美人</title>
-    <url>/2023/08/10/%E7%AC%AC%E5%8D%81%E7%AB%A0-%E6%98%AF%E7%AD%89%E4%BA%86%E5%BE%88%E4%B9%85%E7%9A%84%E7%9F%A5%E6%80%A7%E7%BE%8E%E4%BA%BA/</url>
-    <content><![CDATA[<p>第二天早上，我正在写夜莺的推荐信。其实我也没把握她到底会不会留下来，如果换作是我的话，那大概率会走的，唯一的问题就是少将会不会放人，所以我尽可能地遣词造句，希望能够说服少将，能够少一个人上战场总归是一件好事。<br>正想着呢，敲门声就想起了。<br>「请进！」<br>进来的果然是夜莺，她现在一脸神清气爽，是遇到什么好事了吗？<br>「先等一下，我正在写你的推荐信，还没写完，你先坐一会。」<br>我招呼着她坐下，谁知道她径直走了过来，一把抓住我正在写着的信，然后把它撕了，揉成一团然后随意地一抛。<br>「乱扔垃圾可不好，你这样是想说想留下来吗?我费尽心思写的，就算你不用，还可以留着以后给其他人用呢。」<br>「以后也不会用上，我们女巫小队不会有落伍者。」<br>她虽然说的很霸气，但落伍者还是会有的吧，我觉得到时候真上了战场，等她们这些女孩子看见因为腐臭的尸体吸引来的苍蝇群就会走的七七八八。<br>接着，夜莺从她身后掏出一个医疗箱放在桌子上，然后就把我正在写字的手拉了过去，拆开我缠的乱七八糟的绷带，重新上了一遍药，然后绑上绷带。<br>她的手法很娴熟，绷带缠的既不会太紧让血液循环不畅，又不会太松让病菌侵入。<br>「你家里有弟弟妹妹吗？我感觉你很会照顾人。」<br>「我一点都不会照顾人。「她说这话的时候脸色很平静，要按照她的性格很难讲出这种示弱的话。我又想起她之前说自己不会开罐头时那满脸的不甘。人可以有这么大的转变吗？<br>她不会是昨晚被魔鬼附身了吧？做法事的牧师可以进军营吗？<br>今天开始的训练内容进行了大规模的改良，我给她们增加了一些例如炮术瞄准、无线电如何使用的课程。<br>相比于过去，经过一次演习后她们更加深切地体会到学这些东西的实际意义，效果比过去好很多了。</p>
-<p>我最近觉得应该安排她们一点跳伞和泅渡训练，但是我自己提供不了。我能搞来子弹，但是运输机和运输船可就爱莫能助。<br>说起子弹我又来气，那个邪恶幼女根本没安排实弹训练就让她们拿枪去演习，她到底在想什么？<br>这天晚上，我写着希望增加训练内容的申请，敲门声响了起来。<br>「请进！」我有点想以后直接就不关门了。<br>进来的是朔月。<br>我熟练的地给她倒了一杯水，同时打开床头的小灯方便她看书。<br>我总感觉我最近有点习惯她们过来了，要是她们不来反而会感觉别扭。<br>时间不断流失，我们就这么静静地各自做着手头上的工作。<br>门突然又被敲响了。<br>是鸢尾花吗？我用眼神示意朔月，可她也是一脸茫然。<br>「请进。」<br>「我来帮您换药。」<br>进来的不是鸢尾花，而是夜莺。她还背着早上见过的那个小医药箱。<br>她话还没说完就停下来，然后死死地盯着朔月。<br>「朔月？」<br>「哦，朔月她是输了……」这次换我话说一半了，朔月突然死死地捂着我的嘴，就算手上沾满了我的口水也不在意。<br>「宿舍太吵了，我就来教官这里看会书。「朔月一边说着还不断用眼神暗示我沉默。<br>夜莺用怀疑的眼神打量了一下我们两，但也没说什么。<br>朔月好像是承受不住压力，她匆匆地合上书，然后急急忙忙走出去了，同时还不断给我使眼色。<br>我突然有点摸不透朔月了，她平时很安静内敛，有时候又会突然很激动，上次支持我代号是教官的时候也是这样。搞不懂基准是什么。<br>朔月走后，夜莺也没说什么，还是想早上一样换药，最后系了一个完美的结。<br>「你其实不用每天都来帮我，这点小事我自己还是搞得定。《作战条例》第一页就是写的怎么处理伤口。」<br>「这是我造成的，我会保证照顾你直到伤好为止。「<br>夜莺麻利地将用剩的消毒水和绷带收回那个医疗箱，同时找了个椅子坐了下来。<br>「还有什么事吗？「我见她没走，想着应该是还有什么要谈的吧。<br>「没事。「<br>这个空间又再度被沉默所占据。<br>这个气氛让我有点难受，我打算继续写申请书来转移注意力。<br>「您是想申请伞降和泅渡训练吗？就上次的演习来说确实是可能需要用到的。」<br>不知何时，夜莺已经站在我背后了，她沐浴露的香气不断飘进我的鼻子。<br>「我来帮您写吧。「<br>也不等我拒绝，她就强行接过我的笔。<br>她的字很好看，这也能加点印象分吧。<br>就算写的不好我再重写就是了，也不是什么大事，看了一会觉得我就开始觉得无聊了，虽然想睡觉但还有人在这里。<br>正当我想着该用什么借口赶人的时候。「我写好了。」<br>我接过她递来的文件，虽然公式化用语不是很熟练，但是基本把想表达的要点都写上，已经是可以交出去的水准了，而且写的很快，她很适合做秘书一类的工作啊。<br>我不知为什把手伸到她的头上摸了一下，意识到做了什么的我飞速把手抽了回来，但手却在半空中被她抓住了。<br>这下完蛋了，我做好手指被折断的准备。上次手指侥幸逃过一劫，这次人赃俱获看来是没得跑了。<br>谁知道她只是把我的手又重新放回她的头顶。她抓着我的手在她的头上胡乱地摸了几下，把她漆黑的头发又给摸乱了。<br>她的头发应该是刚洗过，很柔顺，手感很好。但我还是有点不敢久摸，她该不会是喝醉了吧，是明天她想起这件事来找我算账可就不好了。<br>我稍微挣扎了一下，就把手抽了出来。<br>她脸微微有点泛红，说了一句「我走了。」就离开了。</p>
-<p>第二天的训练也是一如往常，午饭时间我看到朔月和鸢尾花偷偷聚在一起说着什么。<br>想着和她们打个招呼我就凑了上去。<br>「夜莺也来就麻烦了，她可能才是最大的威胁。「走进以后就听到她们在小声说些什么。<br>「什么威胁？「你们训练也努努力啊，这几天夜莺训练节奏就控制的很好，进步也很大。」<br>我突然的出声显然把她们吓了一跳，她们两个都从椅子上跳了起来。<br>「教官？你怎么走路没声音的。」<br>说完鸢尾花就开始推着我往外走。<br>「走走走，女孩子讲悄悄话，教官不能听。」<br>被推到外面后，我还是不放心回头说了一句：「别担心被超过，你们的潜力也很好的。」<br>鸢尾花的脸突然就黑了起来。<br>「教官你根本就不懂。略<del>略</del>略~」<br>她对着我做了一个鬼脸，虽然很可爱，但我更想知道她说的我到底不懂什么。<br>我转身还想追问，接过门砰地一声就关上了。</p>
-<p>这一天晚上，朔月和鸢尾花以及夜莺是一起来我房间的。<br>我有点诧异这个组合。她们解释说是路上碰到就一起来了。<br>夜莺帮我换药的时候还要找借口搪塞朔月和鸢尾花，虽然用的蹩脚借口，虽然她们两个还有所怀疑，但是至少搪塞过去了。<br>之后她们三个就都赖在我的房间不走了，而且气氛沉默的可怕。我就算开口想问点什么，但都被冰冷的眼神打退回去了。就连朔月也是这样，我的小天使朔月怎么也会有那种眼神。</p>
-<p>又过了几天，那辆熟悉的吉普车又停在了营区。后面还跟了一辆卡车。<br>「快来搬东西，你指望我们两个弱女子来搬吗？」<br>这一次邪恶幼女不止是一个人来的，还有一个女性也更在后面。<br>那位女性年龄应该和我差不多，她有一头红色的长发，身上穿着一件白大褂。她的身材很曼妙，好吧，我说实话，她那真的是一对凶器，完全不是女巫部队里面那帮小女孩可以比的。估计也就波波可以勉强和她一战。</p>
-<p><img src="/images/211871.jpg"><img src="/images/211871-768x1024.jpg"></p>
-<p>「你好。」我反射性地伸出了手。<br>她也回以微笑，并且轻轻握了一下我的手。<br>「你们的演习报告我看过了，很感谢你把我设计的装备发挥出这种威力。「见我对她说的话有点茫然，她接着补充道：」就是MKⅢ型，哦对，你们应该是管它叫魔盒。」<br>她的声音很好听，我都没听进她说的是什么，而且还握着人家的手。<br>我意识到自己可能因为紧张，手心出了不少汗，急忙就把手松开了，偷偷藏在背后用衣服擦了擦。<br>「哪里，是您设计的优秀以及那帮小姑娘出色的运用。「看来她应该就是魔盒的设计者，虽然前一段时间我还在咒骂魔盒的设计者不考虑可靠性，但是我现在已经把那些都忘了。人就是不断往前的生物，如果不断沉湎于过去，就会停止成长的。<br>「你小子眼睛都看直了，快点叫女巫们出来搬东西吧。「邪恶幼女踢了我一脚并催促道。<br>我看的有那么明显吗？为了不给人家留下坏印象我尽量是自己摆出衣服扑克脸，同时眼睛也只用余光瞄她。</p>
-<p>我叫上还在训练的女巫们出来卸货，这一次卡车的运输用的是军用的卡车运输箱，不再是上次用木箱运输了。<br>运输用的箱子在平时可能只要随便拿个箱子装就行了，但是战时就不是这么简单了，卡车很容易成为敌军空袭的目标，所以军用卡车运输箱一般都会要求一定的防爆防冲击能力，同时对于规格大小也有一定的限制，必须保证完美填充不同型号卡车的内部空间。车厢内如果剩余空间很多，在急刹车或者急加速的时候货物就会松动，并且有可能直接刺穿车厢冲进驾驶室，有不少倒霉蛋司机就因为这个送命了。<br>从这一次的运输规格来看，是动真格的了。<br>我打开其中一个运输箱，缓冲填充物用的不是稻草而是泡沫，里面的魔盒还有一层外壳保护。<br>取出魔盒，最直观的感觉就是重量轻了，体积小了。就连螺丝都拧的很好。这几天我一直在研究那几台之前坏掉的魔盒，所以我对这种小细节深有感触，螺丝拧的松紧其实都是品质的一种反映。<br>「这一次可是我的得意之作。之前给你们的是我们仿制帝国的制作出来的，因为生产线、工艺和科技的问题，模仿的很不充分，可靠性也不高，这一款可以算是我们自己设计并制造的，现在生产线也已经搭建起来了。你要求的通话功能，我们在每一台MKⅣ型里面都加装了无线电，每个人都可以独立通讯。」<br>她的话语充满了自信，显然是对这部作品很得意。<br>看来是之前的演习起到了效果，如此将资源倾斜过来实在是有点出乎我的意料，估计少将也帮了不少忙。<br>「我当然相信您的装备，您之前送来的两款都是很可靠的，我们一直都是赞不绝口的。」<br>不知道为什么，女巫部队里面传来一阵鄙夷声。你们这帮人，这可是在别人面前呢！<br>「我的任务也做完了。少尉，你给我的申请我已经看了，因为要协调其他部队，可能没这么快搞定，你再等等就行。那你们帮忙给她安排个住处，我就先走了。」<br>「欸？要住在这吗？「我还以为她只是来查看情况的。<br>「是的，之后她就是您们的随军技术员了。她会指导你们维护和保养，你们有什么关于魔盒的问题只管问她就行了。」<br>说完，少将就走了出去。<br>「那么，以后就请多多指教了。」<br>那当然得多多指教了！</p>
 ]]></content>
       <categories>
         <category>小说</category>
