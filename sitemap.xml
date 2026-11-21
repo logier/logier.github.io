@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://logier.github.io/bilibili/index.html</loc>
+    <loc>https://logier.github.io/api/index.html</loc>
     
     <lastmod>2026-11-21</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://logier.github.io/api/index.html</loc>
+    <loc>https://logier.github.io/video/index.html</loc>
     
     <lastmod>2026-11-21</lastmod>
     
@@ -66,15 +66,6 @@
   
   <url>
     <loc>https://logier.github.io/link/index.html</loc>
-    
-    <lastmod>2026-11-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://logier.github.io/video/index.html</loc>
     
     <lastmod>2026-11-21</lastmod>
     
@@ -934,6 +925,13 @@
   </url>
   
   <url>
+    <loc>https://logier.github.io/tags/anny/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://logier.github.io/tags/hololive/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -942,13 +940,6 @@
   
   <url>
     <loc>https://logier.github.io/tags/Ina/</loc>
-    <lastmod>2026-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://logier.github.io/tags/anny/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -970,13 +961,6 @@
   
   <url>
     <loc>https://logier.github.io/tags/%E8%B4%9D%E5%A6%AE/</loc>
-    <lastmod>2026-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://logier.github.io/tags/ReGLOSS/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1011,21 +995,14 @@
   </url>
   
   <url>
+    <loc>https://logier.github.io/tags/ReGLOSS/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://logier.github.io/tags/%E8%84%9A%E6%9C%AC/</loc>
-    <lastmod>2026-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://logier.github.io/tags/filian/</loc>
-    <lastmod>2026-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://logier.github.io/tags/numi/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1040,6 +1017,20 @@
   
   <url>
     <loc>https://logier.github.io/tags/%E7%99%BD%E6%B3%A2%E3%82%89%E3%82%80%E3%81%AD/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://logier.github.io/tags/filian/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://logier.github.io/tags/numi/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1102,13 +1093,6 @@
   </url>
   
   <url>
-    <loc>https://logier.github.io/tags/%E7%8C%AB%E6%B1%B0%E6%9C%88%E5%A5%88/</loc>
-    <lastmod>2026-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://logier.github.io/tags/%E5%BD%A9%E8%99%B9%E7%A4%BE/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -1124,6 +1108,27 @@
   
   <url>
     <loc>https://logier.github.io/tags/%E8%83%A1%E6%A1%83%E3%81%AE%E3%81%82/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://logier.github.io/tags/%E7%8C%AB%E6%B1%B0%E6%9C%88%E5%A5%88/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://logier.github.io/tags/%E8%8A%B1%E8%8A%BD%E3%81%99%E3%81%BF%E3%82%8C/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://logier.github.io/tags/%E8%97%8D%E6%B2%A2%E3%82%A8%E3%83%9E/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1165,27 +1170,6 @@
   </url>
   
   <url>
-    <loc>https://logier.github.io/tags/%E8%8A%B1%E8%8A%BD%E3%81%99%E3%81%BF%E3%82%8C/</loc>
-    <lastmod>2026-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://logier.github.io/tags/%E8%97%8D%E6%B2%A2%E3%82%A8%E3%83%9E/</loc>
-    <lastmod>2026-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://logier.github.io/tags/%E7%89%A9%E8%AF%AD%E7%B3%BB%E5%88%97/</loc>
-    <lastmod>2026-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://logier.github.io/tags/Mimitaya/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -1194,6 +1178,13 @@
   
   <url>
     <loc>https://logier.github.io/tags/%E7%A5%9E%E6%88%90%E3%81%8D%E3%82%85%E3%81%B4/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://logier.github.io/tags/%E7%89%A9%E8%AF%AD%E7%B3%BB%E5%88%97/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1256,13 +1247,6 @@
   </url>
   
   <url>
-    <loc>https://logier.github.io/tags/%E7%99%BD%E4%B8%9D/</loc>
-    <lastmod>2026-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://logier.github.io/tags/%E4%B8%9C%E4%BA%AC%E9%A3%9F%E5%B0%B8%E9%AC%BC/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -1284,14 +1268,7 @@
   </url>
   
   <url>
-    <loc>https://logier.github.io/tags/%E4%B8%89%E6%AC%A1%E8%8D%AF/</loc>
-    <lastmod>2026-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://logier.github.io/tags/%E9%BB%91%E4%B8%9D/</loc>
+    <loc>https://logier.github.io/tags/%E7%99%BD%E4%B8%9D/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1312,6 +1289,13 @@
   </url>
   
   <url>
+    <loc>https://logier.github.io/tags/%E5%AE%AB%E5%B4%8E%E9%AA%8F/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://logier.github.io/tags/%E5%8C%97%E5%B0%8F%E8%B7%AF%E7%BF%A1%E7%BF%A0/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -1326,7 +1310,35 @@
   </url>
   
   <url>
-    <loc>https://logier.github.io/tags/%E5%AE%AB%E5%B4%8E%E9%AA%8F/</loc>
+    <loc>https://logier.github.io/tags/%E4%B8%89%E6%AC%A1%E8%8D%AF/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://logier.github.io/tags/%E9%BB%91%E4%B8%9D/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://logier.github.io/tags/%E8%83%A1%E6%A1%83%E8%AF%BA%E5%A8%85/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://logier.github.io/tags/%E8%8B%B1%E4%B8%BD%E8%90%A8/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://logier.github.io/tags/%E8%93%9D%E6%B3%BD%E8%89%BE%E7%8E%9B/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1368,28 +1380,28 @@
   </url>
   
   <url>
-    <loc>https://logier.github.io/tags/%E8%83%A1%E6%A1%83%E8%AF%BA%E5%A8%85/</loc>
-    <lastmod>2026-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://logier.github.io/tags/%E8%8B%B1%E4%B8%BD%E8%90%A8/</loc>
-    <lastmod>2026-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://logier.github.io/tags/%E8%93%9D%E6%B3%BD%E8%89%BE%E7%8E%9B/</loc>
-    <lastmod>2026-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://logier.github.io/tags/elu/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://logier.github.io/tags/%E7%99%BD%E9%9B%AA%E3%83%AC%E3%82%A4%E3%83%89/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://logier.github.io/tags/%E4%B8%89%E6%AC%A1%E5%85%83/</loc>
+    <lastmod>2026-11-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://logier.github.io/tags/tags/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1410,20 +1422,6 @@
   </url>
   
   <url>
-    <loc>https://logier.github.io/tags/%E7%99%BD%E9%9B%AA%E3%83%AC%E3%82%A4%E3%83%89/</loc>
-    <lastmod>2026-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://logier.github.io/tags/tags/</loc>
-    <lastmod>2026-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://logier.github.io/tags/%E8%8A%B1%E8%8A%BD%E3%81%AA%E3%81%9A%E3%81%AA/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -1432,13 +1430,6 @@
   
   <url>
     <loc>https://logier.github.io/tags/%E6%A3%AE%E4%B8%AD%E8%8A%B1%E5%92%B2/</loc>
-    <lastmod>2026-11-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://logier.github.io/tags/%E4%B8%89%E6%AC%A1%E5%85%83/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1454,14 +1445,14 @@
   </url>
   
   <url>
-    <loc>https://logier.github.io/categories/vtuber/vspo/</loc>
+    <loc>https://logier.github.io/categories/vtuber/hololive/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://logier.github.io/categories/vtuber/hololive/</loc>
+    <loc>https://logier.github.io/categories/vtuber/vspo/</loc>
     <lastmod>2026-11-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
