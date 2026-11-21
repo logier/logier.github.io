@@ -1,0 +1,315 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>hf-bot hugging face部署机器人 | logierの温馨小屋</title><meta name="author" content="logier"><meta name="copyright" content="logier"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="HF-bot本插件将会指引你在huggingface部署koishi、qsign、vits等插件，从而实现不需要本地运行并且功能丰富的机器人    部署qsign  文档原地址HuggingFace部署签名服务文档作者：0卡苏打水   QQ交流群：621069204 截至当前，HuggingFace空间unidbg-fetch-qsign同步更新至 1.1.9 版本 优点：不需要服务器搭建，白嫖H">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hf-bot hugging face部署机器人">
+<meta property="og:url" content="https://logier.github.io/2023/09/15/hf-bot%20%E6%8A%B1%E8%84%B8%E9%83%A8%E7%BD%B2%E6%9C%BA%E5%99%A8%E4%BA%BA/index.html">
+<meta property="og:site_name" content="logierの温馨小屋">
+<meta property="og:description" content="HF-bot本插件将会指引你在huggingface部署koishi、qsign、vits等插件，从而实现不需要本地运行并且功能丰富的机器人    部署qsign  文档原地址HuggingFace部署签名服务文档作者：0卡苏打水   QQ交流群：621069204 截至当前，HuggingFace空间unidbg-fetch-qsign同步更新至 1.1.9 版本 优点：不需要服务器搭建，白嫖H">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://logier.github.io/img/avatar.jpg">
+<meta property="article:published_time" content="2023-09-15T00:00:00.000Z">
+<meta property="article:modified_time" content="2023-10-14T07:02:12.000Z">
+<meta property="article:author" content="logier">
+<meta property="article:tag" content="教程">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://logier.github.io/img/avatar.jpg"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "hf-bot hugging face部署机器人",
+  "url": "https://logier.github.io/2023/09/15/hf-bot%20%E6%8A%B1%E8%84%B8%E9%83%A8%E7%BD%B2%E6%9C%BA%E5%99%A8%E4%BA%BA/",
+  "image": "https://logier.github.io/img/avatar.jpg",
+  "datePublished": "2023-09-15T00:00:00.000Z",
+  "dateModified": "2023-10-14T07:02:12.000Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "logier",
+      "url": "https://logier.github.io"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/littletako.png"><link rel="canonical" href="https://logier.github.io/2023/09/15/hf-bot%20%E6%8A%B1%E8%84%B8%E9%83%A8%E7%BD%B2%E6%9C%BA%E5%99%A8%E4%BA%BA/index.html"><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.7.2"><link rel="stylesheet" href="/pluginsSrc/@fortawesome/fontawesome-free/css/all.min.css?v=7.3.1"><link rel="stylesheet" href="/pluginsSrc/@fancyapps/ui/dist/fancybox/fancybox.css?v=6.1.15" media="print" onload="this.media='all'"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        try {
+          const data = { value }
+
+          if (ttl != null) {
+            data.expiry = Date.now() + ttl * 86400000
+          }
+
+          localStorage.setItem(key, JSON.stringify(data))
+        } catch (e) {
+          console.error(e)
+        }
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return
+
+        try {
+          const data = JSON.parse(itemStr)
+
+          if (data.expiry && Date.now() > data.expiry) {
+            localStorage.removeItem(key)
+            return
+          }
+
+          return data.value
+        } catch {
+          localStorage.removeItem(key)
+        }
+      }
+    }
+
+    const scriptCache = new Map()
+    const cssCache = new Map()
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => {
+        if (scriptCache.has(url)) {
+          return scriptCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const script = document.createElement('script')
+
+          script.src = url
+          script.async = true
+
+          for (const key in attr) {
+            script.setAttribute(key, attr[key])
+          }
+
+          script.onload = resolve
+          script.onerror = reject
+
+          document.head.appendChild(script)
+        })
+
+        scriptCache.set(url, promise)
+
+        return promise
+      },
+      getCSS: (url, id) => {
+        if (cssCache.has(url)) {
+          return cssCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const link = document.createElement('link')
+
+          link.rel = 'stylesheet'
+          link.href = url
+
+          if (id) {
+            link.id = id
+          }
+
+          link.onload = resolve
+          link.onerror = reject
+
+          document.head.appendChild(link)
+        })
+
+        cssCache.set(url, promise)
+
+        return promise
+      },
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!true && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const metaThemeColor = document.querySelector('meta[name="theme-color"]')
+      const activateDarkMode = () => {
+        document.documentElement.dataset.theme = 'dark'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.dataset.theme = 'light'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"top_n_per_article":1,"unescape":false,"pagination":{"enable":false,"hitsPerPage":8},"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: '/pluginsSrc/@egjs/infinitegrid/dist/infinitegrid.min.js?v=4.13.1',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'hf-bot hugging face部署机器人',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><style>#web_bg:before{background:rgba(0,0,0,0.7)}</style><link rel="stylesheet" href="/css/waterfall.css"><link rel="stylesheet" href="/css/bilibili.css"><meta name="generator" content="Hexo 8.1.2"><link rel="alternate" href="/atom.xml" title="logierの温馨小屋" type="application/atom+xml">
+</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>(()=>{
+  const $loadingBox = document.getElementById('loading-box')
+  const $body = document.body
+  const preloader = {
+    endLoading: () => {
+      if ($loadingBox.classList.contains('loaded')) return
+      $body.style.overflow = ''
+      $loadingBox.classList.add('loaded')
+    },
+    initLoading: () => {
+      $body.style.overflow = 'hidden'
+      $loadingBox.classList.remove('loaded')
+    }
+  }
+
+  preloader.initLoading()
+
+  if (document.readyState === 'complete') {
+    preloader.endLoading()
+  } else {
+    window.addEventListener('load', preloader.endLoading)
+    document.addEventListener('DOMContentLoaded', preloader.endLoading)
+    // Add timeout protection: force end after 7 seconds
+    setTimeout(preloader.endLoading, 7000)
+  }
+
+  if (true) {
+    btf.addGlobalFn('pjaxSend', preloader.initLoading, 'preloader_init')
+    btf.addGlobalFn('pjaxComplete', preloader.endLoading, 'preloader_end')
+  }
+})()</script><div class="bg-animation" id="web_bg" style="background-image: url(/img/bg.jpg);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar" loading='lazy'/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">90</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">75</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">12</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/article/"><i class="fa-fw fas fa-layer-group"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/novel/"><i class="fa-fw fas fa-book"></i><span> 小说</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-image"></i><span> 图库</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/gallery/"><i class="fa-fw fas fa-image"></i><span> 图片API</span></a></li><li><a class="site-page child" href="/waterfall/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/video/"><i class="fa-fw fas fa-book"></i><span> 视频</span></a></div><div class="menus_item"><a class="site-page" href="/bilibili/"><i class="fa-fw fab fa-bilibili"></i><span> B站收藏</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 目录</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/api/"><i class="fa-fw fas fa-heartbeat"></i><span> 接口状态</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://api.r10086.com/樱道随机图片api接口.php?图片系列=动漫综合1);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><img class="site-icon" src="/img/logo.png" alt="Logo" loading='lazy'><span class="site-name">logierの温馨小屋</span></a><a class="nav-page-title" href="/"><span class="site-name">hf-bot hugging face部署机器人</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/article/"><i class="fa-fw fas fa-layer-group"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/novel/"><i class="fa-fw fas fa-book"></i><span> 小说</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-image"></i><span> 图库</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/gallery/"><i class="fa-fw fas fa-image"></i><span> 图片API</span></a></li><li><a class="site-page child" href="/waterfall/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/video/"><i class="fa-fw fas fa-book"></i><span> 视频</span></a></div><div class="menus_item"><a class="site-page" href="/bilibili/"><i class="fa-fw fab fa-bilibili"></i><span> B站收藏</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 目录</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/api/"><i class="fa-fw fas fa-heartbeat"></i><span> 接口状态</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">hf-bot hugging face部署机器人</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-09-15T00:00:00.000Z" title="发表于 2023-09-15 08:00:00">2023-09-15</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-10-14T07:02:12.000Z" title="更新于 2023-10-14 15:02:12">2023-10-14</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%96%87%E7%AB%A0/">文章</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%96%87%E7%AB%A0/%E8%84%9A%E6%9C%AC/">脚本</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><h2 id="HF-bot"><a href="#HF-bot" class="headerlink" title="HF-bot"></a>HF-bot</h2><p>本插件将会指引你在huggingface部署koishi、qsign、vits等插件，从而实现不需要本地运行并且功能丰富的机器人</p>
+<details><summary>部署qsign</summary><h3 id="文档原地址"><a target="_blank" rel="noopener" href="https://github.com/CikeyQi/QQsign_docs">文档原地址</a></h3><h1 id="HuggingFace部署签名服务">HuggingFace部署签名服务</h1><p>文档作者：<code>0卡苏打水</code> QQ交流群：<code>621069204</code></p><p>截至当前，HuggingFace空间unidbg-fetch-qsign同步更新至 <code>1.1.9</code> 版本</p><p>优点：不需要服务器搭建，白嫖Huggingface的2核16G服务器，一键克隆即可运行，一人一地址</p><p>缺点：移动网络无法访问HuggingFace，部分地区网络可能存在一定延迟，如果出现timeout错误则是你运营商的问题，不是本教程的问题</p><p><strong>如果你是Windows，非常建议您查看我的这个项目：<a target="_blank" rel="noopener" href="https://ghproxy.com/https://github.com/CikeyQi/unidbg-fetch-qsign-gui">unidbg-fetch-qsign-gui</a></strong></p><h2 id="第一步：克隆空间">第一步：克隆空间</h2><p>打开我已经部署好的空间：<a target="_blank" rel="noopener" href="https://huggingface.co/spaces/CikeyQI/QQsign">QQsign</a>，点击右上角三个点，点击 <strong>Duplicate this Space</strong><br><img src="https://github.com/CikeyQi/QQsign_docs/blob/main/src/1.png?raw=true" alt="克隆空间" loading='lazy'></p><h2 id="第二步：填写相应的项">第二步：填写相应的项</h2><p><strong>Visibility：</strong></p><p>修改为<strong>Public</strong>，一定要公开，否则无法正常访问接口</p><p><strong>TXLIB_VERSION：</strong></p><p>本项请直接填写版本号即可，如 <code>8.9.68</code> ，不用填写路径！在本空间已经存放了官方提供的几个版本的so文件 <code>3.5.1</code> <code>3.5.2</code> <code>8.9.63</code> <code>8.9.68</code> <code>8.9.71</code> 和 <code>8.9.73</code> ，请将icqq更新到0.5.1版本以上以自动匹配协议版本，更新命令<code>pnpm add icqq@0.5.4 -w</code></p><br><p>填写好后，点击<strong>Duplicate this Space</strong>，将自动为您部署</p><p><img src="https://github.com/CikeyQi/QQsign_docs/blob/main/src/5.png?raw=true" alt="开始部署" loading='lazy'></p><h2 id="第三步：获取地址">第三步：获取地址</h2><p>当状态变成<strong>Running</strong>时，即部署成功</p><p><img src="https://github.com/CikeyQi/QQsign_docs/blob/main/src/6.png?raw=true" alt="空间开始运行" loading='lazy'></p><p>点击右上角三个点，选择<strong>Embed this Space</strong></p><p><img src="https://github.com/CikeyQi/QQsign_docs/blob/main/src/7.png?raw=true" alt="查看个人URL" loading='lazy'></p><p>下方Direct URL就是你的接口地址，点<strong>copy</strong>复制到剪切板</p><p><img src="https://github.com/CikeyQi/QQsign_docs/blob/main/src/6.png?raw=true" alt="查看个人URL" loading='lazy'></p><h3 id="至此，你已经获得了成功部署qsign并且获得了其url以及key">至此，你已经获得了成功部署qsign并且获得了其url以及key</h3><h2 id="后记：为什么我遇到了问题">后记：为什么我遇到了问题</h2><ol><li><p>检查克隆时是否填写了<strong>TXLIB_VERSION</strong>，否则克隆后空间会报错</p></li><li><p><strong>Visibility</strong>必须改成Public，否则第三步会没有<strong>Embed this Space</strong>，且机器人无法访问接口</p></li><li><p>如果你遇到’ERR_INVALID_ARG_TYPE’的报错，请删除设备文件再试</p></li><li><p>请检查服务器是否能访问huggingface.co</p></li><li><p>若仍有问题，可加入QQ群：<strong>621069204</strong>，询问解决办法</p></li></ol><h2 id="致谢">致谢</h2><ul><li>unidbg-fetch-qsign项目：<a target="_blank" rel="noopener" href="https://github.com/fuqiuluo/unidbg-fetch-qsign">unidbg-fetch-qsign</a></li></ul></details>
+
+  
+
+<details><summary>部署koishi（快速）</summary><h2 id="第一步：复制空间">第一步：复制空间</h2><p>打开风佬已经部署好的koishi空间：<a target="_blank" rel="noopener" href="https://huggingface.co/spaces/initencunter/koishi">koishi</a>，点击右上角三个点，点击 <strong>Duplicate this Space</strong><br><img src="https://github.com/logiest617/hf-bot/blob/main/QQ%E6%88%AA%E5%9B%BE20231002212902.png?raw=true" alt="克隆空间" loading='lazy'></p><h2 id="第二步：等候完成">第二步：等候完成</h2><p>接下来稍事等候：<a target="_blank" rel="noopener" href="https://huggingface.co/spaces/initencunter/koishi">koishi</a>，待出现状态变为running即部署成功<br><img src="https://github.com/logiest617/hf-bot/blob/main/QQ%E6%88%AA%E5%9B%BE20231002213507.png?raw=true" alt="克隆空间" loading='lazy'></p></details>
+
+  
+
+<details><summary>部署koishi（详细）</summary><h3 id="风佬嘴对嘴视频教程"><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV15H4y1f7nu">风佬嘴对嘴视频教程</a></h3></details>
+
+  
+
+<details><summary>部署vits（包含hf注册教程）</summary><h3 id="部署vits"><a target="_blank" rel="noopener" href="https://www.cnblogs.com/hanhanz/p/17110274.html#%E5%A6%82%E4%BD%95%E8%8E%B7%E5%8F%96%E8%AF%AD%E9%9F%B3%E6%A8%A1%E5%BC%8Fapi%E4%BB%A5%E5%8F%8Aapi%E9%85%8D%E7%BD%AE%E6%96%B9%E5%BC%8F">部署vits</a></h3></details>
+
+  
+
+<details><summary>部署memes,（也可以直接填入我的url）</summary><h3 id="部署memes"><a target="_blank" rel="noopener" href="https://huggingface.co/spaces/logier/memes">部署memes</a></h3></details>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://logier.github.io">logier</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://logier.github.io/2023/09/15/hf-bot%20%E6%8A%B1%E8%84%B8%E9%83%A8%E7%BD%B2%E6%9C%BA%E5%99%A8%E4%BA%BA/">https://logier.github.io/2023/09/15/hf-bot%20%E6%8A%B1%E8%84%B8%E9%83%A8%E7%BD%B2%E6%9C%BA%E5%99%A8%E4%BA%BA/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://logier.github.io" target="_blank">logierの温馨小屋</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%95%99%E7%A8%8B/">教程</a></div><div class="post-share"><div class="social-share" data-image="/img/avatar.jpg" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="/pluginsSrc/butterfly-extsrc/sharejs/dist/css/share.min.css?v=1.1.6" media="print" onload="this.media='all'"><script src="/pluginsSrc/butterfly-extsrc/sharejs/dist/js/social-share.min.js?v=1.1.6" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/2023/09/15/logbot-sh-%E4%B8%80%E4%B8%AA%E4%BE%BF%E6%8D%B7%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%84%9A%E6%9C%AC/" title="logbot.sh 一个便捷机器人脚本"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">logbot.sh 一个便捷机器人脚本</div></div><div class="info-2"><div class="info-item-1">指令很简单 只需要输入一行 个人网站源 sudo curl https://www.logier.icu/logbot.sh -o .&#x2F;logbot.sh &amp;&amp; sudo bash .&#x2F;logbot.sh gitee源（更新较慢） sudo curl https://gitee.com/logier/logbot/raw/master/logbot.sh -o .&#x2F;logbot.sh &amp;&amp; sudo bash .&#x2F;logbot.sh 目前的功能有： 1.dockers部署qsign 前面服务器，非猫猫登录qq必须，自动端口，只需要选择版本 2.gocq（还没写） 3.koishi 一键docker部署koishi 自动映射文件，自动顺位端口，方便多开 4.nonebot2 目前仅支持协助安装python、pipx、nb-cli，即按照nonebot2所需要的环境。 5.yunzai 云崽部分我自己的还在写，先用了两位大佬的脚本，一个docker，一个非docker，都是包含 miao-yunzai、trss-...</div></div></div></a><a class="pagination-related" href="/2023/09/01/%E3%80%90filian-numi%E3%80%91%E5%88%AB%E9%97%AE%E4%BA%86-%E6%88%91%E4%B8%8D%E8%A6%81%E9%9D%A2%E5%AD%90%E7%9A%84%E5%90%97/" title="【filian/numi】别问了 我不要面子的吗"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">【filian/numi】别问了 我不要面子的吗</div></div><div class="info-2"><div class="info-item-1"> </div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2023/10/19/%E8%8E%B7%E5%8F%96pixiv%E7%9A%84refresh%20token/" title="获取pixiv的refreshtoken"><div class="cover" style="background: var(--default-bg-color)"></div><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2023-10-19</div><div class="info-item-2">获取pixiv的refreshtoken</div></div><div class="info-2"><div class="info-item-1">教程1 获取 Pixiv refresh_token![](&#x2F;img&#x2F;posts&#x2F;获取pixiv的refresh token&#x2F;60de744d30c589f46eea6d1064e96aa1.png) 教程2 获取Pixiv-Refresh-Token的办法![](&#x2F;img&#x2F;posts&#x2F;获取pixiv的refresh token&#x2F;75652c7391b5fa9e8d449fa981b0140c.png) </div></div></div></a></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar" loading='lazy'/></div><div class="author-info-name">logier</div><div class="author-info-description">走在人生的十字路口</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">90</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">75</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">12</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://qm.qq.com/cgi-bin/qm/qr?k=rpgas2KqnWe5WWCTOYjMmcbJjwbUbpIk&amp;jump_from=webapi&amp;authKey=wRdz2KiTC0d7W6lq38U3vG5uqAc6lN9gOqYTuXYToMqN5yIDkX9oseYm+fXQlSgG" target="_blank" title="QQ群"><i class="fab fa-qq" style="color: #9854d4;"></i></a><a class="social-icon" href="https://www.linovelib.com/novel/3647.html" target="_blank" title="哔哩轻小说"><i class="fas fa-book-open" style="color: #ffa500;"></i></a><a class="social-icon" href="https://github.com/logier" target="_blank" title="Github"><i class="fab fa-github" style="color: #c71585;"></i></a><a class="social-icon" href="https://gitee.com/logier" target="_blank" title="Gitee"><i class="fab fa-git" style="color: #00bfff;"></i></a><a class="social-icon" href="mailto:logier@qq.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #7cfc00;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#HF-bot"><span class="toc-number">1.</span> <span class="toc-text">HF-bot</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%87%E6%A1%A3%E5%8E%9F%E5%9C%B0%E5%9D%80"><span class="toc-number">1.1.</span> <span class="toc-text">文档原地址</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#HuggingFace%E9%83%A8%E7%BD%B2%E7%AD%BE%E5%90%8D%E6%9C%8D%E5%8A%A1"><span class="toc-number">2.</span> <span class="toc-text">HuggingFace部署签名服务</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E6%AD%A5%EF%BC%9A%E5%85%8B%E9%9A%86%E7%A9%BA%E9%97%B4"><span class="toc-number">2.1.</span> <span class="toc-text">第一步：克隆空间</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E6%AD%A5%EF%BC%9A%E5%A1%AB%E5%86%99%E7%9B%B8%E5%BA%94%E7%9A%84%E9%A1%B9"><span class="toc-number">2.2.</span> <span class="toc-text">第二步：填写相应的项</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%89%E6%AD%A5%EF%BC%9A%E8%8E%B7%E5%8F%96%E5%9C%B0%E5%9D%80"><span class="toc-number">2.3.</span> <span class="toc-text">第三步：获取地址</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%87%B3%E6%AD%A4%EF%BC%8C%E4%BD%A0%E5%B7%B2%E7%BB%8F%E8%8E%B7%E5%BE%97%E4%BA%86%E6%88%90%E5%8A%9F%E9%83%A8%E7%BD%B2qsign%E5%B9%B6%E4%B8%94%E8%8E%B7%E5%BE%97%E4%BA%86%E5%85%B6url%E4%BB%A5%E5%8F%8Akey"><span class="toc-number">2.3.1.</span> <span class="toc-text">至此，你已经获得了成功部署qsign并且获得了其url以及key</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%8E%E8%AE%B0%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%91%E9%81%87%E5%88%B0%E4%BA%86%E9%97%AE%E9%A2%98"><span class="toc-number">2.4.</span> <span class="toc-text">后记：为什么我遇到了问题</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%87%B4%E8%B0%A2"><span class="toc-number">2.5.</span> <span class="toc-text">致谢</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E6%AD%A5%EF%BC%9A%E5%A4%8D%E5%88%B6%E7%A9%BA%E9%97%B4"><span class="toc-number">2.6.</span> <span class="toc-text">第一步：复制空间</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E6%AD%A5%EF%BC%9A%E7%AD%89%E5%80%99%E5%AE%8C%E6%88%90"><span class="toc-number">2.7.</span> <span class="toc-text">第二步：等候完成</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A3%8E%E4%BD%AC%E5%98%B4%E5%AF%B9%E5%98%B4%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B"><span class="toc-number">2.7.1.</span> <span class="toc-text">风佬嘴对嘴视频教程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%83%A8%E7%BD%B2vits"><span class="toc-number">2.7.2.</span> <span class="toc-text">部署vits</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%83%A8%E7%BD%B2memes"><span class="toc-number">2.7.3.</span> <span class="toc-text">部署memes</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/01/14/%E3%80%90%E7%86%9F%E8%82%89%E3%80%91%E5%9C%A8%E4%B8%B9%E7%91%9C%E6%88%BF%E9%97%B4%E4%BD%BF%E7%94%A8%E4%BA%86%E7%BB%88%E6%9E%81%E5%90%B8%E5%8F%96%E7%9A%84%E8%8E%89%E6%B3%BD%E3%80%90%E5%AE%9D%E5%8F%AF%E6%A2%A6%E6%9C%B1%E7%B4%AB%E3%80%91/" title="【熟肉】在丹瑜房间使用了终极吸取的莉泽【宝可梦朱紫】">【熟肉】在丹瑜房间使用了终极吸取的莉泽【宝可梦朱紫】</a><time datetime="2024-01-14T02:27:33.000Z" title="发表于 2024-01-14 10:27:33">2024-01-14</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/01/11/Mr-Music-Covered-by-%E5%B0%8F%E9%9B%80%E3%81%A8%E3%81%A8-%E5%85%8E%E5%92%B2%E3%83%9F%E3%83%9F-%E6%A9%98%E3%81%B2%E3%81%AA%E3%81%AE-%E5%A6%82%E6%9C%88%E3%82%8C%E3%82%93-%E7%A5%9E%E6%88%90%E3%81%8D%E3%82%85%E3%81%B4-%E5%85%AB%E9%9B%B2%E3%81%B9%E3%81%AB-%E8%97%8D%E6%B2%A2%E3%82%A8%E3%83%9E/" title="Mr.Music / Covered by 小雀とと/兎咲ミミ/橘ひなの/如月れん/神成きゅぴ/八雲べに/藍沢エマ">Mr.Music / Covered by 小雀とと/兎咲ミミ/橘ひなの/如月れん/神成きゅぴ/八雲べに/藍沢エマ</a><time datetime="2024-01-11T00:39:38.000Z" title="发表于 2024-01-11 08:39:38">2024-01-11</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/01/11/1-2-fan-club%E3%80%90%E8%8B%B1%E3%83%AA%E3%82%B5-%E5%85%8E%E5%92%B2%E3%83%9F%E3%83%9F-%E3%81%B6%E3%81%84%E3%81%99%E3%81%BD%E3%81%A3%EF%BC%81%E3%80%91/" title="1 2 fan club【英リサ/兎咲ミミ/ぶいすぽっ！】">1 2 fan club【英リサ/兎咲ミミ/ぶいすぽっ！】</a><time datetime="2024-01-11T00:36:47.000Z" title="发表于 2024-01-11 08:36:47">2024-01-11</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/12/26/%E3%80%90%E5%BD%A9%E8%99%B9%E7%A4%BE%E7%B2%BE%E8%8F%AF%E3%80%91%E5%88%80%E3%83%92%E3%82%9A%E3%83%BC2023%E5%B9%B4%E7%9A%84%E8%B6%85%E7%A5%9E%E8%81%96%E8%AA%95%E7%AF%80%E4%B8%BB%E9%A1%8C%E6%9B%B2-Dilemma/" title="【彩虹社精華】刀ピー2023年的超神聖誕節主題曲_ _Dilemma_">【彩虹社精華】刀ピー2023年的超神聖誕節主題曲_ _Dilemma_</a><time datetime="2023-12-26T00:41:56.000Z" title="发表于 2023-12-26 08:41:56">2023-12-26</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/12/18/%E3%80%90%E7%86%9F%E8%82%89%E3%80%91%E7%A4%BE%E6%81%90%E8%AF%BA%E5%AE%9D%E5%80%9F%E9%85%92%E5%A3%AE%E8%83%86%E7%A7%92%E5%8F%98%E9%AD%85%E9%AD%94%E7%A4%BE%E7%89%9B%E3%80%90%E8%83%A1%E6%A1%83%E3%81%AE%E3%81%82-VCRGTA2%E3%80%91/" title="【熟肉】社恐诺宝借酒壮胆秒变魅魔社牛【胡桃のあ/VCRGTA2】">【熟肉】社恐诺宝借酒壮胆秒变魅魔社牛【胡桃のあ/VCRGTA2】</a><time datetime="2023-12-18T09:45:44.000Z" title="发表于 2023-12-18 17:45:44">2023-12-18</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2023 - 2026 By logier</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.2</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.7.2</a></span></div><div class="footer_custom_text">©2023 - 2024 By logier <br><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener"><img class="icp-icon" src="/img/b_ef951b475d9f6f2c189a10f606303090.jpg" loading='lazy'><span>备案号：粤ICP备2023092545号-1</span></a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.7.2"></script><script src="/js/main.js?v=5.7.2"></script><script src="/pluginsSrc/@fancyapps/ui/dist/fancybox/fancybox.umd.js?v=6.1.15"></script><div class="js-pjax"></div><script src="/pluginsSrc/pjax/pjax.min.js?v=0.2.8" defer="defer"></script><script>document.addEventListener('DOMContentLoaded', () => {
+  const pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+  window.pjax = new Pjax({
+    elements: 'a:not([target="_blank"]):not([data-fancybox])',
+    selectors: pjaxSelectors,
+    cacheBust: false,
+    analytics: false,
+    scrollRestoration: false
+  })
+
+  const triggerPjaxFn = (val) => {
+    if (!val) return
+    Object.values(val).forEach(fn => {
+      try {
+        fn()
+      } catch (err) {
+        console.debug('Pjax callback failed:', err)
+      }
+    })
+  }
+
+  document.addEventListener('pjax:send', () => {
+    // removeEventListener
+    btf.removeGlobalFnEvent('pjaxSendOnce')
+    btf.removeGlobalFnEvent('themeChange')
+
+    // reset readmode
+    const $bodyClassList = document.body.classList
+    if ($bodyClassList.contains('read-mode')) $bodyClassList.remove('read-mode')
+
+    triggerPjaxFn(window.globalFn.pjaxSend)
+  })
+
+  document.addEventListener('pjax:complete', () => {
+    btf.removeGlobalFnEvent('pjaxCompleteOnce')
+    document.querySelectorAll('script[data-pjax]').forEach(item => {
+      if (!item.parentNode) return
+      const newScript = document.createElement('script')
+      const content = item.text || item.textContent || ''
+      Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+      newScript.appendChild(document.createTextNode(content))
+      item.parentNode.replaceChild(newScript, item)
+    })
+
+    triggerPjaxFn(window.globalFn.pjaxComplete)
+  })
+
+  document.addEventListener('pjax:error', e => {
+    const responseURL = e.request && e.request.responseURL
+    if (e.request && e.request.status === 404) {
+      false
+        ? pjax.loadUrl('/404.html')
+        : responseURL && (window.location.href = responseURL)
+    } else if (responseURL) {
+      window.location.href = responseURL
+    }
+  })
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章…" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.7.2"></script></div></div></body></html>
