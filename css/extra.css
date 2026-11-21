@@ -1,0 +1,18 @@
+/* 站点自定义小样式：视频分类导航 / B站收藏日期 */
+.video-nav {
+  margin: 0.8rem 0 1.6rem;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  background: rgba(127, 127, 127, 0.08);
+  line-height: 2;
+}
+
+.video-nav a {
+  margin: 0 0.15rem;
+}
+
+.bili-date {
+  color: #999;
+  font-size: 0.85em;
+  margin-left: 0.4rem;
+}
