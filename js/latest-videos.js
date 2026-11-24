@@ -1,41 +1,76 @@
-/* 首页：插入“最新视频”卡片（数据由 scripts/build-video-page.mjs 生成） */
+/* 首页：把最新视频插入文章列表顶部，复用 Butterfly 的文章行样式（数据由 scripts/build-video-page.mjs 生成） */
 (function () {
+  var MAX = 8
+
   function esc(value) {
     return String(value == null ? '' : value).replace(/[&<>"']/g, function (c) {
-      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
-    });
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+    })
   }
 
-  function card(v) {
-    var img = v.cover
-      ? '<img src="' + esc(v.cover) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.classList.add(\'is-broken\');this.remove()">'
-      : '';
-    var meta = [v.upper, v.duration].filter(Boolean).join(' · ');
-    return '<a class="video-card" href="' + esc(v.url) + '" target="_blank" rel="noopener" title="' + esc(v.title) + '">' +
-      '<div class="video-cover" data-initial="' + esc(String(v.title || '?').slice(0, 1)) + '">' + img + '</div>' +
-      '<div class="video-info"><p class="video-title">' + esc(v.title) + '</p><p class="video-meta">' + esc(meta) + '</p></div></a>';
+  function formatDate(ts) {
+    if (!ts) return ''
+    var d = new Date(ts * 1000 + 8 * 3600 * 1000)
+    return d.toISOString().slice(0, 10)
+  }
+
+  function formatDuration(sec) {
+    if (!sec) return ''
+    var m = Math.floor(sec / 60)
+    var s = sec % 60
+    return (m >= 60 ? Math.floor(m / 60) + ':' + String(m % 60).padStart(2, '0') : m) + ':' + String(s).padStart(2, '0')
+  }
+
+  function row(v) {
+    var date = formatDate(v.fav_time)
+    var meta = ''
+    if (date) {
+      meta += '<span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">收藏于</span><time datetime="' + esc(date) + '">' + esc(date) + '</time></span>'
+    }
+    if (v.upper) {
+      meta += '<span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-user"></i>' + esc(v.upper) + '</span>'
+    }
+    if (v.duration) {
+      meta += '<span class="article-meta"><span class="article-meta-separator">|</span><i class="far fa-clock"></i>' + esc(formatDuration(v.duration)) + '</span>'
+    }
+    var div = document.createElement('div')
+    div.className = 'recent-post-item is-video-row'
+    div.innerHTML = '<div class="recent-post-info no-cover">' +
+      '<a class="article-title" href="' + esc(v.url) + '" target="_blank" rel="noopener" title="' + esc(v.title) + '">' + esc(v.title) + '</a>' +
+      '<div class="article-meta-wrap">' + meta + '</div></div>'
+    return div
   }
 
   async function init() {
-    var path = location.pathname;
-    if (path !== '/' && path !== '/index.html') return;
-    var host = document.getElementById('recent-posts') || document.getElementById('content-inner');
-    if (!host || document.getElementById('latest-videos')) return;
+    var path = location.pathname
+    if (path !== '/' && path !== '/index.html') return
+    var list = document.querySelector('#recent-posts .recent-post-items')
+    if (!list) return
+
+    // pjax 返回首页时先清理上一次插入的内容，避免重复
+    document.querySelectorAll('#recent-posts .latest-videos-title, #recent-posts .is-video-row').forEach(function (n) { n.remove() })
+
     try {
-      var res = await fetch('/video-data.json', { cache: 'no-cache' });
-      if (!res.ok) return;
-      var list = await res.json();
-      if (!Array.isArray(list) || !list.length) return;
-      var section = document.createElement('section');
-      section.id = 'latest-videos';
-      section.className = 'latest-videos';
-      section.innerHTML = '<h2>最新视频</h2><div class="video-grid">' + list.slice(0, 8).map(card).join('') + '</div>';
-      host.parentNode.insertBefore(section, host);
+      var res = await fetch('/video-data.json', { cache: 'no-cache' })
+      if (!res.ok) return
+      var items = await res.json()
+      if (!Array.isArray(items) || !items.length) return
+      var container = document.querySelector('#recent-posts .recent-post-items')
+      if (!container) return
+
+      var head = document.createElement('h2')
+      head.className = 'latest-videos-title'
+      head.innerHTML = '最新视频<a href="/video/">查看全部 →</a>'
+      container.parentNode.insertBefore(head, container)
+
+      var frag = document.createDocumentFragment()
+      items.slice(0, MAX).forEach(function (v) { frag.appendChild(row(v)) })
+      container.insertBefore(frag, container.firstChild)
     } catch (error) {
       /* 静态数据缺失时静默跳过，不影响首页 */
     }
   }
 
-  document.addEventListener('DOMContentLoaded', init);
-  document.addEventListener('pjax:complete', init);
-})();
+  document.addEventListener('DOMContentLoaded', init)
+  document.addEventListener('pjax:complete', init)
+})()
