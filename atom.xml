@@ -144,8 +144,8 @@
     </author>
     <category term="图库" scheme="https://logier.github.io/categories/%E5%9B%BE%E5%BA%93/"/>
     <category term="api" scheme="https://logier.github.io/tags/api/"/>
-    <category term="壁纸" scheme="https://logier.github.io/tags/%E5%A3%81%E7%BA%B8/"/>
     <category term="头像" scheme="https://logier.github.io/tags/%E5%A4%B4%E5%83%8F/"/>
+    <category term="壁纸" scheme="https://logier.github.io/tags/%E5%A3%81%E7%BA%B8/"/>
     <category term="二次元" scheme="https://logier.github.io/tags/%E4%BA%8C%E6%AC%A1%E5%85%83/"/>
     <category term="三次元" scheme="https://logier.github.io/tags/%E4%B8%89%E6%AC%A1%E5%85%83/"/>
     <content>
@@ -164,8 +164,8 @@
     </author>
     <category term="图库" scheme="https://logier.github.io/categories/%E5%9B%BE%E5%BA%93/"/>
     <category term="api" scheme="https://logier.github.io/tags/api/"/>
-    <category term="壁纸" scheme="https://logier.github.io/tags/%E5%A3%81%E7%BA%B8/"/>
     <category term="头像" scheme="https://logier.github.io/tags/%E5%A4%B4%E5%83%8F/"/>
+    <category term="壁纸" scheme="https://logier.github.io/tags/%E5%A3%81%E7%BA%B8/"/>
     <category term="动漫" scheme="https://logier.github.io/tags/%E5%8A%A8%E6%BC%AB/"/>
     <content>
       <![CDATA[<div class="note info simple"><p>图片较多，加载较慢，请稍等</p></div><div class="hide-block"><button type="button" class="hide-button" style="">悄悄告诉你</button><div class="hide-content"><p>点击网址可以直接复制<br>点击图片可以刷新</p></div></div>  <p><a href="https://blog.xl0408.top/">超级小兔的随机图</a></p><p><a href="https://imgapi.xl0408.top/index.php" title="点击复制链接">点击复制：https://imgapi.xl0408.top/index.php</a></p><div class="tooltip"><img class="myImageClass no-lightbox" id="myImage1" src="https://imgapi.xl0408.top/index.php" data-src="https://imgapi.xl0408.top/index.php" onclick="changeImage(this)" style="cursor:pointer"> <span class="tooltiptext" id="tooltip1">点击刷新图片</span><p class="imageTitle" style="text-align:center;">动漫风景</p></div>    <p><a href="https://picture.yinux.workers.dev/">yinux的cos随机图</a></p><p><a href="https://picture.yinux.workers.dev/" title="点击复制链接">点击复制：https://picture.yinux.workers.dev/</a></p><div class="tooltip"><img class="myImageClass no-lightbox" id="myImage1" src="https://picture.yinux.workers.dev/" data-src="https://picture.yinux.workers.dev/" onclick="changeImage(this)" style="cursor:pointer"> <span class="tooltiptext" id="tooltip1">点击刷新图片</span><p class="imageTitle" style="text-align:center;">cos</p></div>    <p><a href="https://ybapi.cn/">御坂API</a></p><p><a href="https://ybapi.cn/API/dmt.php" title="点击复制链接">点击复制：https://ybapi.cn/API/dmt.php</a></p><div class="tooltip"><img class="myImageClass no-lightbox" id="myImage1" src="https://ybapi.cn/API/dmt.php" data-src="https://ybapi.cn/API/dmt.php" onclick="changeImage(this)" style="cursor:pointer"> <span class="tooltiptext" id="tooltip1">点击刷新图片</span><p class="imageTitle" style="text-align:center;">二次元PC横图</p></div>  <p><a href="https://ybapi.cn/API/pc_acgimg.php" title="点击复制链接">点击复制：https://ybapi.cn/API/pc_acgimg.php</a></p><div class="tooltip"><img class="myImageClass no-lightbox" id="myImage1" src="https://ybapi.cn/API/pc_acgimg.php" data-src="https://ybapi.cn/API/pc_acgimg.php" onclick="changeImage(this)" style="cursor:pointer"> <span class="tooltiptext" id="tooltip1">点击刷新图片</span><p class="imageTitle" style="text-align:center;">二次元动漫图片</p></div>  <p><a href="https://ybapi.cn/API/pe_acgimg.php" title="点击复制链接">点击复制：https://ybapi.cn/API/pe_acgimg.php</a></p><div class="tooltip"><img class="myImageClass no-lightbox" id="myImage1" src="https://ybapi.cn/API/pe_acgimg.php" data-src="https://ybapi.cn/API/pe_acgimg.php" onclick="changeImage(this)" style="cursor:pointer"> <span class="tooltiptext" id="tooltip1">点击刷新图片</span><p class="imageTitle" style="text-align:center;">二次元动漫图片</p></div>]]>
@@ -183,9 +183,9 @@
     </author>
     <category term="vtuber" scheme="https://logier.github.io/categories/vtuber/"/>
     <category term="彩虹社" scheme="https://logier.github.io/categories/vtuber/%E5%BD%A9%E8%99%B9%E7%A4%BE/"/>
+    <category term="柴卡" scheme="https://logier.github.io/tags/%E6%9F%B4%E5%8D%A1/"/>
     <category term="周力一" scheme="https://logier.github.io/tags/%E5%91%A8%E5%8A%9B%E4%B8%80/"/>
     <category term="月之美兔" scheme="https://logier.github.io/tags/%E6%9C%88%E4%B9%8B%E7%BE%8E%E5%85%94/"/>
-    <category term="柴卡" scheme="https://logier.github.io/tags/%E6%9F%B4%E5%8D%A1/"/>
     <category term="猜谜" scheme="https://logier.github.io/tags/%E7%8C%9C%E8%B0%9C/"/>
     <content>
       <![CDATA[<iframe src="//player.bilibili.com/player.html?aid=846796856&amp;bvid=BV1m54y1E7Yt&amp;cid=373238797&amp;p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute; height: 100%; width: 100%;"></iframe><p>太乐了</p>]]>

@@ -1,10 +1,37 @@
-/* 相册瀑布流：多列布局 + 悬浮微缩放，配合 Butterfly 的 fancybox 灯箱 */
-.waterfall-hint {
-  margin: 0 0 18px;
+/* 图库瀑布流：本地配图 + 图片 API，多列布局配合 Butterfly fancybox 灯箱 */
+.waterfall-hint,
+.gallery-hint {
+  margin: 0 0 16px;
   padding: 10px 14px;
   border-radius: 8px;
   background: rgba(73, 177, 245, 0.12);
   font-size: 14px;
+  line-height: 1.7;
+}
+
+.gallery-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 0 18px;
+}
+
+.gallery-filter button {
+  padding: 5px 16px;
+  border: 1px solid rgba(73, 177, 245, 0.45);
+  border-radius: 999px;
+  background: transparent;
+  color: inherit;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.gallery-filter button:hover,
+.gallery-filter button.active {
+  background: #49b1f5;
+  border-color: #49b1f5;
+  color: #fff;
 }
 
 .waterfall {
@@ -19,6 +46,12 @@
   overflow: hidden;
   background: var(--card-bg, #fff);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  content-visibility: auto;
+  contain-intrinsic-size: 240px;
+}
+
+.waterfall-item[hidden] {
+  display: none;
 }
 
 .waterfall-item a {
@@ -30,6 +63,7 @@
   width: 100%;
   height: auto;
   display: block;
+  background: linear-gradient(135deg, #49b1f5, #8b6cf0);
   transition: transform 0.35s ease;
 }
 
@@ -44,11 +78,6 @@
   text-align: center;
 }
 
-.waterfall-item figcaption a {
-  color: inherit;
-  opacity: 0.85;
-}
-
 @media (max-width: 1200px) {
   .waterfall { column-count: 3; }
 }
@@ -56,4 +85,9 @@
 @media (max-width: 768px) {
   .waterfall { column-count: 2; column-gap: 10px; }
   .waterfall-item { margin-bottom: 10px; }
+  .gallery-filter button { padding: 4px 12px; }
+}
+
+@media (max-width: 480px) {
+  .waterfall { column-count: 2; }
 }
