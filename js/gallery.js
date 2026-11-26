@@ -4,8 +4,9 @@
   var items = null
   var cursor = 0
   var root = null
-  var more = null
+  var sentinel = null
   var loading = false
+  var observer = null
 
   function showToast(message) {
     var el = document.createElement('div')
@@ -29,6 +30,7 @@
 
   function applyRandomBackground() {
     if (!document.getElementById('pixiv-gallery')) return
+    document.body.classList.add('pixiv-gallery-page')
     fetch('/data/pixiv-bg.json')
       .then(function (res) { return res.ok ? res.json() : [] })
       .then(function (list) {
@@ -71,19 +73,20 @@
     markLoaded(img)
     img.src = item.pages
 
-    var file = document.createElement('span')
-    file.className = 'pixiv-file'
-    file.textContent = item.file
-    file.title = '点击复制文件名'
-    file.addEventListener('click', function (event) {
+    var id = String(item.file || '').split('_')[0] || String(item.file || '')
+    var num = document.createElement('span')
+    num.className = 'pixiv-file'
+    num.textContent = id
+    num.title = '点击复制编号（文件名 ' + item.file + '）'
+    num.addEventListener('click', function (event) {
       event.preventDefault()
       event.stopPropagation()
-      copy(item.file)
+      copy(id)
     })
 
     link.appendChild(img)
     fig.appendChild(link)
-    fig.appendChild(file)
+    fig.appendChild(num)
     return fig
   }
 
@@ -96,7 +99,6 @@
     root.appendChild(frag)
     cursor = end
     loading = false
-    if (cursor >= items.length && more) more.hidden = true
   }
 
   function shuffle(list) {
@@ -115,8 +117,13 @@
     if (root.dataset.bound) return
     root.dataset.bound = '1'
 
-    more = document.getElementById('pixiv-more')
-    if (more) more.addEventListener('click', render)
+    sentinel = document.getElementById('pixiv-sentinel')
+    if ('IntersectionObserver' in window && sentinel) {
+      observer = new IntersectionObserver(function (entries) {
+        if (entries[0].isIntersecting) render()
+      }, { rootMargin: '900px' })
+      observer.observe(sentinel)
+    }
 
     fetch('/data/pixiv-images.json')
       .then(function (res) { return res.ok ? res.json() : [] })
@@ -132,15 +139,7 @@
         items = shuffle(list.slice())
         root.innerHTML = ''
         cursor = 0
-        if (more) more.hidden = false
         render()
-
-        if ('IntersectionObserver' in window && more) {
-          var observer = new IntersectionObserver(function (entries) {
-            if (entries[0].isIntersecting) render()
-          }, { rootMargin: '800px' })
-          observer.observe(more)
-        }
       })
       .catch(function () {})
   }

@@ -15,16 +15,13 @@
   opacity: 0.75;
 }
 
-.gallery-more {
-  display: block;
-  margin: 18px auto 0;
-  padding: 8px 24px;
-  border: 1px solid rgba(73, 177, 245, 0.45);
-  border-radius: 999px;
-  background: transparent;
-  color: inherit;
-  font-size: 13px;
-  cursor: pointer;
+/* 图库页：降低背景遮罩，露出随机背景图 */
+.pixiv-gallery-page #web_bg:before {
+  background: rgba(0, 0, 0, 0.15) !important;
+}
+
+.pixiv-sentinel {
+  height: 1px;
 }
 
 .pixiv-toast {
