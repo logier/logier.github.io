@@ -123,6 +123,13 @@
       .then(function (res) { return res.ok ? res.json() : [] })
       .then(function (list) {
         if (!Array.isArray(list) || !list.length) return
+        var hiddenNode = document.getElementById('pixiv-hidden')
+        var hidden = []
+        try { hidden = JSON.parse(hiddenNode ? hiddenNode.textContent : '[]') } catch (e) { hidden = [] }
+        var hiddenSet = {}
+        hidden.forEach(function (name) { hiddenSet[name] = 1 })
+        list = list.filter(function (item) { return !hiddenSet[item.file] })
+        if (!list.length) return
         items = shuffle(list.slice())
         root.innerHTML = ''
         cursor = 0
