@@ -1,13 +1,33 @@
-/* 图库：Pixiv 全量瀑布流；首屏 30 张已内联，其余分批加载 */
+/* 图库：Pixiv 图库，随机排序 + 分批加载 + 文件名索引 */
 (function () {
   var BATCH = 150
   var items = null
   var cursor = 0
-  var total = 0
   var root = null
   var more = null
   var loading = false
   var observer = null
+
+  function esc(value) {
+    return String(value == null ? '' : value)
+  }
+
+  function toast(message) {
+    var el = document.getElementById('pixiv-toast')
+    if (!el) return
+    el.textContent = message
+    el.classList.add('show')
+    clearTimeout(el._timer)
+    el._timer = setTimeout(function () { el.classList.remove('show') }, 1600)
+  }
+
+  function copy(text) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function () { toast('已复制 ' + text) }, function () { toast(text) })
+    } else {
+      toast(text)
+    }
+  }
 
   function markLoaded(img) {
     if (img.complete && img.naturalWidth) img.classList.add('is-loaded')
@@ -21,11 +41,14 @@
   function figure(item, index) {
     var fig = document.createElement('figure')
     fig.className = 'waterfall-item'
+    fig.setAttribute('data-file', item.file)
+
     var link = document.createElement('a')
     link.href = item.pages
     link.target = '_blank'
     link.rel = 'noopener'
     link.title = item.title || ''
+
     var img = document.createElement('img')
     img.alt = item.title || ('pixiv-' + index)
     img.loading = 'lazy'
@@ -34,14 +57,27 @@
     if (item.h) img.height = item.h
     markLoaded(img)
     img.src = item.pages
+
+    var file = document.createElement('span')
+    file.className = 'pixiv-file'
+    file.textContent = item.file
+    file.title = '点击复制文件名'
+    file.addEventListener('click', function (event) {
+      event.preventDefault()
+      event.stopPropagation()
+      copy(item.file)
+    })
+
     link.appendChild(img)
     fig.appendChild(link)
+    fig.appendChild(file)
     return fig
   }
 
   function updateCount() {
     var count = document.getElementById('pixiv-count')
-    if (count) count.textContent = '已加载 ' + cursor + ' / ' + total + ' 张'
+    if (!count || !items) return
+    count.textContent = '已加载 ' + cursor + ' / ' + items.length + ' 张（随机顺序）'
   }
 
   function render() {
@@ -57,24 +93,42 @@
     if (cursor >= items.length && more) more.hidden = true
   }
 
+  function shuffle(list) {
+    for (var i = list.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1))
+      var tmp = list[i]
+      list[i] = list[j]
+      list[j] = tmp
+    }
+    return list
+  }
+
   function init() {
     root = document.getElementById('pixiv-gallery')
     if (!root || root.dataset.bound) return
     root.dataset.bound = '1'
-    root.querySelectorAll('img').forEach(markLoaded)
 
     more = document.getElementById('pixiv-more')
     if (more) more.addEventListener('click', render)
+
+    var toggle = document.getElementById('pixiv-file-toggle')
+    if (toggle) {
+      toggle.addEventListener('click', function () {
+        var on = root.classList.toggle('show-files')
+        toggle.textContent = on ? '隐藏文件名' : '显示文件名'
+      })
+    }
 
     fetch('/data/pixiv-images.json')
       .then(function (res) { return res.ok ? res.json() : [] })
       .then(function (list) {
         if (!Array.isArray(list) || !list.length) return
-        items = list
-        total = list.length
-        var offset = parseInt(root.getAttribute('data-offset') || '0', 10) || 0
-        cursor = Math.min(offset, total)
+        items = shuffle(list.slice())
+        root.innerHTML = ''
+        cursor = 0
+        if (more) more.hidden = false
         updateCount()
+        render()
 
         if ('IntersectionObserver' in window && more) {
           observer = new IntersectionObserver(function (entries) {
