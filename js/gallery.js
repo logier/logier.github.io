@@ -1,17 +1,21 @@
-/* 图库：Pixiv 全量瀑布流（数据来自 /data/pixiv-images.json，分批渲染） */
+/* 图库：Pixiv 全量瀑布流；首屏 30 张已内联，其余分批加载 */
 (function () {
   var BATCH = 150
   var items = null
   var cursor = 0
+  var total = 0
   var root = null
   var more = null
   var loading = false
   var observer = null
 
-  function esc(value) {
-    return String(value == null ? '' : value).replace(/[&<>"']/g, function (c) {
-      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
-    })
+  function markLoaded(img) {
+    if (img.complete && img.naturalWidth) img.classList.add('is-loaded')
+    else img.addEventListener('load', function () { img.classList.add('is-loaded') }, { once: true })
+    img.addEventListener('error', function () {
+      img.classList.add('is-broken')
+      img.removeAttribute('src')
+    }, { once: true })
   }
 
   function figure(item, index) {
@@ -23,16 +27,21 @@
     link.rel = 'noopener'
     link.title = item.title || ''
     var img = document.createElement('img')
-    img.src = item.pages
     img.alt = item.title || ('pixiv-' + index)
     img.loading = 'lazy'
     img.decoding = 'async'
     if (item.w) img.width = item.w
     if (item.h) img.height = item.h
-    if (item.author) fig.setAttribute('data-author', item.author)
+    markLoaded(img)
+    img.src = item.pages
     link.appendChild(img)
     fig.appendChild(link)
     return fig
+  }
+
+  function updateCount() {
+    var count = document.getElementById('pixiv-count')
+    if (count) count.textContent = '已加载 ' + cursor + ' / ' + total + ' 张'
   }
 
   function render() {
@@ -43,8 +52,7 @@
     for (var i = cursor; i < end; i++) frag.appendChild(figure(items[i], i))
     root.appendChild(frag)
     cursor = end
-    var count = document.getElementById('pixiv-count')
-    if (count) count.textContent = '已加载 ' + cursor + ' / ' + items.length + ' 张'
+    updateCount()
     loading = false
     if (cursor >= items.length && more) more.hidden = true
   }
@@ -53,6 +61,8 @@
     root = document.getElementById('pixiv-gallery')
     if (!root || root.dataset.bound) return
     root.dataset.bound = '1'
+    root.querySelectorAll('img').forEach(markLoaded)
+
     more = document.getElementById('pixiv-more')
     if (more) more.addEventListener('click', render)
 
@@ -61,19 +71,16 @@
       .then(function (list) {
         if (!Array.isArray(list) || !list.length) return
         items = list
-        cursor = 0
-        root.innerHTML = ''
-        var count = document.getElementById('pixiv-count')
-        if (count) count.textContent = '共 ' + list.length + ' 张，向下滚动加载'
-        render()
+        total = list.length
+        var offset = parseInt(root.getAttribute('data-offset') || '0', 10) || 0
+        cursor = Math.min(offset, total)
+        updateCount()
 
-        if ('IntersectionObserver' in window) {
+        if ('IntersectionObserver' in window && more) {
           observer = new IntersectionObserver(function (entries) {
             if (entries[0].isIntersecting) render()
-          }, { rootMargin: '600px' })
+          }, { rootMargin: '800px' })
           observer.observe(more)
-        } else if (more) {
-          more.hidden = false
         }
       })
       .catch(function () {})

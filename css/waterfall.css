@@ -57,8 +57,30 @@
   width: 100%;
   height: auto;
   display: block;
-  background: linear-gradient(135deg, #49b1f5, #8b6cf0);
+  transform: scale(1);
   transition: transform 0.35s ease;
+}
+
+.waterfall-item img:not(.is-loaded) {
+  min-height: 120px;
+  background: linear-gradient(100deg, rgba(120, 140, 170, 0.10) 25%, rgba(120, 140, 170, 0.22) 37%, rgba(120, 140, 170, 0.10) 63%);
+  background-size: 400% 100%;
+  animation: waterfall-shimmer 1.4s linear infinite;
+}
+
+.waterfall-item img.is-broken {
+  background: #e9edf3;
+  min-height: 160px;
+}
+
+[data-theme='dark'] .waterfall-item img:not(.is-loaded) {
+  background: linear-gradient(100deg, rgba(255, 255, 255, 0.05) 25%, rgba(255, 255, 255, 0.12) 37%, rgba(255, 255, 255, 0.05) 63%);
+  background-size: 400% 100%;
+}
+
+@keyframes waterfall-shimmer {
+  0% { background-position: 100% 50%; }
+  100% { background-position: 0 50%; }
 }
 
 .waterfall-item:hover img {
