@@ -1,0 +1,365 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>logierの温馨小屋 - ACG分享站</title><meta name="author" content="logier"><meta name="copyright" content="logier"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="走在人生的十字路口">
+<meta property="og:type" content="website">
+<meta property="og:title" content="logierの温馨小屋">
+<meta property="og:url" content="https://logier.github.io/page/82/index.html">
+<meta property="og:site_name" content="logierの温馨小屋">
+<meta property="og:description" content="走在人生的十字路口">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://logier.github.io/img/avatar.jpg">
+<meta property="article:author" content="logier">
+<meta property="article:tag" content="ACG, vtuber, 博客, 小说">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://logier.github.io/img/avatar.jpg"><script type="application/ld+json"></script><link rel="shortcut icon" href="/img/littletako.png"><link rel="canonical" href="https://logier.github.io/page/82/index.html"><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.7.2"><link rel="stylesheet" href="/pluginsSrc/@fortawesome/fontawesome-free/css/all.min.css?v=7.3.1"><link rel="stylesheet" href="/pluginsSrc/@fancyapps/ui/dist/fancybox/fancybox.css?v=6.1.15" media="print" onload="this.media='all'"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        try {
+          const data = { value }
+
+          if (ttl != null) {
+            data.expiry = Date.now() + ttl * 86400000
+          }
+
+          localStorage.setItem(key, JSON.stringify(data))
+        } catch (e) {
+          console.error(e)
+        }
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return
+
+        try {
+          const data = JSON.parse(itemStr)
+
+          if (data.expiry && Date.now() > data.expiry) {
+            localStorage.removeItem(key)
+            return
+          }
+
+          return data.value
+        } catch {
+          localStorage.removeItem(key)
+        }
+      }
+    }
+
+    const scriptCache = new Map()
+    const cssCache = new Map()
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => {
+        if (scriptCache.has(url)) {
+          return scriptCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const script = document.createElement('script')
+
+          script.src = url
+          script.async = true
+
+          for (const key in attr) {
+            script.setAttribute(key, attr[key])
+          }
+
+          script.onload = resolve
+          script.onerror = reject
+
+          document.head.appendChild(script)
+        })
+
+        scriptCache.set(url, promise)
+
+        return promise
+      },
+      getCSS: (url, id) => {
+        if (cssCache.has(url)) {
+          return cssCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const link = document.createElement('link')
+
+          link.rel = 'stylesheet'
+          link.href = url
+
+          if (id) {
+            link.id = id
+          }
+
+          link.onload = resolve
+          link.onerror = reject
+
+          document.head.appendChild(link)
+        })
+
+        cssCache.set(url, promise)
+
+        return promise
+      },
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!true && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const metaThemeColor = document.querySelector('meta[name="theme-color"]')
+      const activateDarkMode = () => {
+        document.documentElement.dataset.theme = 'dark'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.dataset.theme = 'light'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":true,"top_n_per_article":1,"unescape":false,"pagination":{"enable":false,"hitsPerPage":8},"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: '/pluginsSrc/@egjs/infinitegrid/dist/infinitegrid.min.js?v=4.13.1',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'logierの温馨小屋',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'home'
+}</script><style>#web_bg:before{background:rgba(0,0,0,0.7)}</style><link rel="stylesheet" href="/css/waterfall.css"><link rel="stylesheet" href="/css/extra.css"><meta name="generator" content="Hexo 8.1.2"><link rel="alternate" href="/atom.xml" title="logierの温馨小屋" type="application/atom+xml">
+</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>(()=>{
+  const $loadingBox = document.getElementById('loading-box')
+  const $body = document.body
+  const preloader = {
+    endLoading: () => {
+      if ($loadingBox.classList.contains('loaded')) return
+      $body.style.overflow = ''
+      $loadingBox.classList.add('loaded')
+    },
+    initLoading: () => {
+      $body.style.overflow = 'hidden'
+      $loadingBox.classList.remove('loaded')
+    }
+  }
+
+  preloader.initLoading()
+
+  if (document.readyState === 'complete') {
+    preloader.endLoading()
+  } else {
+    window.addEventListener('load', preloader.endLoading)
+    document.addEventListener('DOMContentLoaded', preloader.endLoading)
+    // Add timeout protection: force end after 7 seconds
+    setTimeout(preloader.endLoading, 7000)
+  }
+
+  if (true) {
+    btf.addGlobalFn('pjaxSend', preloader.initLoading, 'preloader_init')
+    btf.addGlobalFn('pjaxComplete', preloader.endLoading, 'preloader_end')
+  }
+})()</script><div class="bg-animation" id="web_bg" style="background-image: url(/img/bg.jpg);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar" loading='lazy'/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">1678</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">75</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">13</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/article/"><i class="fa-fw fas fa-layer-group"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/novel/"><i class="fa-fw fas fa-book"></i><span> 小说</span></a></div><div class="menus_item"><a class="site-page" href="/gallery/"><i class="fa-fw fas fa-image"></i><span> 图库</span></a></div><div class="menus_item"><a class="site-page" href="/video/"><i class="fa-fw fas fa-book"></i><span> 视频</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 目录</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/api/"><i class="fa-fw fas fa-heartbeat"></i><span> 接口状态</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url(/img/ina-min.webp);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><img class="site-icon" src="/img/logo.png" alt="Logo" loading='lazy'><span class="site-name">logierの温馨小屋</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/article/"><i class="fa-fw fas fa-layer-group"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/novel/"><i class="fa-fw fas fa-book"></i><span> 小说</span></a></div><div class="menus_item"><a class="site-page" href="/gallery/"><i class="fa-fw fas fa-image"></i><span> 图库</span></a></div><div class="menus_item"><a class="site-page" href="/video/"><i class="fa-fw fas fa-book"></i><span> 视频</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 目录</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li><li><a class="site-page child" href="/api/"><i class="fa-fw fas fa-heartbeat"></i><span> 接口状态</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="site-info"><h1 id="site-title">logierの温馨小屋</h1><div id="site_social_icons"><a class="social-icon" href="https://qm.qq.com/cgi-bin/qm/qr?k=rpgas2KqnWe5WWCTOYjMmcbJjwbUbpIk&amp;jump_from=webapi&amp;authKey=wRdz2KiTC0d7W6lq38U3vG5uqAc6lN9gOqYTuXYToMqN5yIDkX9oseYm+fXQlSgG" target="_blank" title="QQ群"><i class="fab fa-qq" style="color: #9854d4;"></i></a><a class="social-icon" href="https://www.linovelib.com/novel/3647.html" target="_blank" title="哔哩轻小说"><i class="fas fa-book-open" style="color: #ffa500;"></i></a><a class="social-icon" href="https://github.com/logier" target="_blank" title="Github"><i class="fab fa-github" style="color: #c71585;"></i></a><a class="social-icon" href="https://gitee.com/logier" target="_blank" title="Gitee"><i class="fab fa-git" style="color: #00bfff;"></i></a><a class="social-icon" href="mailto:logier@qq.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #7cfc00;"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts nc" id="recent-posts"><div class="recent-post-items"><div class="recent-post-item"><div class="post_cover left"><a href="/2022/05/09/bili-BV1JQ4y117qB/" title="【短熟】和剑持交往的话想去哪里约会？"><img class="post-bg" src="https://i2.hdslb.com/bfs/archive/7669eac9b11bca6cc2e9b880244af3fcb2ddf610.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【短熟】和剑持交往的话想去哪里约会？" loading='lazy'></a></div><div class="recent-post-info"><a class="article-title" href="/2022/05/09/bili-BV1JQ4y117qB/" title="【短熟】和剑持交往的话想去哪里约会？">【短熟】和剑持交往的话想去哪里约会？</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-05-09T15:09:07.000Z" title="发表于 2022-05-09 23:09:07">2022-05-09</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%A7%86%E9%A2%91/">视频</a></span></div><div class="content"> UP：ぐるぐるめぐる ｜ 收藏于 2022-05-10 ｜ 在 B 站打开    剪辑自：https://youtu.be/lUqWOOX9S8I 莉莉 你好强大！ </div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/05/09/bili-BV16K4y1M7fF/" title="【九分熟】一些咎人欺负莉莉的视频证据"><img class="post-bg" src="https://i0.hdslb.com/bfs/archive/99da867039bbe134aa6c96be9ab70a170ffd2541.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【九分熟】一些咎人欺负莉莉的视频证据" loading='lazy'></a></div><div class="recent-post-info"><a class="article-title" href="/2022/05/09/bili-BV16K4y1M7fF/" title="【九分熟】一些咎人欺负莉莉的视频证据">【九分熟】一些咎人欺负莉莉的视频证据</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-05-09T15:04:27.000Z" title="发表于 2022-05-09 23:04:27">2022-05-09</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%A7%86%E9%A2%91/">视频</a></span></div><div class="content"> UP：オファム ｜ 收藏于 2022-05-10 ｜ 在 B 站打开    https://youtu.be/7wc2F9BWfVgトリガーコラボ2021校对拜托了剣持刀也：https://www.youtube.com/channel/UCv1fFr156jc65EMiLbaLImw伏見ガク：ht </div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/05/09/bili-BV1cB4y127i1/" title="【熟】投入大量传话筒搞得就像门户网站一样的竞速对决【社筑/芙莲】"><img class="post-bg" src="https://i1.hdslb.com/bfs/archive/0417faa1b84f090fc113ba2d36d8b881a9e7329b.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【熟】投入大量传话筒搞得就像门户网站一样的竞速对决【社筑/芙莲】" loading='lazy'></a></div><div class="recent-post-info"><a class="article-title" href="/2022/05/09/bili-BV1cB4y127i1/" title="【熟】投入大量传话筒搞得就像门户网站一样的竞速对决【社筑/芙莲】">【熟】投入大量传话筒搞得就像门户网站一样的竞速对决【社筑/芙莲】</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-05-09T14:52:37.000Z" title="发表于 2022-05-09 22:52:37">2022-05-09</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%A7%86%E9%A2%91/">视频</a></span></div><div class="content"> UP：麻糬overdose ｜ 收藏于 2022-05-10 ｜ 在 B 站打开    https://www.youtube.com/watch?v=w9P8ilbGSug不太懂游戏，翻译全靠猜 </div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/05/09/bili-BV1sv411B7km/" title="【熟/色】安洁「很喜欢莉泽胸口这一块」【三马鹿新衣装竞选回】"><img class="post-bg" src="https://i1.hdslb.com/bfs/archive/8b040b21899f5c789ab72fade71a44a5d3a504a9.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【熟/色】安洁「很喜欢莉泽胸口这一块」【三马鹿新衣装竞选回】" loading='lazy'></a></div><div class="recent-post-info"><a class="article-title" href="/2022/05/09/bili-BV1sv411B7km/" title="【熟/色】安洁「很喜欢莉泽胸口这一块」【三马鹿新衣装竞选回】">【熟/色】安洁「很喜欢莉泽胸口这一块」【三马鹿新衣装竞选回】</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-05-09T14:19:10.000Z" title="发表于 2022-05-09 22:19:10">2022-05-09</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%A7%86%E9%A2%91/">视频</a></span></div><div class="content"> UP：闪过独奏 ｜ 收藏于 2022-05-10 ｜ 在 B 站打开    https://www.youtube.com/watch?v=eca546icl2M自剪新衣装竞选回 2020年6月28日直播 此为准优胜奖服装肉眼可见的语言力下降hhh不准色皇女 </div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/05/09/bili-BV1Fv411H7e3/" title="【熟肉切片】使出全力作弊的魔使真央【彩虹社】"><img class="post-bg" src="https://i2.hdslb.com/bfs/archive/5ea3246cf449d89ea913f184d514e6e43a908c69.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【熟肉切片】使出全力作弊的魔使真央【彩虹社】" loading='lazy'></a></div><div class="recent-post-info"><a class="article-title" href="/2022/05/09/bili-BV1Fv411H7e3/" title="【熟肉切片】使出全力作弊的魔使真央【彩虹社】">【熟肉切片】使出全力作弊的魔使真央【彩虹社】</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-05-09T06:07:59.000Z" title="发表于 2022-05-09 14:07:59">2022-05-09</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%A7%86%E9%A2%91/">视频</a></span></div><div class="content"> UP：GGGerrrrK ｜ 收藏于 2022-05-09 ｜ 在 B 站打开    原切:https://www.youtube.com/watch?v=leMSp1-STvU翻：你 </div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/05/09/bili-BV1VB4y117jh/" title="【熟肉/剪辑】彩虹社liver们的爆笑bug合集"><img class="post-bg" src="https://i2.hdslb.com/bfs/archive/98846a87b8f912edd1bbe9037062c7ef67d9840d.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【熟肉/剪辑】彩虹社liver们的爆笑bug合集" loading='lazy'></a></div><div class="recent-post-info"><a class="article-title" href="/2022/05/09/bili-BV1VB4y117jh/" title="【熟肉/剪辑】彩虹社liver们的爆笑bug合集">【熟肉/剪辑】彩虹社liver们的爆笑bug合集</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-05-09T04:57:55.000Z" title="发表于 2022-05-09 12:57:55">2022-05-09</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%A7%86%E9%A2%91/">视频</a></span></div><div class="content"> UP：凉酒09 ｜ 收藏于 2022-05-09 ｜ 在 B 站打开    https://www.youtube.com/watch?v=sUbjWlXldwAにじさんじ”爆笑バグ集”【にじさんじ&#x2F;切り抜き】剪辑：にじ卍翻译：我校对：您错翻漏翻欢迎指出 </div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/05/06/bili-BV1aK41137KH/" title="【官方剪辑】空蕾娜到底是什么啊……？【花畑嘉依卡/夜见蕾娜】没想到吧 在官方剪这个提问篇出来前我们组早就在2月把解决篇烤了 所以后面的解决篇不做了要对帧好烦"><img class="post-bg" src="https://i1.hdslb.com/bfs/archive/7861ad39c719853cd06a592bf2b36939dcf44044.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【官方剪辑】空蕾娜到底是什么啊……？【花畑嘉依卡/夜见蕾娜】没想到吧 在官方剪这个提问篇出来前我们组早就在2月把解决篇烤了 所以后面的解决篇不做了要对帧好烦" loading='lazy'></a></div><div class="recent-post-info"><a class="article-title" href="/2022/05/06/bili-BV1aK41137KH/" title="【官方剪辑】空蕾娜到底是什么啊……？【花畑嘉依卡/夜见蕾娜】没想到吧 在官方剪这个提问篇出来前我们组早就在2月把解决篇烤了 所以后面的解决篇不做了要对帧好烦">【官方剪辑】空蕾娜到底是什么啊……？【花畑嘉依卡/夜见蕾娜】没想到吧 在官方剪这个提问篇出来前我们组早就在2月把解决篇烤了 所以后面的解决篇不做了要对帧好烦</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-05-06T08:05:45.000Z" title="发表于 2022-05-06 16:05:45">2022-05-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%A7%86%E9%A2%91/">视频</a></span></div><div class="content"> UP：柴卡的游戏王连锁军团 ｜ 收藏于 2022-05-07 ｜ 在 B 站打开    https://www.youtube.com/watch?v=VjE3RQVgEqg空蕾娜到底是什么啊？空蕾娜是什么 解决编 https://www.bilibili.com/video/BV1y7411P72g 制作：七草もち @ </div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/05/06/bili-BV1pY4y1b78g/" title="【熟】三马鹿的奇妙小短剧——第n届洁宝吐槽大会"><img class="post-bg" src="https://i1.hdslb.com/bfs/archive/961ff38705827665545847d62173c1f284b9ac1a.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【熟】三马鹿的奇妙小短剧——第n届洁宝吐槽大会" loading='lazy'></a></div><div class="recent-post-info"><a class="article-title" href="/2022/05/06/bili-BV1pY4y1b78g/" title="【熟】三马鹿的奇妙小短剧——第n届洁宝吐槽大会">【熟】三马鹿的奇妙小短剧——第n届洁宝吐槽大会</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-05-06T07:52:27.000Z" title="发表于 2022-05-06 15:52:27">2022-05-06</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%A7%86%E9%A2%91/">视频</a></span></div><div class="content"> UP：無奈来着w ｜ 收藏于 2022-05-06 ｜ 在 B 站打开    https://youtu.be/1w5MWrcAXAE【vol.1】 #にじフェス2022 実行委員会だより得知可以摆烂到周一后立马来翻了。第n届洁宝黑历史吐槽大会正式开始—— </div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2022/05/05/bili-BV17B4y1278d/" title="【可愛】Splatoon 2連動結束後偷偷蹭後輩結果還被發現！？【西園チグサ &amp; 先斗寧】【Vtuber中文字幕】"><img class="post-bg" src="https://i1.hdslb.com/bfs/archive/0e539721552368dc0019bd91c856c36be25bd0b6.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【可愛】Splatoon 2連動結束後偷偷蹭後輩結果還被發現！？【西園チグサ &amp; 先斗寧】【Vtuber中文字幕】" loading='lazy'></a></div><div class="recent-post-info"><a class="article-title" href="/2022/05/05/bili-BV17B4y1278d/" title="【可愛】Splatoon 2連動結束後偷偷蹭後輩結果還被發現！？【西園チグサ &amp; 先斗寧】【Vtuber中文字幕】">【可愛】Splatoon 2連動結束後偷偷蹭後輩結果還被發現！？【西園チグサ &amp; 先斗寧】【Vtuber中文字幕】</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-05-05T02:39:15.000Z" title="发表于 2022-05-05 10:39:15">2022-05-05</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%A7%86%E9%A2%91/">视频</a></span></div><div class="content"> UP：勇者あああ剪輯 ｜ 收藏于 2022-05-05 ｜ 在 B 站打开    西園千草??可愛?，ぽんちゃん的反應看起來是有看到才回蹭的ww，順帶一提，我也是私心認為ぽんちゃん是Ranunculus最可愛的一個～ 影片有什麼需要改進的地方歡迎提出，日文程度不是很好，學習目的做的翻譯，有些地方沒有很確定有翻錯歡迎多多 </div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/05/02/bili-BV1hB4y117Mb/" title="梅西杰碧桂园的轻松5杀！【龙裔出品】#361[1080P60帧]"><img class="post-bg" src="https://i0.hdslb.com/bfs/archive/48cb87139e2e1e66b1e69d7780095775e40e97e0.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="梅西杰碧桂园的轻松5杀！【龙裔出品】#361[1080P60帧]" loading='lazy'></a></div><div class="recent-post-info"><a class="article-title" href="/2022/05/02/bili-BV1hB4y117Mb/" title="梅西杰碧桂园的轻松5杀！【龙裔出品】#361[1080P60帧]">梅西杰碧桂园的轻松5杀！【龙裔出品】#361[1080P60帧]</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-05-02T01:25:53.000Z" title="发表于 2022-05-02 09:25:53">2022-05-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%A7%86%E9%A2%91/">视频</a></span></div><div class="content"> UP：溪木的龙裔 ｜ 收藏于 2022-05-02 ｜ 在 B 站打开    素材选取自MacieJay的直播间 twitch.tv&#x2F;maciejayMacieJay签约战队及直播录像请关注 @TSM电子竞技俱乐部 合作邮箱：jackf7499@gmail.com直播视频素材以Twitch开发者身份于平台获取 </div></div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/page/81/#content-inner"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/81/#content-inner">81</a><span class="page-number current">82</span><a class="page-number" href="/page/83/#content-inner">83</a><span class="space">&hellip;</span><a class="page-number" href="/page/168/#content-inner">168</a><a class="extend next" rel="next" href="/page/83/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar" loading='lazy'/></div><div class="author-info-name">logier</div><div class="author-info-description">走在人生的十字路口</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">1678</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">75</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">13</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://qm.qq.com/cgi-bin/qm/qr?k=rpgas2KqnWe5WWCTOYjMmcbJjwbUbpIk&amp;jump_from=webapi&amp;authKey=wRdz2KiTC0d7W6lq38U3vG5uqAc6lN9gOqYTuXYToMqN5yIDkX9oseYm+fXQlSgG" target="_blank" title="QQ群"><i class="fab fa-qq" style="color: #9854d4;"></i></a><a class="social-icon" href="https://www.linovelib.com/novel/3647.html" target="_blank" title="哔哩轻小说"><i class="fas fa-book-open" style="color: #ffa500;"></i></a><a class="social-icon" href="https://github.com/logier" target="_blank" title="Github"><i class="fab fa-github" style="color: #c71585;"></i></a><a class="social-icon" href="https://gitee.com/logier" target="_blank" title="Gitee"><i class="fab fa-git" style="color: #00bfff;"></i></a><a class="social-icon" href="mailto:logier@qq.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #7cfc00;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2026/11/22/bili-BV1EPsq6YERw/" title="熟图工具跑图模拟器（名额已满）"><img src="https://i0.hdslb.com/bfs/archive/e2471c4a0087a5a312e00c577e29db74dd086d8f.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="熟图工具跑图模拟器（名额已满）" loading='lazy'/></a><div class="content"><a class="title" href="/2026/11/22/bili-BV1EPsq6YERw/" title="熟图工具跑图模拟器（名额已满）">熟图工具跑图模拟器（名额已满）</a><time datetime="2026-11-22T02:03:28.000Z" title="发表于 2026-11-22 10:03:28">2026-11-22</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/11/21/bili-BV15Ut967Eap/" title="几十块钱买到世界顶尖产品——护肤品篇"><img src="https://i0.hdslb.com/bfs/archive/bdef66848df49dd462fa48a5571a567035ba04c1.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="几十块钱买到世界顶尖产品——护肤品篇" loading='lazy'/></a><div class="content"><a class="title" href="/2026/11/21/bili-BV15Ut967Eap/" title="几十块钱买到世界顶尖产品——护肤品篇">几十块钱买到世界顶尖产品——护肤品篇</a><time datetime="2026-11-20T19:58:19.000Z" title="发表于 2026-11-21 03:58:19">2026-11-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/11/04/bili-BV1F8xq6BE3S/" title="我把2000多个游戏动作整理成了在线网站！无需任何门槛随时随地找想要的动画资源！"><img src="https://i0.hdslb.com/bfs/archive/a4eb16ad60d2eeaf5ad831bd7da007f44f4a4906.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="我把2000多个游戏动作整理成了在线网站！无需任何门槛随时随地找想要的动画资源！" loading='lazy'/></a><div class="content"><a class="title" href="/2026/11/04/bili-BV1F8xq6BE3S/" title="我把2000多个游戏动作整理成了在线网站！无需任何门槛随时随地找想要的动画资源！">我把2000多个游戏动作整理成了在线网站！无需任何门槛随时随地找想要的动画资源！</a><time datetime="2026-11-04T10:46:42.000Z" title="发表于 2026-11-04 18:46:42">2026-11-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/11/04/bili-BV143TM6pEDq/" title="2D游戏中的夜空倒影效果 DEV LOG.04"><img src="https://i1.hdslb.com/bfs/archive/86e08eb14e1f9f489775058042c6c9dc8ff7a43a.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="2D游戏中的夜空倒影效果 DEV LOG.04" loading='lazy'/></a><div class="content"><a class="title" href="/2026/11/04/bili-BV143TM6pEDq/" title="2D游戏中的夜空倒影效果 DEV LOG.04">2D游戏中的夜空倒影效果 DEV LOG.04</a><time datetime="2026-11-03T16:47:44.000Z" title="发表于 2026-11-04 00:47:44">2026-11-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/11/03/bili-BV1dZ4g6tET6/" title="更好的AI提示词生成器！【Anima提示词生成器】"><img src="https://i1.hdslb.com/bfs/archive/ab33f2275003ea01652130f8fa6b9014ba075075.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="更好的AI提示词生成器！【Anima提示词生成器】" loading='lazy'/></a><div class="content"><a class="title" href="/2026/11/03/bili-BV1dZ4g6tET6/" title="更好的AI提示词生成器！【Anima提示词生成器】">更好的AI提示词生成器！【Anima提示词生成器】</a><time datetime="2026-11-03T08:37:46.000Z" title="发表于 2026-11-03 16:37:46">2026-11-03</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline"><i class="fas fa-folder-open"></i><span>分类</span><a class="card-more-btn" href="/categories/" title="查看更多">
+      <i class="fas fa-angle-right"></i></a></div>
+          <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/vtuber/"><span class="card-category-list-name">vtuber</span><span class="card-category-list-count">45</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/vtuber/hololive/"><span class="card-category-list-name">hololive</span><span class="card-category-list-count">4</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/vtuber/twitch/"><span class="card-category-list-name">twitch</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/vtuber/vspo/"><span class="card-category-list-name">vspo</span><span class="card-category-list-count">26</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/vtuber/%E5%BD%A9%E8%99%B9%E7%A4%BE/"><span class="card-category-list-name">彩虹社</span><span class="card-category-list-count">12</span></a></li></ul></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%9B%BE%E5%BA%93/"><span class="card-category-list-name">图库</span><span class="card-category-list-count">14</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%B0%8F%E8%AF%B4/"><span class="card-category-list-name">小说</span><span class="card-category-list-count">24</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%B0%8F%E8%AF%B4/%E6%97%A0%E5%90%8D%E6%88%98%E8%AE%B0/"><span class="card-category-list-name">无名战记</span><span class="card-category-list-count">24</span></a></li></ul></li>
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 1.15em; color: #999b9e">教程</a> <a href="/tags/%E7%8C%9C%E8%B0%9C/" style="font-size: 1.1em; color: #999">猜谜</a> <a href="/tags/%E5%A4%B4%E5%83%8F/" style="font-size: 1.25em; color: #999fa7">头像</a> <a href="/tags/%E8%8E%89%E6%B3%BD/" style="font-size: 1.1em; color: #999">莉泽</a> <a href="/tags/%E9%A3%8E%E6%99%AF/" style="font-size: 1.2em; color: #999da3">风景</a> <a href="/tags/%E5%8E%9F%E7%A5%9E/" style="font-size: 1.15em; color: #999b9e">原神</a> <a href="/tags/%E4%B8%80%E6%9C%9F%E7%94%9F/" style="font-size: 1.1em; color: #999">一期生</a> <a href="/tags/%E9%9B%80%E9%AD%82/" style="font-size: 1.1em; color: #999">雀魂</a> <a href="/tags/Mimitaya/" style="font-size: 1.1em; color: #999">Mimitaya</a> <a href="/tags/api/" style="font-size: 1.45em; color: #99a7ba">api</a> <a href="/tags/%E5%B0%8F%E7%8B%90%E7%8B%B8/" style="font-size: 1.1em; color: #999">小狐狸</a> <a href="/tags/%E8%8A%B1%E8%8A%BD%E3%81%99%E3%81%BF%E3%82%8C/" style="font-size: 1.15em; color: #999b9e">花芽すみれ</a> <a href="/tags/AI/" style="font-size: 1.1em; color: #999">AI</a> <a href="/tags/%E9%AD%94%E5%A5%B3/" style="font-size: 1.5em; color: #99a9bf">魔女</a> <a href="/tags/cos/" style="font-size: 1.15em; color: #999b9e">cos</a> <a href="/tags/%E5%8A%A8%E6%BC%AB/" style="font-size: 1.25em; color: #999fa7">动漫</a> <a href="/tags/%E6%9F%B4%E5%8D%A1/" style="font-size: 1.3em; color: #99a1ac">柴卡</a> <a href="/tags/%E4%BA%8C%E6%AC%A1%E5%85%83/" style="font-size: 1.35em; color: #99a3b1">二次元</a> <a href="/tags/Hendy/" style="font-size: 1.2em; color: #999da3">Hendy</a> <a href="/tags/%E6%9C%88%E4%B9%8B%E7%BE%8E%E5%85%94/" style="font-size: 1.1em; color: #999">月之美兔</a> <a href="/tags/%E7%99%BD%E6%B3%A2%E3%82%89%E3%82%80%E3%81%AD/" style="font-size: 1.4em; color: #99a5b6">白波らむね</a> <a href="/tags/%E5%B0%8F%E8%AF%B4/" style="font-size: 1.5em; color: #99a9bf">小说</a> <a href="/tags/%E8%8B%B1%E3%83%AA%E3%82%B5/" style="font-size: 1.15em; color: #999b9e">英リサ</a> <a href="/tags/%E4%B8%89%E6%AC%A1%E5%85%83/" style="font-size: 1.1em; color: #999">三次元</a> <a href="/tags/%E6%A3%AE%E4%B8%AD%E8%8A%B1%E5%92%B2/" style="font-size: 1.1em; color: #999">森中花咲</a> <a href="/tags/%E5%A3%81%E7%BA%B8/" style="font-size: 1.2em; color: #999da3">壁纸</a> <a href="/tags/%E8%8A%B1%E8%8A%BD%E5%A0%87/" style="font-size: 1.15em; color: #999b9e">花芽堇</a> <a href="/tags/Hinano/" style="font-size: 1.15em; color: #999b9e">Hinano</a> <a href="/tags/%E8%88%9E%E5%85%83/" style="font-size: 1.1em; color: #999">舞元</a> <a href="/tags/%E6%88%98%E4%BA%89/" style="font-size: 1.5em; color: #99a9bf">战争</a> <a href="/tags/%E8%8B%B1%E4%B8%BD%E8%90%A8/" style="font-size: 1.1em; color: #999">英丽萨</a> <a href="/tags/%E7%A5%9E%E6%88%90%E3%81%8D%E3%82%85%E3%81%B4/" style="font-size: 1.25em; color: #999fa7">神成きゅぴ</a> <a href="/tags/%E4%B8%9C%E6%96%B9/" style="font-size: 1.1em; color: #999">东方</a> <a href="/tags/hololive/" style="font-size: 1.25em; color: #999fa7">hololive</a> <a href="/tags/%E8%8A%B1%E8%8A%BD%E3%81%AA%E3%81%9A%E3%81%AA/" style="font-size: 1.1em; color: #999">花芽なずな</a> <a href="/tags/%E7%99%BD%E9%9B%AA%E3%83%AC%E3%82%A4%E3%83%89/" style="font-size: 1.2em; color: #999da3">白雪レイド</a> <a href="/tags/%E7%89%A9%E8%AF%AD%E7%B3%BB%E5%88%97/" style="font-size: 1.1em; color: #999">物语系列</a> <a href="/tags/miyune/" style="font-size: 1.1em; color: #999">miyune</a> <a href="/tags/%E4%B8%89%E6%AC%A1%E8%8D%AF/" style="font-size: 1.1em; color: #999">三次药</a> <a href="/tags/%E5%85%AB%E9%9B%B2%E3%81%B9%E3%81%AB/" style="font-size: 1.3em; color: #99a1ac">八雲べに</a></div></div><div class="card-widget card-archives">
+    <div class="item-headline"><i class="fas fa-archive"></i><span>归档</span><a class="card-more-btn" href="/archives/"
+            title="查看更多">
+            <i class="fas fa-angle-right"></i>
+          </a></div>
+  
+    <ul class="card-archive-list">
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/11/">
+            <span class="card-archive-list-date">
+              十一月 2026
+            </span>
+            <span class="card-archive-list-count">5</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/10/">
+            <span class="card-archive-list-date">
+              十月 2026
+            </span>
+            <span class="card-archive-list-count">6</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/09/">
+            <span class="card-archive-list-date">
+              九月 2026
+            </span>
+            <span class="card-archive-list-count">2</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/08/">
+            <span class="card-archive-list-date">
+              八月 2026
+            </span>
+            <span class="card-archive-list-count">11</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/07/">
+            <span class="card-archive-list-date">
+              七月 2026
+            </span>
+            <span class="card-archive-list-count">4</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/06/">
+            <span class="card-archive-list-date">
+              六月 2026
+            </span>
+            <span class="card-archive-list-count">8</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/05/">
+            <span class="card-archive-list-date">
+              五月 2026
+            </span>
+            <span class="card-archive-list-count">17</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2026/04/">
+            <span class="card-archive-list-date">
+              四月 2026
+            </span>
+            <span class="card-archive-list-count">9</span>
+          </a>
+        </li>
+      
+    </ul>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">1678</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2026-11-26T03:25:48.655Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2023 - 2026 By logier</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.2</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.7.2</a></span></div><div class="footer_custom_text">©2023 - 2024 By logier <br><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener"><img class="icp-icon" src="/img/b_ef951b475d9f6f2c189a10f606303090.jpg" loading='lazy'><span>备案号：粤ICP备2023092545号-1</span></a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.7.2"></script><script src="/js/main.js?v=5.7.2"></script><script src="/pluginsSrc/@fancyapps/ui/dist/fancybox/fancybox.umd.js?v=6.1.15"></script><div class="js-pjax"></div><script src="/js/gallery.js" defer></script><script src="/pluginsSrc/pjax/pjax.min.js?v=0.2.8" defer="defer"></script><script>document.addEventListener('DOMContentLoaded', () => {
+  const pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+  window.pjax = new Pjax({
+    elements: 'a:not([target="_blank"]):not([data-fancybox])',
+    selectors: pjaxSelectors,
+    cacheBust: false,
+    analytics: false,
+    scrollRestoration: false
+  })
+
+  const triggerPjaxFn = (val) => {
+    if (!val) return
+    Object.values(val).forEach(fn => {
+      try {
+        fn()
+      } catch (err) {
+        console.debug('Pjax callback failed:', err)
+      }
+    })
+  }
+
+  document.addEventListener('pjax:send', () => {
+    // removeEventListener
+    btf.removeGlobalFnEvent('pjaxSendOnce')
+    btf.removeGlobalFnEvent('themeChange')
+
+    // reset readmode
+    const $bodyClassList = document.body.classList
+    if ($bodyClassList.contains('read-mode')) $bodyClassList.remove('read-mode')
+
+    triggerPjaxFn(window.globalFn.pjaxSend)
+  })
+
+  document.addEventListener('pjax:complete', () => {
+    btf.removeGlobalFnEvent('pjaxCompleteOnce')
+    document.querySelectorAll('script[data-pjax]').forEach(item => {
+      if (!item.parentNode) return
+      const newScript = document.createElement('script')
+      const content = item.text || item.textContent || ''
+      Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+      newScript.appendChild(document.createTextNode(content))
+      item.parentNode.replaceChild(newScript, item)
+    })
+
+    triggerPjaxFn(window.globalFn.pjaxComplete)
+  })
+
+  document.addEventListener('pjax:error', e => {
+    const responseURL = e.request && e.request.responseURL
+    if (e.request && e.request.status === 404) {
+      false
+        ? pjax.loadUrl('/404.html')
+        : responseURL && (window.location.href = responseURL)
+    } else if (responseURL) {
+      window.location.href = responseURL
+    }
+  })
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章…" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.7.2"></script></div></div></body></html>
