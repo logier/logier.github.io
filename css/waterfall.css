@@ -15,9 +15,25 @@
   opacity: 0.75;
 }
 
-/* 图库页：降低背景遮罩，露出随机背景图 */
+/* 图库页：去掉背景遮罩，卡片半透明，让背景图透出来 */
 .pixiv-gallery-page #web_bg:before {
-  background: rgba(0, 0, 0, 0.15) !important;
+  background: transparent !important;
+}
+
+.pixiv-gallery-page #content-inner,
+.pixiv-gallery-page #article-container,
+.pixiv-gallery-page .post,
+.pixiv-gallery-page .card-widget {
+  background: rgba(255, 255, 255, 0.55) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+[data-theme="dark"] .pixiv-gallery-page #content-inner,
+[data-theme="dark"] .pixiv-gallery-page #article-container,
+[data-theme="dark"] .pixiv-gallery-page .post,
+[data-theme="dark"] .pixiv-gallery-page .card-widget {
+  background: rgba(18, 18, 18, 0.55) !important;
 }
 
 .pixiv-sentinel {
