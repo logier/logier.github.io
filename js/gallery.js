@@ -1,4 +1,4 @@
-/* 图库：Pixiv 图库，随机排序 + 分批加载 + 文件名索引 */
+/* 图库：Pixiv 图库，随机排序 + 分批加载 + 随机背景 */
 (function () {
   var BATCH = 150
   var items = null
@@ -6,27 +6,40 @@
   var root = null
   var more = null
   var loading = false
-  var observer = null
 
-  function esc(value) {
-    return String(value == null ? '' : value)
-  }
-
-  function toast(message) {
-    var el = document.getElementById('pixiv-toast')
-    if (!el) return
+  function showToast(message) {
+    var el = document.createElement('div')
+    el.className = 'pixiv-toast'
     el.textContent = message
-    el.classList.add('show')
-    clearTimeout(el._timer)
-    el._timer = setTimeout(function () { el.classList.remove('show') }, 1600)
+    document.body.appendChild(el)
+    requestAnimationFrame(function () { el.classList.add('show') })
+    setTimeout(function () {
+      el.classList.remove('show')
+      setTimeout(function () { el.remove() }, 300)
+    }, 1600)
   }
 
   function copy(text) {
     if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(text).then(function () { toast('已复制 ' + text) }, function () { toast(text) })
+      navigator.clipboard.writeText(text).then(function () { showToast('已复制 ' + text) }, function () { showToast(text) })
     } else {
-      toast(text)
+      showToast(text)
     }
+  }
+
+  function applyRandomBackground() {
+    if (!document.getElementById('pixiv-gallery')) return
+    fetch('/data/pixiv-bg.json')
+      .then(function (res) { return res.ok ? res.json() : [] })
+      .then(function (list) {
+        if (!Array.isArray(list) || !list.length) return
+        var pick = list[Math.floor(Math.random() * list.length)]
+        var bg = document.getElementById('web_bg')
+        if (!bg) return
+        bg.style.backgroundImage = 'url("' + pick + '")'
+        bg.classList.add('pixiv-random-bg')
+      })
+      .catch(function () {})
   }
 
   function markLoaded(img) {
@@ -74,12 +87,6 @@
     return fig
   }
 
-  function updateCount() {
-    var count = document.getElementById('pixiv-count')
-    if (!count || !items) return
-    count.textContent = '已加载 ' + cursor + ' / ' + items.length + ' 张（随机顺序）'
-  }
-
   function render() {
     if (!items || loading) return
     loading = true
@@ -88,7 +95,6 @@
     for (var i = cursor; i < end; i++) frag.appendChild(figure(items[i], i))
     root.appendChild(frag)
     cursor = end
-    updateCount()
     loading = false
     if (cursor >= items.length && more) more.hidden = true
   }
@@ -105,19 +111,12 @@
 
   function init() {
     root = document.getElementById('pixiv-gallery')
-    if (!root || root.dataset.bound) return
+    if (!root) return
+    if (root.dataset.bound) return
     root.dataset.bound = '1'
 
     more = document.getElementById('pixiv-more')
     if (more) more.addEventListener('click', render)
-
-    var toggle = document.getElementById('pixiv-file-toggle')
-    if (toggle) {
-      toggle.addEventListener('click', function () {
-        var on = root.classList.toggle('show-files')
-        toggle.textContent = on ? '隐藏文件名' : '显示文件名'
-      })
-    }
 
     fetch('/data/pixiv-images.json')
       .then(function (res) { return res.ok ? res.json() : [] })
@@ -134,11 +133,10 @@
         root.innerHTML = ''
         cursor = 0
         if (more) more.hidden = false
-        updateCount()
         render()
 
         if ('IntersectionObserver' in window && more) {
-          observer = new IntersectionObserver(function (entries) {
+          var observer = new IntersectionObserver(function (entries) {
             if (entries[0].isIntersecting) render()
           }, { rootMargin: '800px' })
           observer.observe(more)
@@ -147,6 +145,12 @@
       .catch(function () {})
   }
 
-  document.addEventListener('DOMContentLoaded', init)
-  document.addEventListener('pjax:complete', init)
+  document.addEventListener('DOMContentLoaded', function () {
+    applyRandomBackground()
+    init()
+  })
+  document.addEventListener('pjax:complete', function () {
+    applyRandomBackground()
+    init()
+  })
 })()
