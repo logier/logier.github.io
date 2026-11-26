@@ -1,4 +1,4 @@
-/* 图库瀑布流：本地配图 + 图片 API，多列布局配合 Butterfly fancybox 灯箱 */
+/* 图库瀑布流：Pixiv 图床，多列布局，分批加载 */
 .waterfall-hint,
 .gallery-hint {
   margin: 0 0 16px;
@@ -9,30 +9,24 @@
   line-height: 1.7;
 }
 
-.gallery-filter {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin: 0 0 18px;
+.gallery-count {
+  margin: 0 0 14px;
+  font-size: 13px;
+  opacity: 0.75;
 }
 
-.gallery-filter button {
-  padding: 5px 16px;
+.gallery-more {
+  display: block;
+  margin: 18px auto 0;
+  padding: 8px 24px;
   border: 1px solid rgba(73, 177, 245, 0.45);
   border-radius: 999px;
   background: transparent;
   color: inherit;
   font-size: 13px;
   cursor: pointer;
-  transition: all 0.2s ease;
 }
 
-.gallery-filter button:hover,
-.gallery-filter button.active {
-  background: #49b1f5;
-  border-color: #49b1f5;
-  color: #fff;
-}
 
 .waterfall {
   column-count: 4;
