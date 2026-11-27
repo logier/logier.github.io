@@ -73,7 +73,8 @@
     markLoaded(img)
     img.src = item.pages
 
-    var id = String(item.file || '').split('_')[0] || String(item.file || '')
+    var match = String(item.file || '').match(/(\d+)/)
+    var id = match ? match[1] : String(item.file || '').replace(/^img\//, '').split('_')[0]
     var num = document.createElement('span')
     num.className = 'pixiv-file'
     num.textContent = id
